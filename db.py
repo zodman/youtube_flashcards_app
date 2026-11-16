@@ -162,6 +162,75 @@ def get_quiz_history(limit: int = 20, profile: Optional[str] = None):
     return results
 
 
+def get_latest_exam_per_course(profile: Optional[str] = None, decks_map: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    init_db()
+    prof = normalize_profile(profile)
+    conn = get_db()
+    cursor = conn.cursor()
+
+    # Query all sessions with card_ids
+    cursor.execute("""
+        SELECT s.id, s.profile, s.scope, s.total_questions, s.score, s.accuracy, s.created_at,
+               GROUP_CONCAT(a.card_id) as card_ids
+        FROM quiz_sessions s
+        LEFT JOIN quiz_answers a ON s.id = a.session_id
+        WHERE COALESCE(s.profile, 'andres') = ?
+        GROUP BY s.id
+        ORDER BY s.created_at DESC
+    """, (prof,))
+    rows = cursor.fetchall()
+    conn.close()
+
+    # Build map of card_id -> video_id
+    card_to_vid = {}
+    lesson_to_vid = {}
+    if decks_map:
+        for vid, d in decks_map.items():
+            l_num = d.get("lesson_number")
+            if l_num:
+                lesson_to_vid[str(l_num)] = vid
+                lesson_to_vid[f"c{l_num}"] = vid
+            for c in d.get("cards", []):
+                cid = c.get("id")
+                if cid:
+                    card_to_vid[cid] = vid
+
+    latest_per_vid = {}
+    for r in rows:
+        row_dict = dict(r)
+        scope = row_dict.get("scope") or "current"
+        card_ids_str = row_dict.get("card_ids") or ""
+        card_ids = [c.strip() for c in card_ids_str.split(",") if c.strip()]
+
+        matched_vids = set()
+        if scope in (decks_map or {}):
+            matched_vids.add(scope)
+        elif scope in lesson_to_vid:
+            matched_vids.add(lesson_to_vid[scope])
+
+        for cid in card_ids:
+            if cid in card_to_vid:
+                matched_vids.add(card_to_vid[cid])
+            else:
+                # heuristic: e.g. c1_01 -> lesson 1
+                if cid.startswith("c") and "_" in cid:
+                    prefix = cid.split("_")[0]  # e.g. "c1"
+                    if prefix in lesson_to_vid:
+                        matched_vids.add(lesson_to_vid[prefix])
+
+        for vid in matched_vids:
+            if vid not in latest_per_vid:
+                latest_per_vid[vid] = {
+                    "accuracy": row_dict.get("accuracy", 0.0),
+                    "score": row_dict.get("score", 0),
+                    "total_questions": row_dict.get("total_questions", 0),
+                    "created_at": row_dict.get("created_at", 0),
+                    "session_id": row_dict.get("id")
+                }
+
+    return latest_per_vid
+
+
 def log_srs_review(card_id: str, score: int, interval: float, profile: Optional[str] = None):
     init_db()
     prof = normalize_profile(profile)

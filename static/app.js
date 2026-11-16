@@ -456,15 +456,34 @@ function renderPlaylistGrid() {
         const isFinished = Boolean(item.is_finished);
         const reviewedCount = item.reviewed_count || 0;
         const totalCards = item.card_count || 0;
+        const lastExam = item.last_exam;
+
+        let examBadgeHtml = "";
+        if (lastExam && typeof lastExam.accuracy !== "undefined") {
+            const acc = Math.round(Number(lastExam.accuracy));
+            const badgeClass = acc >= 80 ? "bg-success text-white" : (acc >= 60 ? "bg-primary text-white" : "bg-warning text-dark");
+            examBadgeHtml = `
+                <span class="badge ${badgeClass} border border-light shadow-sm" title="Última calificación del examen: ${acc}% (${lastExam.score}/${lastExam.total_questions})">
+                    <i class="fa-solid fa-graduation-cap me-1"></i>Examen: ${acc}%
+                </span>
+            `;
+        } else if (hasDeck) {
+            examBadgeHtml = `
+                <span class="badge bg-light text-muted border" title="Sin examen realizado aún para este curso">
+                    <i class="fa-solid fa-graduation-cap me-1 text-secondary"></i>Sin examen
+                </span>
+            `;
+        }
 
         col.innerHTML = `
             <div class="card playlist-card h-100 p-3 shadow-sm ${isCurrent ? 'border-primary border-2' : ''} ${isFinished ? 'bg-success-subtle border-success' : ''}">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <div class="d-flex align-items-center gap-1">
+                    <div class="d-flex align-items-center gap-1 flex-wrap">
                         <span class="badge ${isFinished ? 'bg-success' : 'bg-primary'} fs-6">
                             ${isFinished ? '[X] ' : ''}Curso ${item.lesson_number}
                         </span>
                         ${isFinished ? '<span class="badge bg-success-subtle text-success border border-success fw-bold"><i class="fa-solid fa-circle-check me-1"></i>Terminado [X]</span>' : ''}
+                        ${examBadgeHtml}
                     </div>
                     <span class="badge ${isFinished ? 'bg-success text-white' : (hasDeck ? 'bg-light text-dark border' : 'bg-light text-muted border')}">
                         ${hasDeck ? `<i class="fa-solid ${isFinished ? 'fa-check-double' : 'fa-layer-group'} me-1"></i>${reviewedCount > 0 ? `${reviewedCount}/` : ''}${totalCards} Tarjetas` : '⏳ Pendiente'}
@@ -2468,6 +2487,7 @@ async function finishQuizExam() {
         });
         showNotification(`¡Examen calificado y guardado para ${PROFILE_LABELS[state.currentProfile] || state.currentProfile}! Calificación final: ${finalQualificationPct}%`, "success");
         loadQuizHistory();
+        loadPlaylist();
     } catch (e) {
         console.error("Error saving quiz to database:", e);
     }

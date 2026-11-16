@@ -61,6 +61,7 @@ def get_playlist(profile: Optional[str] = None):
     vault = srs_data.get("srs_vault", {})
     mastered_set = set(srs_data.get("mastered_cards", []))
     completed_courses = set(srs_data.get("completed_courses", []))
+    latest_exams = db.get_latest_exam_per_course(profile=profile, decks_map=decks)
 
     enriched = []
     for v in videos:
@@ -84,6 +85,7 @@ def get_playlist(profile: Optional[str] = None):
             v_copy["mastered_count"] = 0
             v_copy["is_finished"] = False
 
+        v_copy["last_exam"] = latest_exams.get(vid, None)
         enriched.append(v_copy)
     return enriched
 

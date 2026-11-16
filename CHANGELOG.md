@@ -7,6 +7,10 @@ Todos los cambios notables de la plataforma **Judy French Flashcards Hub** queda
 ## [Unreleased] - 2026-11-15
 
 ### Added
+- **Visualización de última calificación de examen en el Catálogo de Cursos:**
+  - En cada tarjeta de la cuadrícula de 54 cursos del Catálogo se muestra el resultado del último examen realizado para ese curso según el perfil activo (ej. `Examen: 80%` en verde/azul o `Sin examen` en gris).
+  - Consulta en backend agrupada por sesión y lección en `db.get_latest_exam_per_course()`, integrada en el endpoint `/api/playlist`.
+  - Actualización automática del catálogo en tiempo real al finalizar y calificar un examen (`finishQuizExam()`).
 - **Historial y métricas de exámenes finalizados en pestaña de Avances/Seguimiento:**
   - Añadido contador de *Exámenes Finalizados* y tabla completa con fecha/hora, lección evaluada, cantidad de preguntas, aciertos exactos (100%) y calificación final en porcentaje (`data/app.db`).
   - Totalmente filtrado y sincronizado por perfil de usuario activo (`andres`, `patty`, `marco`).
