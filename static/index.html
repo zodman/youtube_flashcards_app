@@ -215,6 +215,17 @@
     <!-- MAIN CONTAINER (Fluid layout for perfect screen fit) -->
     <main class="container-fluid px-3 px-xl-4 my-3" id="mainContainer">
 
+        <!-- GLOBAL PROFILE LOADING OVERLAY -->
+        <div id="profileLoadingOverlay" class="profile-loading-backdrop d-none">
+            <div class="profile-loading-card shadow-lg p-4 text-center rounded-4">
+                <div class="spinner-border text-primary mb-3" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Cargando perfil...</span>
+                </div>
+                <h5 class="fw-bold mb-1" id="profileLoadingTitle">Cargando perfil de Andres...</h5>
+                <p class="text-muted small mb-0">Sincronizando estado SRS, tarjetas y progreso...</p>
+            </div>
+        </div>
+
         <!-- ALERT / TOAST -->
         <div id="notificationAlert" class="alert alert-success alert-dismissible fade d-none" role="alert">
             <span id="notificationText">Operación exitosa</span>
@@ -790,6 +801,6 @@
     <!-- Bootstrap 5 JS Bundle & YouTube IFrame API -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="/static/app.js?v=20261115_accents_fix"></script>
+    <script src="/static/app.js?v=20261115_profile_loading"></script>
 </body>
 </html>

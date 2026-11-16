@@ -71,9 +71,25 @@ function updateProfileUI() {
     });
 }
 
+function showProfileLoading(profileName) {
+    const overlay = document.getElementById("profileLoadingOverlay");
+    const titleEl = document.getElementById("profileLoadingTitle");
+    const label = PROFILE_LABELS[profileName] || (profileName.charAt(0).toUpperCase() + profileName.slice(1));
+    if (titleEl) titleEl.innerText = `Cargando perfil de ${label}...`;
+    if (overlay) overlay.classList.remove("d-none");
+}
+
+function hideProfileLoading() {
+    const overlay = document.getElementById("profileLoadingOverlay");
+    if (overlay) overlay.classList.add("d-none");
+}
+
 async function selectProfile(profileName) {
     const clean = String(profileName || "").trim().toLowerCase();
     if (!PROFILES_LIST.includes(clean)) return;
+
+    showProfileLoading(clean);
+    const minLoadTime = new Promise(resolve => setTimeout(resolve, 350));
 
     state.currentProfile = clean;
     try {
@@ -90,14 +106,26 @@ async function selectProfile(profileName) {
         });
     } catch (e) {}
 
-    state.scores = { correct: 0, again: 0 };
+    // Load progress and restore state for the selected profile
+    const savedProg = await loadProfileProgress();
+    if (savedProg && savedProg.deck_id && state.decks[savedProg.deck_id]) {
+        state.currentDeckId = savedProg.deck_id;
+        state.cardIndex = typeof savedProg.card_index === "number" ? savedProg.card_index : 0;
+    } else {
+        state.scores = { correct: 0, again: 0 };
+    }
+
     await loadSrsStats();
     await loadPlaylist();
 
     if (state.studyMode === "srs") {
         await switchStudyMode("srs");
     } else {
-        renderFlashcard();
+        if (state.decks[state.currentDeckId]) {
+            selectDeck(state.currentDeckId, state.cardIndex);
+        } else {
+            renderFlashcard();
+        }
     }
 
     const quizSec = document.getElementById("tab-content-quiz");
@@ -113,6 +141,9 @@ async function selectProfile(profileName) {
     if (anaSec && !anaSec.classList.contains("d-none")) {
         await renderAnalyticsTab();
     }
+
+    await minLoadTime;
+    hideProfileLoading();
 
     const displayLabel = PROFILE_LABELS[clean] || clean;
     showNotification(`👤 Perfil activo: ${displayLabel} — Progreso y resultados aislados`, "info");

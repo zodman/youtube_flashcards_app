@@ -7,6 +7,9 @@ Todos los cambios notables de la plataforma **Judy French Flashcards Hub** queda
 ## [Unreleased] - 2026-11-15
 
 ### Added
+- **Pantalla de carga (Loading Overlay) al cambiar de perfil:**
+  - Se añadió una vista de carga centrada (`profile-loading-backdrop`) con spinner animado y mensaje personalizado (`Cargando perfil de Andres...`).
+  - Sincroniza y restaura de forma visual y atómica la última baraja, índice de tarjeta, estadísticas SRS y estado del catálogo del perfil seleccionado.
 - **Distintivo `[X]` en cursos completados por perfil:**
   - En la lista de cursos del Catálogo y en el selector desplegable de barajas, los cursos completados por el perfil activo se marcan visiblemente con `[X]`, fondo verde y etiqueta `✓ Completado`.
   - La condición de finalizado se evalúa automáticamente cuando se recorren todas las tarjetas del mazo o cuando se han repasado/dominado todas sus frases en el perfil.
