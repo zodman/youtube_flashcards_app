@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judy French & YouTube Flashcard Hub 🇫🇷</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/styles.css?v=20261115_profiles">
+</head>
+<body>
+
+    <!-- NAVBAR WITH STRUCTURED MENUS & SUBMENUS -->
+    <nav class="navbar navbar-expand-lg navbar-dark modern-navbar sticky-top">
+        <div class="container-fluid px-3 px-xl-4">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center me-3" href="#" onclick="switchStudyMode('all'); return false;">
+                <span class="fs-4 me-2">🇫🇷</span>
+                <span class="fw-extrabold">Judy French</span>
+                <span class="badge bg-primary ms-2 nav-tef-pill">TEF</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navContent">
+                <!-- Main Menus & Submenus -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+                    
+                    <!-- MENU 1: ESTUDIO -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-main-menu active" href="#" id="menu-study" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-graduation-cap me-1 text-info"></i> Estudio
+                        </a>
+                        <ul class="dropdown-menu modern-submenu shadow-lg" aria-labelledby="menu-study">
+                            <li><h6 class="dropdown-header text-uppercase small fw-bold">Material de Clase</h6></li>
+                            <li>
+                                <a class="dropdown-item submenu-item active" href="#" id="nav-study" onclick="switchStudyMode('all'); return false;">
+                                    <div class="submenu-icon bg-primary-subtle text-primary"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Estudiar Curso</div>
+                                        <div class="submenu-desc">Flashcards del curso seleccionado</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-video" onclick="switchTab('video'); return false;">
+                                    <div class="submenu-icon bg-danger-subtle text-danger"><i class="fa-solid fa-circle-play"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Video y Citas</div>
+                                        <div class="submenu-desc">Clase de YouTube y frases por segundo</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-playlist" onclick="switchTab('playlist'); return false;">
+                                    <div class="submenu-icon bg-info-subtle text-info"><i class="fa-solid fa-list-check"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Catálogo de Cursos (54)</div>
+                                        <div class="submenu-desc">Explorar toda la serie de Judy</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- MENU 2: PRÁCTICA & EVALUACIÓN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-main-menu" href="#" id="menu-practice" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-brain me-1 text-warning"></i> Práctica
+                            <span id="navSrsDueBadge" class="badge bg-danger rounded-pill ms-1">0</span>
+                        </a>
+                        <ul class="dropdown-menu modern-submenu shadow-lg" aria-labelledby="menu-practice">
+                            <li><h6 class="dropdown-header text-uppercase small fw-bold">Entrenamiento Activo</h6></li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-srs" onclick="switchStudyMode('srs'); return false;">
+                                    <div class="submenu-icon bg-warning-subtle text-warning"><i class="fa-solid fa-brain"></i></div>
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="fw-bold">Repaso Diario SRS</span>
+                                            <span id="subSrsDueBadge" class="badge bg-danger rounded-pill ms-2">0</span>
+                                        </div>
+                                        <div class="submenu-desc">Repetición espaciada inteligente (SM-2)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-quiz" onclick="switchTab('quiz'); return false;">
+                                    <div class="submenu-icon bg-success-subtle text-success"><i class="fa-solid fa-feather"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Modo Examen / Quiz</div>
+                                        <div class="submenu-desc">Traducción escrita guardada en BD</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- MENU 3: PROGRESO & BIBLIOTECA -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-main-menu" href="#" id="menu-progress" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-chart-pie me-1 text-success"></i> Seguimiento
+                        </a>
+                        <ul class="dropdown-menu modern-submenu shadow-lg" aria-labelledby="menu-progress">
+                            <li><h6 class="dropdown-header text-uppercase small fw-bold">Estadísticas y Consulta</h6></li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-analytics" onclick="switchTab('analytics'); return false;">
+                                    <div class="submenu-icon bg-primary-subtle text-primary"><i class="fa-solid fa-chart-line"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Mis Avances</div>
+                                        <div class="submenu-desc">Progreso por curso y efectividad</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" id="nav-library" onclick="switchTab('library'); return false;">
+                                    <div class="submenu-icon bg-info-subtle text-info"><i class="fa-solid fa-book-bookmark"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Biblioteca de Tarjetas</div>
+                                        <div class="submenu-desc">Buscador general de las 331 frases</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <!-- Right Side Controls: Profile Selector + Active View Pill + Course Selector + Tools Submenu -->
+                <div class="d-flex align-items-center flex-wrap gap-2">
+                    <!-- Profile Selector (andres, patty, marco) -->
+                    <div class="nav-profile-pill-group d-flex align-items-center" role="group" aria-label="Selector de Perfil">
+                        <span class="nav-profile-label d-none d-sm-inline-flex align-items-center me-1">
+                            <i class="fa-solid fa-user-check me-1"></i>
+                        </span>
+                        <button type="button" class="btn btn-sm nav-profile-btn active" id="btnProfile-andres" onclick="selectProfile('andres')" title="Perfil de estudio: Andres">
+                            Andres
+                        </button>
+                        <button type="button" class="btn btn-sm nav-profile-btn" id="btnProfile-patty" onclick="selectProfile('patty')" title="Perfil de estudio: Patty">
+                            Patty
+                        </button>
+                        <button type="button" class="btn btn-sm nav-profile-btn" id="btnProfile-marco" onclick="selectProfile('marco')" title="Perfil de estudio: Marco">
+                            Marco
+                        </button>
+                    </div>
+
+                    <!-- Active Section Indicator -->
+                    <span id="activeSectionBadge" class="badge nav-active-view-badge d-none d-xl-inline-flex align-items-center">
+                        <i class="fa-solid fa-layer-group me-1"></i> Estudiar Curso
+                    </span>
+
+                    <!-- Current Deck Selection -->
+                    <div class="nav-course-select-wrap">
+                        <select id="deckSelector" class="form-select form-select-sm nav-course-select" onchange="onDeckSelected(this.value)">
+                            <option value="">Cargando cursos...</option>
+                        </select>
+                    </div>
+
+                    <!-- Tools & Export Submenu -->
+                    <div class="dropdown">
+                        <button class="btn btn-sm nav-tools-btn dropdown-toggle d-flex align-items-center gap-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-fire text-warning"></i>
+                            <span id="navStreakCounter">Racha: 1d</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end modern-submenu shadow-lg">
+                            <li><h6 class="dropdown-header text-uppercase small fw-bold">Exportar Curso Actual</h6></li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" onclick="exportDeckToNotes(); return false;">
+                                    <div class="submenu-icon bg-success-subtle text-success"><i class="fa-solid fa-file-pen"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Guardar en ~/french_notes/</div>
+                                        <div class="submenu-desc">Generar archivo Markdown local</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" onclick="exportDeck('md'); return false;">
+                                    <div class="submenu-icon bg-primary-subtle text-primary"><i class="fa-brands fa-markdown"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Descargar Markdown (.md)</div>
+                                        <div class="submenu-desc">Tabla con liaisons y notas TEF</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="#" onclick="exportDeck('json'); return false;">
+                                    <div class="submenu-icon bg-secondary-subtle text-secondary"><i class="fa-solid fa-code"></i></div>
+                                    <div>
+                                        <div class="fw-bold">Descargar JSON</div>
+                                        <div class="submenu-desc">Respaldo crudo del mazo</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item submenu-item" href="https://frenchpod101.python3.ninja" target="_blank">
+                                    <div class="submenu-icon bg-info-subtle text-info"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                                    <div>
+                                        <div class="fw-bold">FrenchPod101 Lab Hub</div>
+                                        <div class="submenu-desc">frenchpod101.python3.ninja</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER (Fluid layout for perfect screen fit) -->
+    <main class="container-fluid px-3 px-xl-4 my-3" id="mainContainer">
+
+        <!-- ALERT / TOAST -->
+        <div id="notificationAlert" class="alert alert-success alert-dismissible fade d-none" role="alert">
+            <span id="notificationText">Operación exitosa</span>
+            <button type="button" class="btn-close" onclick="hideNotification()"></button>
+        </div>
+
+        <!-- ================= TAB 1: STUDY FLASHCARDS ================= -->
+        <section id="tab-content-study" class="tab-section">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-8">
+
+                    <!-- Native SRS Mode Banner -->
+                    <div id="srsModeBanner" class="alert alert-warning d-flex justify-content-between align-items-center py-2 px-3 mb-3 rounded-3 shadow-sm border-warning d-none">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-brain fs-4 text-warning me-3"></i>
+                            <div>
+                                <strong id="srsModeBannerTitle">Modo Repaso Espaciado Diario (SRS)</strong>
+                                <div class="small text-muted" id="srsModeBannerSub">Revisando tarjetas pendientes para consolidar memoria a largo plazo</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-sm btn-outline-dark rounded-pill fw-bold" onclick="switchStudyMode('all')">
+                            <i class="fa-solid fa-layer-group me-1"></i> Ver Curso Completo
+                        </button>
+                    </div>
+                    
+                    <!-- Course Header & Progress Bar -->
+                    <div class="card shadow-sm border-0 mb-3 p-3">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                            <div>
+                                <div class="d-flex align-items-center gap-2 flex-wrap">
+                                    <h5 id="studyDeckTitle" class="fw-bold mb-0 text-dark">Curso 1: Formar oraciones en francés</h5>
+                                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill profile-active-pill">
+                                        <i class="fa-solid fa-user me-1"></i>Perfil: <span class="active-profile-label">Andres</span>
+                                    </span>
+                                </div>
+                                <div class="text-muted small" id="studyDeckMeta">36 Tarjetas • Nivel A1 • Judy Aprender Francés</div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill" onclick="toggleCardDirection()" title="Invertir dirección de tarjetas">
+                                    <i class="fa-solid fa-right-left me-1"></i> <span id="directionLabel">Español ➔ Francés</span>
+                                </button>
+                                <button class="btn btn-sm btn-outline-warning text-dark rounded-pill" onclick="quickMarkMastered()" title="Marcar esta tarjeta como dominada">
+                                    <i class="fa-solid fa-bolt text-warning me-1"></i> Dominada
+                                </button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill" onclick="restartDeck()" title="Reiniciar deck">
+                                    <i class="fa-solid fa-rotate-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Progress Bar & Counter -->
+                        <div class="d-flex justify-content-between align-items-center mb-1 small text-muted">
+                            <span id="studyCardCounter">Tarjeta 1 de 36</span>
+                            <span id="studyScoreCounter">
+                                <span class="text-success fw-bold"><i class="fa-solid fa-check"></i> <span id="correctScore">0</span></span>
+                                <span class="mx-1">/</span>
+                                <span class="text-danger fw-bold"><i class="fa-solid fa-xmark"></i> <span id="againScore">0</span></span>
+                            </span>
+                        </div>
+                        <div class="progress" style="height: 6px;">
+                            <div id="studyProgressBar" class="progress-bar bg-primary" role="progressbar" style="width: 2.7%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- 3D FLIP CARD STAGE -->
+                    <div class="flashcard-stage" onclick="flipCard()">
+                        <div class="flashcard-inner" id="flashcardElement">
+                            
+                            <!-- CARD FRONT -->
+                            <div class="flashcard-face flashcard-front">
+                                <div class="d-flex justify-content-between w-100 mb-2">
+                                    <span class="badge bg-secondary" id="frontCategoryBadge">Sujeto / Expresión</span>
+                                    <span class="badge bg-light text-dark border" id="frontTefBadge">TEF A1</span>
+                                </div>
+                                <div class="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+                                    <div class="text-muted small mb-1" id="frontSubLabel">¿CÓMO SE DICE EN FRANCÉS?</div>
+                                    <div class="card-prompt-text" id="frontText">Es un animal.</div>
+                                    <div class="text-secondary small fst-italic mt-2" id="frontContext"></div>
+                                </div>
+                                <div class="w-100 text-center text-muted small mt-2">
+                                    <i class="fa-solid fa-hand-pointer me-1"></i> Haz clic o presiona <span class="shortcut-key">Espacio</span> para ver la respuesta
+                                </div>
+                            </div>
+
+                            <!-- CARD BACK -->
+                            <div class="flashcard-face flashcard-back">
+                                <div class="d-flex justify-content-between align-items-center w-100 mb-2">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="badge bg-primary" id="backGrammarBadge">Gramática</span>
+                                        <span class="badge liaison-badge d-none" id="cardLiaisonBadge"><i class="fa-solid fa-link me-1"></i>Liaison</span>
+                                    </div>
+                                    <span class="badge bg-info text-dark" id="backTefBadge">TEF A1</span>
+                                </div>
+                                <div class="flex-grow-1 d-flex flex-column justify-content-center align-items-center w-100">
+                                    <div class="card-target-text" id="backText">C'est un animal.</div>
+                                    <div class="phonetic-badge" id="backPhonetic">[sɛ.t‿œ̃.n‿a.ni.mal]</div>
+                                    <div class="text-muted small mb-2" id="backEnglish">It is an animal.</div>
+                                    <div class="tip-box" id="backTip">
+                                        💡 <strong>Consejo de Judy:</strong> La 't' de c'est se une a 'un', y la 'n' de un a 'animal'. Suena como una sola palabra.
+                                    </div>
+                                    <!-- Liaison Detailed Breakdown Box -->
+                                    <div class="liaison-box d-none" id="cardLiaisonBox"></div>
+                                </div>
+                                <div class="w-100 d-flex justify-content-center align-items-center gap-2 mt-2" onclick="event.stopPropagation()">
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="playCurrentAudio('fr-CA')">
+                                        <i class="fa-solid fa-volume-high me-1"></i> Audio QC 🇨🇦 <span class="shortcut-key">A</span>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3" onclick="playCurrentAudio('fr-FR')">
+                                        <i class="fa-solid fa-volume-high me-1"></i> Audio FR 🇫🇷
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="jumpToCurrentVideoTimestamp()">
+                                        <i class="fa-solid fa-play me-1"></i> Ver en Judy <span class="shortcut-key">V</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- CARD CONTROLS / SRS BUTTONS WITH INTERVAL PREVIEWS -->
+                    <div class="card shadow-sm border-0 p-3 mb-4">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                            <!-- Prev / Flip / Next -->
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-outline-secondary btn-pill" onclick="prevCard()" title="Tarjeta anterior (Flecha Izquierda)">
+                                    <i class="fa-solid fa-arrow-left"></i> <span class="shortcut-key">←</span>
+                                </button>
+                                <button class="btn btn-primary btn-pill px-4" onclick="flipCard()" title="Voltear tarjeta (Espacio)">
+                                    <i class="fa-solid fa-arrows-rotate me-1"></i> Voltear <span class="shortcut-key">Espacio</span>
+                                </button>
+                                <button class="btn btn-outline-secondary btn-pill" onclick="nextCard()" title="Siguiente tarjeta (Flecha Derecha)">
+                                    <i class="fa-solid fa-arrow-right"></i> <span class="shortcut-key">→</span>
+                                </button>
+                            </div>
+
+                            <!-- Native SRS Grading Buttons -->
+                            <div class="d-flex gap-2 align-items-center">
+                                <button class="btn btn-outline-danger btn-pill" onclick="rateCard(1)" title="Repetir pronto">
+                                    <i class="fa-solid fa-rotate-left me-1"></i> Repetir <span class="badge bg-danger text-light ms-1 font-monospace" id="lblIntervalAgain">15m</span> <span class="shortcut-key">1</span>
+                                </button>
+                                <button class="btn btn-outline-warning text-dark btn-pill" onclick="rateCard(2)" title="Difícil">
+                                    Difícil <span class="badge bg-warning text-dark ms-1 font-monospace" id="lblIntervalHard">1d</span> <span class="shortcut-key">2</span>
+                                </button>
+                                <button class="btn btn-outline-success btn-pill" onclick="rateCard(3)" title="Bien / Aprendido">
+                                    Bien <span class="badge bg-success text-light ms-1 font-monospace" id="lblIntervalGood">4d</span> <span class="shortcut-key">3</span>
+                                </button>
+                                <button class="btn btn-outline-primary btn-pill" onclick="rateCard(4)" title="Fácil / Dominado">
+                                    Fácil <span class="badge bg-primary text-light ms-1 font-monospace" id="lblIntervalEasy">8d</span> <span class="shortcut-key">4</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 2: VIDEO & SYNC (YOUTUBE WATCH LAYOUT) ================= -->
+        <section id="tab-content-video" class="tab-section d-none">
+            <div class="row g-3" id="videoLayoutRow">
+                
+                <!-- Main Column: YouTube Player & Video Metadata -->
+                <div class="col-xl-8 col-lg-7 col-12 transition-all" id="videoPlayerCol">
+                    
+                    <!-- Video Embed Frame -->
+                    <div class="youtube-player-card shadow-sm mb-3 position-relative" id="youtubePlayerWrapper">
+                        <div class="ratio ratio-16x9 rounded-3 overflow-hidden bg-black" id="ytRatioContainer">
+                            <iframe id="youtubeIframe" src="https://www.youtube.com/embed/XUKt0Uqireo?enablejsapi=1" title="YouTube video player" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div>
+                        <!-- YouTube-style OSD Overlay -->
+                        <div id="ytOsdOverlay" class="yt-osd-overlay d-none">
+                            <span id="ytOsdText">▶ Play</span>
+                        </div>
+                    </div>
+
+                    <!-- YouTube Watch Metadata Bar -->
+                    <div class="youtube-watch-meta bg-white p-3 rounded-3 shadow-sm border mb-3">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
+                            <h4 class="fw-bold text-dark mb-0" id="videoTabTitle">Judy - Curso 1</h4>
+                            <div class="d-flex align-items-center gap-1 flex-wrap">
+                                <button class="btn btn-light btn-sm border rounded-pill fw-semibold px-2" onclick="seekVideoRelative(-5)" title="Retroceder 5 segundos (Flecha Izquierda)">
+                                    <i class="fa-solid fa-backward-step text-secondary"></i> -5s <span class="shortcut-key">←</span>
+                                </button>
+                                <button class="btn btn-dark btn-sm rounded-pill fw-semibold px-3" id="btnYtPlayPause" onclick="toggleVideoPlayPause()" title="Reproducir / Pausar (Backspace o Espacio)">
+                                    <i class="fa-solid fa-play me-1" id="iconYtPlayPause"></i> Play / Pausa <span class="shortcut-key text-light border-secondary">Backspace / Espacio</span>
+                                </button>
+                                <button class="btn btn-light btn-sm border rounded-pill fw-semibold px-2" onclick="seekVideoRelative(5)" title="Adelantar 5 segundos (Flecha Derecha)">
+                                    +5s <i class="fa-solid fa-forward-step text-secondary"></i> <span class="shortcut-key">→</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 pt-2 border-top">
+                            <!-- Channel Info -->
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="youtube-avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px; font-size: 1.1rem;">
+                                    🇫🇷
+                                </div>
+                                <div>
+                                    <div class="fw-bold text-dark d-flex align-items-center gap-1" style="font-size: 0.95rem;">
+                                        <span id="videoChannelTitle">Aprender Francés con Judy</span>
+                                        <i class="fa-solid fa-circle-check text-primary" style="font-size: 0.8rem;" title="Canal Verificado"></i>
+                                    </div>
+                                    <div class="text-muted small" id="videoSubtitleBadge">54 Lecciones • Nivel TEF A1</div>
+                                </div>
+                            </div>
+
+                            <!-- Action Toolbar -->
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                <!-- Theater Mode Toggle -->
+                                <button class="btn btn-outline-dark btn-sm rounded-pill fw-bold px-3 d-flex align-items-center gap-1" id="btnTheaterMode" onclick="toggleTheaterMode()" title="Expandir video a modo cine (100% del ancho)">
+                                    <i class="fa-solid fa-rectangle-ad" id="iconTheater"></i>
+                                    <span id="lblTheaterMode">Modo Cine</span>
+                                </button>
+
+                                <!-- Toggle Sidebar Menu -->
+                                <button class="btn btn-outline-primary btn-sm rounded-pill fw-bold px-3 d-flex align-items-center gap-1" id="btnToggleCitas" onclick="toggleCitasPanel()" title="Ocultar o mostrar el menú lateral de frases">
+                                    <i class="fa-solid fa-list-check" id="iconSidebarToggle"></i>
+                                    <span id="btnToggleCitasText">Ocultar Menú</span>
+                                </button>
+
+                                <!-- External YouTube Link -->
+                                <a id="videoYtDirectLink" href="https://www.youtube.com/watch?v=XUKt0Uqireo" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill fw-bold px-3 d-flex align-items-center gap-1" title="Ver en YouTube oficial">
+                                    <i class="fa-brands fa-youtube"></i> YouTube
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- YouTube Collapsible Description Box -->
+                        <div class="youtube-description-box bg-light p-3 rounded-3 mt-3 border">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <strong class="text-dark small"><i class="fa-solid fa-circle-info text-primary me-1"></i>Sinopsis de la Lección</strong>
+                                <span class="badge bg-secondary font-monospace" id="videoDurationBadge">Judy Francés</span>
+                            </div>
+                            <p class="text-muted small mb-0" id="videoDescriptionText">
+                                Metodología de Judy para construir frases desde cero sin reglas gramaticales complejas. Haz clic en cualquier frase del menú lateral derecho para saltar al segundo exacto.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: YouTube Playlist & Phrases Menu (col-xl-4 / col-lg-5) -->
+                <div class="col-xl-4 col-lg-5 col-12 transition-all" id="videoCitasCol">
+                    <div class="youtube-sidebar shadow-sm border rounded-3 bg-white">
+                        
+                        <!-- Sidebar Header -->
+                        <div class="youtube-sidebar-header p-3 border-bottom bg-light rounded-top-3">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="fa-brands fa-youtube text-danger fs-5"></i>
+                                    <h6 class="fw-bold mb-0 text-dark">Frases y Explicaciones de Judy</h6>
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <button class="btn btn-xs btn-primary rounded-pill d-flex align-items-center gap-1" id="btnToggleAutoScroll" onclick="toggleVideoAutoScroll()" title="Sincronizar scroll automáticamente con el tiempo del video">
+                                        <i class="fa-solid fa-arrows-up-down" id="iconAutoScroll"></i>
+                                        <span id="lblAutoScroll">Sync ON</span>
+                                    </button>
+                                    <span class="badge bg-dark rounded-pill" id="ytSidebarCount">36 frases</span>
+                                    <button class="btn btn-sm btn-link text-muted p-1" onclick="toggleCitasPanel()" title="Cerrar panel de frases">
+                                        <i class="fa-solid fa-xmark fs-6"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center text-muted small mb-2">
+                                <span id="ytNowPlaying" class="text-truncate me-2"><i class="fa-solid fa-play text-primary me-1"></i>Haz clic en una frase para saltar</span>
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle text-nowrap" id="ytSidebarDeckName">Curso 1</span>
+                            </div>
+
+                            <!-- Real-time Filter & Search -->
+                            <div class="input-group input-group-sm mb-2">
+                                <span class="input-group-text bg-white border-end-0"><i class="fa-solid fa-magnifying-glass text-muted"></i></span>
+                                <input type="text" id="ytTimelineSearch" class="form-control border-start-0" placeholder="Buscar frase, fonética, palabra..." oninput="onVideoTimelineSearch(this.value)">
+                            </div>
+
+                            <!-- Filter Pills -->
+                            <div class="d-flex gap-1 overflow-x-auto pb-1">
+                                <button class="btn btn-xs btn-dark rounded-pill text-nowrap yt-filter-btn active" id="btnFilterYtAll" onclick="filterVideoTimeline('all')">Todas</button>
+                                <button class="btn btn-xs btn-outline-secondary rounded-pill text-nowrap yt-filter-btn" id="btnFilterYtTef" onclick="filterVideoTimeline('tef')">⭐ TEF</button>
+                                <button class="btn btn-xs btn-outline-secondary rounded-pill text-nowrap yt-filter-btn" id="btnFilterYtComp" onclick="filterVideoTimeline('compleja')">🧩 Complejas</button>
+                                <button class="btn btn-xs btn-outline-secondary rounded-pill text-nowrap yt-filter-btn" id="btnFilterYtLiaison" onclick="filterVideoTimeline('liaison')">🔗 Liaisons</button>
+                            </div>
+                        </div>
+
+                        <!-- Scrollable Phrases List -->
+                        <div class="youtube-playlist-scroll p-2 overflow-y-auto" id="videoTimelineList">
+                            <!-- Populated dynamically with YouTube Playlist items -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= TAB 3: QUIZ & EXAM ================= -->
+        <section id="tab-content-quiz" class="tab-section d-none">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="card shadow-sm border-0 p-4 text-center">
+                        <!-- Top Exam Header -->
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                            <div class="d-flex align-items-center flex-wrap gap-2">
+                                <span class="badge bg-success fs-6" id="quizCounter">Pregunta 1 de 10</span>
+                                <select id="quizScopeSelect" class="form-select form-select-sm border-secondary fw-semibold bg-light" style="max-width: 280px;" onchange="startNewQuiz()">
+                                    <option value="current">🎯 Curso Actual (Solo este curso)</option>
+                                </select>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap gap-2">
+                                <span class="badge bg-light text-dark border fs-6">Exactas: <span id="quizScore">0 / 10</span></span>
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle fs-6" title="Promedio de qué tan bien escrito va el examen (0% a 100%)">
+                                    Escritura: <span id="quizAvgWrittenPct">--%</span>
+                                </span>
+                                <button class="btn btn-sm btn-outline-warning text-dark fw-semibold rounded-pill d-none" id="btnGoUnanswered" onclick="goToNextUnansweredQuizQuestion()" title="Ir a la siguiente pregunta sin responder">
+                                    <i class="fa-solid fa-circle-question me-1"></i>Sin responder: <span id="quizUnansweredCount">10</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Question Navigator Pills (Jump to any question or unanswered) -->
+                        <div class="quiz-nav-pills-bar d-flex justify-content-center align-items-center flex-wrap gap-1 mb-3 pb-3 border-bottom" id="quizQuestionNavBar">
+                            <!-- Dynamically populated 1..10 pills -->
+                        </div>
+
+                        <!-- Active Question Container -->
+                        <div id="quizActiveQuestionArea">
+                            <div class="py-3">
+                                <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+                                    <span class="text-muted small fw-bold text-uppercase">TRADUCE ESTA ORACIÓN AL FRANCÉS</span>
+                                    <span class="badge bg-secondary-subtle text-secondary border d-none" id="quizQuestionStatusBadge">Sin responder</span>
+                                </div>
+                                <h3 class="fw-bold text-dark mb-3" id="quizQuestionPrompt">Es algo importante para mí.</h3>
+                                
+                                <!-- Multiline Textarea Input -->
+                                <div class="mb-2 text-start">
+                                    <!-- Virtual French Accents Keyboard Toolbar -->
+                                    <div class="french-chars-toolbar d-flex align-items-center flex-wrap gap-1 mb-2 p-2 bg-light rounded border">
+                                        <span class="small text-muted fw-bold me-2"><i class="fa-solid fa-keyboard me-1"></i>Acentos:</span>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('é')">é</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('è')">è</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('ê')">ê</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('à')">à</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('â')">â</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('ù')">ù</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('û')">û</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('ç')">ç</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('î')">î</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('ï')">ï</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('ô')">ô</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('œ')">œ</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('«')">«</button>
+                                        <button type="button" class="btn btn-sm btn-white border px-2 py-0 fw-bold shadow-sm" onclick="insertFrenchChar('»')">»</button>
+                                    </div>
+                                    <textarea id="quizAnswerInput" rows="3" class="form-control form-control-lg font-monospace quiz-multiline-input" placeholder="Escribe tu respuesta en francés aquí... (Enter para comprobar, Shift+Enter para nueva línea)" oninput="onQuizInputChanged(this.value)" onkeydown="handleQuizTextareaKeydown(event)"></textarea>
+                                    <div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">
+                                        <span class="text-muted small"><kbd>Enter</kbd> Comprobar • <kbd>Shift</kbd>+<kbd>Enter</kbd> Nueva línea</span>
+                                        <div class="d-flex gap-2">
+                                            <button class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-semibold" onclick="revealQuizAnswer()">
+                                                <i class="fa-regular fa-eye me-1"></i>Ver Respuesta
+                                            </button>
+                                            <button class="btn btn-primary px-4 fw-bold rounded-pill" onclick="checkQuizAnswer()">
+                                                <i class="fa-solid fa-check-double me-1"></i>Comprobar Escritura
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Detailed Writing Accuracy % & Visual Diff Feedback Box -->
+                                <div id="quizFeedbackBox" class="alert d-none p-3 text-start rounded-3 mt-3 mb-0"></div>
+                            </div>
+
+                            <!-- Bottom Navigation Controls (Previous, Skip/Pass, Unanswered, Next, Finish) -->
+                            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 pt-3 border-top mt-2">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <button class="btn btn-outline-secondary rounded-pill px-3" id="btnQuizPrev" onclick="prevQuizQuestion()">
+                                        <i class="fa-solid fa-arrow-left me-1"></i>Anterior
+                                    </button>
+                                    <button class="btn btn-outline-dark rounded-pill px-3" onclick="skipQuizQuestion()" title="Pasar a la siguiente dejándola pendiente para volver después">
+                                        Saltar / Pasar <i class="fa-solid fa-forward ms-1"></i>
+                                    </button>
+                                </div>
+
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <button class="btn btn-outline-secondary rounded-pill btn-sm px-3" onclick="startNewQuiz()">
+                                        <i class="fa-solid fa-rotate me-1"></i>Reiniciar
+                                    </button>
+                                    <button class="btn btn-success rounded-pill px-4 fw-semibold" id="btnQuizNext" onclick="nextQuizQuestion()">
+                                        Siguiente <i class="fa-solid fa-arrow-right ms-1"></i>
+                                    </button>
+                                    <button class="btn btn-dark rounded-pill px-4 fw-bold" id="btnFinishQuiz" onclick="finishQuizExam()">
+                                        <i class="fa-solid fa-flag-checkered me-1"></i>Calificar Examen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Final Exam Qualification & Review Summary (0% to 100%) -->
+                        <div id="quizFinalSummaryArea" class="d-none text-start pt-2">
+                            <!-- Populated dynamically when finishing the exam -->
+                        </div>
+                    </div>
+
+                    <!-- Historial de Exámenes Guardados en SQLite -->
+                    <div class="card shadow-sm border-0 p-4 mt-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="fw-bold mb-0 text-dark">
+                                <i class="fa-solid fa-clock-rotate-left me-2 text-primary"></i>Historial de Evaluaciones
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill ms-2 fs-6">
+                                    <i class="fa-solid fa-user me-1"></i><span class="active-profile-label">Andres</span>
+                                </span>
+                            </h5>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" onclick="loadQuizHistory()"><i class="fa-solid fa-rotate me-1"></i>Actualizar</button>
+                        </div>
+                        <div id="quizHistoryContainer" class="table-responsive small">
+                            <table class="table table-hover align-middle mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Fecha / Hora</th>
+                                        <th>Alcance</th>
+                                        <th>Preguntas</th>
+                                        <th>Puntaje</th>
+                                        <th>Efectividad</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="quizHistoryTableBody">
+                                    <tr><td colspan="5" class="text-center text-muted py-3">Cargando historial...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB: ANALYTICS & AVANCES ================= -->
+        <section id="tab-content-analytics" class="tab-section d-none">
+            <div class="row g-4 mb-4">
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0 p-3 text-center bg-white border-top border-4 border-primary">
+                        <div class="text-muted small fw-bold text-uppercase">Total Vocabulario</div>
+                        <h2 class="fw-bold my-2 text-primary" id="metricTotalCards">0</h2>
+                        <div class="small text-muted" id="metricCourseCount">10 Cursos Activos</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0 p-3 text-center bg-white border-top border-4 border-success">
+                        <div class="text-muted small fw-bold text-uppercase">Frases Dominadas (SRS)</div>
+                        <h2 class="fw-bold my-2 text-success" id="metricMasteredCards">0</h2>
+                        <div class="small text-muted" id="metricMasteredPct">0% de retención a largo plazo</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0 p-3 text-center bg-white border-top border-4 border-warning">
+                        <div class="text-muted small fw-bold text-uppercase">En Progreso / Repaso</div>
+                        <h2 class="fw-bold my-2 text-warning" id="metricLearningCards">0</h2>
+                        <div class="small text-muted" id="metricDueToday">0 pendientes hoy</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0 p-3 text-center bg-white border-top border-4 border-danger">
+                        <div class="text-muted small fw-bold text-uppercase">⭐ Claves TEF Canada</div>
+                        <h2 class="fw-bold my-2 text-danger" id="metricTefCards">0</h2>
+                        <div class="small text-muted" id="metricComplexCards">0 estructuras complejas</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progreso por Curso -->
+            <div class="card shadow-sm border-0 p-4 mb-4">
+                <h5 class="fw-bold mb-3 text-dark">
+                    <i class="fa-solid fa-layer-group text-primary me-2"></i>Progreso por Curso (Lecciones 1 al 10)
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill ms-2 fs-6">
+                        <i class="fa-solid fa-user me-1"></i><span class="active-profile-label">Andres</span>
+                    </span>
+                </h5>
+                <div id="courseProgressBars" class="d-flex flex-column gap-3">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+
+            <!-- Rendimiento en Exámenes Guardados -->
+            <div class="card shadow-sm border-0 p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="fw-bold mb-0 text-dark"><i class="fa-solid fa-graduation-cap text-success me-2"></i>Efectividad en Modo Examen (Base de Datos)</h5>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="switchTab('quiz')"><i class="fa-solid fa-pen-to-square me-1"></i>Hacer Nuevo Test</button>
+                </div>
+                <div class="row align-items-center mb-3">
+                    <div class="col-md-4 text-center border-end">
+                        <div class="display-5 fw-bold text-success" id="analyticsAvgScore">--%</div>
+                        <div class="text-muted small">Promedio de Aciertos Global</div>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="mb-1 text-muted small">El algoritmo calcula tu precisión evaluando las traducciones escritas al francés registradas en <code>data/app.db</code>.</p>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="analyticsAvgBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB: LIBRARY & EXPLORER ================= -->
+        <section id="tab-content-library" class="tab-section d-none">
+            <div class="card shadow-sm border-0 p-4 mb-4">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <div>
+                        <h4 class="fw-bold mb-1">
+                            <i class="fa-solid fa-book-bookmark text-info me-2"></i>Biblioteca de Tarjetas (SRS Nativo)
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill ms-2 fs-6">
+                                <i class="fa-solid fa-user me-1"></i><span class="active-profile-label">Andres</span>
+                            </span>
+                        </h4>
+                        <div class="text-muted small">Explora, busca y gestiona todas las frases aprendidas de tus lecciones sin necesidad de aplicaciones externas.</div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-sm btn-outline-primary rounded-pill active" id="btnFilterAll" onclick="filterLibrary('all')">Todas (<span id="libCountAll">0</span>)</button>
+                        <button class="btn btn-sm btn-outline-danger rounded-pill" id="btnFilterDue" onclick="filterLibrary('due')">🔥 Pendientes Hoy (<span id="libCountDue">0</span>)</button>
+                        <button class="btn btn-sm btn-outline-success rounded-pill" id="btnFilterMastered" onclick="filterLibrary('mastered')">🏆 Dominadas (<span id="libCountMastered">0</span>)</button>
+                    </div>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-white"><i class="fa-solid fa-magnifying-glass text-muted"></i></span>
+                    <input type="text" id="libSearchInput" class="form-control" placeholder="Buscar por palabra en francés, español, regla fonética..." oninput="onLibrarySearch(this.value)">
+                </div>
+
+                <!-- Cards Table -->
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width: 120px;">Estado SRS</th>
+                                <th>Francés (con Liaisons 🔗)</th>
+                                <th>Español</th>
+                                <th style="width: 130px;">Audio</th>
+                                <th style="width: 100px;">Video</th>
+                                <th style="width: 130px;">Intervalo</th>
+                                <th style="width: 140px;">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="libraryTableBody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 4: PLAYLIST EXPLORER ================= -->
+        <section id="tab-content-playlist" class="tab-section d-none">
+            
+            <!-- 54-Course Playlist Explorer -->
+            <div class="card shadow-sm border-0 p-4">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+                    <div>
+                        <h5 class="fw-bold mb-0"><i class="fa-solid fa-graduation-cap text-primary me-2"></i>Playlist de Judy: 54 Cursos para Principiantes</h5>
+                        <div class="text-muted small">Cursos curados meticulosamente uno a uno con timestamps, pronunciación fonética, enlaces (liaisons) y estrellas TEF.</div>
+                    </div>
+                    <span class="badge bg-dark fs-6 font-monospace" id="playlistTotalBadge">54 Lecciones</span>
+                </div>
+
+                <div class="row g-3" id="playlistGrid">
+                    <!-- Populated dynamically with 54 course cards -->
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Bootstrap 5 JS Bundle & YouTube IFrame API -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/static/app.js?v=20261115_accents_fix"></script>
+</body>
+</html>

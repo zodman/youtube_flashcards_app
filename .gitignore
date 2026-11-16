@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+audio_cache/
+data/app.db
+data/*.vtt
+data/*_info.json
+*.tmp
+.DS_Store

@@ -1,0 +1,5674 @@
+{
+  "XUKt0Uqireo": {
+    "id": "XUKt0Uqireo",
+    "video_id": "XUKt0Uqireo",
+    "title": "FRANCÉS desde cero fácil y rápido | Formar oraciones en francés - Curso 1",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 721,
+    "lesson_number": 1,
+    "tef_level": "A1 (Débutant)",
+    "description": "Curso completo de francés para principiantes. Metodología de Judy para construir frases desde cero sin reglas gramaticales complejas.",
+    "thumbnail": "https://img.youtube.com/vi/XUKt0Uqireo/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c1_01",
+        "french": "le chocolat",
+        "spanish": "el chocolate",
+        "english": "the chocolate",
+        "phonetics": "[lə ʃɔ.kɔ.la]",
+        "tip": "La 'ch' en francés suena como 'sh' inglesa o como mandar a callar ('shhh'), nunca 'ch' fuerte española.",
+        "grammar": "Sustantivo masculino (le)",
+        "tef_level": "A1",
+        "timestamp": 70,
+        "tags": [
+          "vocabulario",
+          "cognados",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_02",
+        "french": "l'hôpital",
+        "spanish": "el hospital",
+        "english": "the hospital",
+        "phonetics": "[lo.pi.tal]",
+        "tip": "La 'h' inicial es muda en francés; se produce elisión del artículo: 'le' pasa a 'l''.",
+        "grammar": "Elisión obligatoria (l')",
+        "tef_level": "A1",
+        "timestamp": 81,
+        "tags": [
+          "vocabulario",
+          "cognados",
+          "elision"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_03",
+        "french": "urgent",
+        "spanish": "urgente",
+        "english": "urgent",
+        "phonetics": "[yʁ.ʒɑ̃]",
+        "tip": "La 'u' francesa se pronuncia con labios en posición de 'u' y emitiendo 'i'. La 'g' suena suave como 'j' francesa [ʒ].",
+        "grammar": "Adjetivo masculino",
+        "tef_level": "A1",
+        "timestamp": 87,
+        "tags": [
+          "vocabulario",
+          "adjetivo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_04",
+        "french": "un animal",
+        "spanish": "un animal",
+        "english": "an animal",
+        "phonetics": "[œ̃.n‿a.ni.mal]",
+        "tip": "'un' se pronuncia nasal [œ̃]. Se une con 'animal' en enlace fonético (liaison).",
+        "grammar": "Artículo indefinido masculino (un)",
+        "tef_level": "A1",
+        "timestamp": 97,
+        "tags": [
+          "vocabulario",
+          "fonetica",
+          "liaison"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_05",
+        "french": "C'est...",
+        "spanish": "Es... / Esto es...",
+        "english": "It is...",
+        "phonetics": "[sɛ]",
+        "tip": "Contracción obligatoria de 'ce' (esto) + 'est' (es). Piedra angular para formar oraciones en francés.",
+        "grammar": "Pronombre demostrativo + verbo être",
+        "tef_level": "A1",
+        "timestamp": 108,
+        "tags": [
+          "gramatica",
+          "oraciones",
+          "estructura_base"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_06",
+        "french": "C'est un animal.",
+        "spanish": "Es un animal.",
+        "english": "It is an animal.",
+        "phonetics": "[sɛ.t‿œ̃.n‿a.ni.mal]",
+        "tip": "LIAISON OBLIGATORIA: la 't' de 'c'est' se une a 'un', y la 'n' de 'un' se une a 'animal'. Suena como una sola palabra fluida.",
+        "grammar": "Liaison obligatoria",
+        "tef_level": "A1",
+        "timestamp": 130,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "fonetica",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_07",
+        "french": "difficile",
+        "spanish": "difícil",
+        "english": "difficult",
+        "phonetics": "[di.fi.sil]",
+        "tip": "La 'e' final en francés no se pronuncia. Termina netamente en el sonido [l], no digas 'dificilé'.",
+        "grammar": "Adjetivo invariable m/f",
+        "tef_level": "A1",
+        "timestamp": 164,
+        "tags": [
+          "adjetivo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_08",
+        "french": "C'est difficile.",
+        "spanish": "Es difícil.",
+        "english": "It is difficult.",
+        "phonetics": "[sɛ di.fi.sil]",
+        "tip": "Pronunciación conectada: 'sè-di-fi-sil'.",
+        "grammar": "Estructura C'est + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 185,
+        "tags": [
+          "oraciones",
+          "adjetivo"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_09",
+        "french": "impossible",
+        "spanish": "imposible",
+        "english": "impossible",
+        "phonetics": "[ɛ̃.pɔ.sibl]",
+        "tip": "'im-' al inicio de palabra suena nasal [ɛ̃]. La terminación '-ble' es seca y suave.",
+        "grammar": "Adjetivo invariable",
+        "tef_level": "A1",
+        "timestamp": 198,
+        "tags": [
+          "adjetivo",
+          "fonetica",
+          "nasales"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_10",
+        "french": "C'est impossible.",
+        "spanish": "Es imposible.",
+        "english": "It is impossible.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔ.sibl]",
+        "tip": "Liaison: la 't' de c'est se conecta con 'im-' formando [sɛ-tɛ̃-pɔ-sibl].",
+        "grammar": "C'est + liaison adjetival",
+        "tef_level": "A1",
+        "timestamp": 210,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_11",
+        "french": "important",
+        "spanish": "importante",
+        "english": "important",
+        "phonetics": "[ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Doble vocal nasal: 'im' -> [ɛ̃], 'an' -> [ɑ̃]. La 't' final NO se pronuncia.",
+        "grammar": "Adjetivo masculino",
+        "tef_level": "A1",
+        "timestamp": 232,
+        "tags": [
+          "adjetivo",
+          "nasales",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_12",
+        "french": "C'est important.",
+        "spanish": "Es importante.",
+        "english": "It is important.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison obligatoria de la 't': [sɛ-tɛ̃-pɔʁ-tɑ̃].",
+        "grammar": "C'est + adjetivo con liaison",
+        "tef_level": "A1",
+        "timestamp": 266,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_13",
+        "french": "moi",
+        "spanish": "mí / yo (tónico)",
+        "english": "me",
+        "phonetics": "[mwa]",
+        "tip": "Las vocales 'oi' SIEMPRE se pronuncian 'ua' [wa] en francés.",
+        "grammar": "Pronombre tónico 1ra pers.",
+        "tef_level": "A1",
+        "timestamp": 283,
+        "tags": [
+          "pronombres",
+          "fonetica",
+          "regla_oi"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_14",
+        "french": "toi",
+        "spanish": "ti / tú (tónico)",
+        "english": "you",
+        "phonetics": "[twa]",
+        "tip": "Igual que moi: 'oi' -> [wa].",
+        "grammar": "Pronombre tónico 2da pers.",
+        "tef_level": "A1",
+        "timestamp": 303,
+        "tags": [
+          "pronombres",
+          "fonetica",
+          "regla_oi"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_15",
+        "french": "pour",
+        "spanish": "para",
+        "english": "for",
+        "phonetics": "[puʁ]",
+        "tip": "Las vocales 'ou' en francés se pronuncian exactamente como la 'u' española [u].",
+        "grammar": "Preposición",
+        "tef_level": "A1",
+        "timestamp": 308,
+        "tags": [
+          "preposicion",
+          "fonetica",
+          "regla_ou"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_16",
+        "french": "pour moi",
+        "spanish": "para mí",
+        "english": "for me",
+        "phonetics": "[puʁ mwa]",
+        "tip": "Pronunciación conectada: 'pur-muá'.",
+        "grammar": "Preposición + pronombre tónico",
+        "tef_level": "A1",
+        "timestamp": 327,
+        "tags": [
+          "expresiones",
+          "pronombres"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_17",
+        "french": "pour toi",
+        "spanish": "para ti",
+        "english": "for you",
+        "phonetics": "[puʁ twa]",
+        "tip": "Pronunciación: 'pur-tuá'.",
+        "grammar": "Preposición + pronombre tónico",
+        "tef_level": "A1",
+        "timestamp": 339,
+        "tags": [
+          "expresiones",
+          "pronombres"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_18",
+        "french": "C'est pour moi.",
+        "spanish": "Es para mí.",
+        "english": "It is for me.",
+        "phonetics": "[sɛ puʁ mwa]",
+        "tip": "Construcción rápida de frase: sujeto 'c'est' + complemento 'pour moi'.",
+        "grammar": "Oración básica",
+        "tef_level": "A1",
+        "timestamp": 346,
+        "tags": [
+          "oraciones",
+          "dialogo",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_19",
+        "french": "C'est important pour moi.",
+        "spanish": "Es importante para mí.",
+        "english": "It is important for me.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Recuerda la liaison entre 'c'est' e 'important': [sɛ-tɛ̃-pɔʁ-tɑ̃ pur mwa].",
+        "grammar": "C'est + adjetivo + complemento",
+        "tef_level": "A1",
+        "timestamp": 378,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_20",
+        "french": "vraiment",
+        "spanish": "de verdad / realmente",
+        "english": "really / truly",
+        "phonetics": "[vʁɛ.mɑ̃]",
+        "tip": "La 'v' en francés siempre es labiodental /v/ (dientes superiores tocan labio inferior), nunca bilabial como en español. 'ai' -> [ɛ], 'ent' final -> [ɑ̃].",
+        "grammar": "Adverbio de grado/intensidad",
+        "tef_level": "A1",
+        "timestamp": 390,
+        "tags": [
+          "adverbio",
+          "fonetica",
+          "diferencia_v_b"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_21",
+        "french": "C'est vraiment important.",
+        "spanish": "De verdad es importante. / Es realmente importante.",
+        "english": "It is really important.",
+        "phonetics": "[sɛ vʁɛ.mɑ̃.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "El adverbio 'vraiment' se coloca exactamente entre el verbo 'c'est' y el adjetivo 'important'.",
+        "grammar": "Posición del adverbio",
+        "tef_level": "A1",
+        "timestamp": 413,
+        "tags": [
+          "oraciones",
+          "adverbio",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_22",
+        "french": "C'est difficile pour toi.",
+        "spanish": "Es difícil para ti.",
+        "english": "It is difficult for you.",
+        "phonetics": "[sɛ di.fi.sil puʁ twa]",
+        "tip": "Frase completa sin silencios bruscos: fluidez continua.",
+        "grammar": "Oración afirmativa",
+        "tef_level": "A1",
+        "timestamp": 439,
+        "tags": [
+          "oraciones",
+          "comunicacion"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_23",
+        "french": "quelque chose",
+        "spanish": "algo",
+        "english": "something",
+        "phonetics": "[kɛl.kə.ʃoz]",
+        "tip": "¡CUIDADO! La 'u' después de la 'q' no se pronuncia como en español. Se dice 'kelk-shoz'.",
+        "grammar": "Pronombre indefinido",
+        "tef_level": "A1",
+        "timestamp": 454,
+        "tags": [
+          "vocabulario",
+          "pronombres",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_24",
+        "french": "quelque chose d'important",
+        "spanish": "algo importante",
+        "english": "something important",
+        "phonetics": "[kɛl.kə.ʃoz d‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "En francés, 'quelque chose' exige la preposición 'de' antes de un adjetivo. Ante vocal, 'de' se elide a 'd''.",
+        "grammar": "Estructura quelque chose + de + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 475,
+        "tags": [
+          "gramatica",
+          "elision",
+          "regla_clave",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_25",
+        "french": "C'est quelque chose d'important pour moi.",
+        "spanish": "Es algo importante para mí.",
+        "english": "It is something important for me.",
+        "phonetics": "[sɛ kɛl.kə.ʃoz d‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Oración de alta frecuencia en el examen TEF para argumentar opiniones en Speaking Section B.",
+        "grammar": "Oración extendida B1/A2 prep",
+        "tef_level": "A1",
+        "timestamp": 499,
+        "tags": [
+          "oraciones",
+          "tef_speaking",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_26",
+        "french": "Ce n'est pas...",
+        "spanish": "No es...",
+        "english": "It is not...",
+        "phonetics": "[sə nɛ pa]",
+        "tip": "La negación estándar en francés envuelve al verbo con 'ne' y 'pas'. Ante vocal 'est', 'ne' se elide a 'n''.",
+        "grammar": "Estructura de negación (ne... pas)",
+        "tef_level": "A1",
+        "timestamp": 515,
+        "tags": [
+          "negacion",
+          "gramatica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_27",
+        "french": "Ce n'est pas pour moi, c'est pour toi.",
+        "spanish": "No es para mí, es para ti.",
+        "english": "It is not for me, it is for you.",
+        "phonetics": "[sə nɛ pa puʁ mwa, sɛ puʁ twa]",
+        "tip": "Contraste negación / afirmación. En lenguaje hablado informal a menudo se omite el 'ne' ('c'est pas pour moi').",
+        "grammar": "Oración compuesta / contraste",
+        "tef_level": "A1",
+        "timestamp": 541,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "dialogo",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_28",
+        "french": "Ce n'est pas important pour moi.",
+        "spanish": "No es importante para mí.",
+        "english": "It is not important for me.",
+        "phonetics": "[sə nɛ pa.z‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Liaison facultativa con 'pas' + 'important': la 's' suena como 'z' [pa-zɛ̃-pɔʁ-tɑ̃].",
+        "grammar": "Negación con liaison",
+        "tef_level": "A1",
+        "timestamp": 566,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c1_29",
+        "french": "aujourd'hui",
+        "spanish": "hoy",
+        "english": "today",
+        "phonetics": "[o.ʒuʁ.dɥi]",
+        "tip": "'au' se pronuncia [o]. 'ou' se pronuncia [u]. 'd'hui' tiene el sonido semivocálico [ɥi].",
+        "grammar": "Adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 582,
+        "tags": [
+          "vocabulario",
+          "tiempo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_30",
+        "french": "un jour",
+        "spanish": "un día",
+        "english": "a day",
+        "phonetics": "[œ̃ ʒuʁ]",
+        "tip": "'j' se pronuncia [ʒ], 'ou' se pronuncia [u].",
+        "grammar": "Sustantivo masculino",
+        "tef_level": "A1",
+        "timestamp": 592,
+        "tags": [
+          "vocabulario"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_31",
+        "french": "Aujourd'hui c'est un jour important pour moi.",
+        "spanish": "Hoy es un día importante para mí.",
+        "english": "Today is an important day for me.",
+        "phonetics": "[o.ʒuʁ.dɥi sɛ.t‿œ̃ ʒuʁ ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Frase compleja fluida que combina adverbio temporal, enlace 'c'est un', y calificativo.",
+        "grammar": "Oración temporal + predicado",
+        "tef_level": "A1",
+        "timestamp": 612,
+        "tags": [
+          "oraciones",
+          "expresiones",
+          "esencial",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c1_32",
+        "french": "facile",
+        "spanish": "fácil",
+        "english": "easy",
+        "phonetics": "[fa.sil]",
+        "tip": "La 'c' ante 'i' suena como 's' [s]. La 'e' final es muda.",
+        "grammar": "Adjetivo invariable m/f",
+        "tef_level": "A1",
+        "timestamp": 631,
+        "tags": [
+          "adjetivo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_33",
+        "french": "C'est facile.",
+        "spanish": "Es fácil.",
+        "english": "It is easy.",
+        "phonetics": "[sɛ fa.sil]",
+        "tip": "Frase rápida muy usada.",
+        "grammar": "C'est + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 641,
+        "tags": [
+          "oraciones"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_34",
+        "french": "C'est vraiment facile.",
+        "spanish": "De verdad es fácil. / Es realmente fácil.",
+        "english": "It is really easy.",
+        "phonetics": "[sɛ vʁɛ.mɑ̃ fa.sil]",
+        "tip": "Uso del intensificador 'vraiment' antes de 'facile'.",
+        "grammar": "C'est + adverbio + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 659,
+        "tags": [
+          "oraciones",
+          "adverbio"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_35",
+        "french": "mais",
+        "spanish": "pero",
+        "english": "but",
+        "phonetics": "[mɛ]",
+        "tip": "'ai' se pronuncia [ɛ] abierta, y la 's' final NO se pronuncia jamás.",
+        "grammar": "Conjunción coordinante adversativa",
+        "tef_level": "A1",
+        "timestamp": 670,
+        "tags": [
+          "conjuncion",
+          "conectores",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c1_36",
+        "french": "C'est difficile mais ce n'est pas impossible, c'est vraiment important pour moi.",
+        "spanish": "Es difícil pero no es imposible, de verdad es importante para mí.",
+        "english": "It is difficult but it is not impossible, it is really important for me.",
+        "phonetics": "[sɛ di.fi.sil mɛ sə nɛ pa.z‿ɛ̃.pɔ.sibl, sɛ vʁɛ.mɑ̃.t‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "🎯 PREGUNTA EXAMEN DE JUDY: La prueba final de la lección 1 para unir todos los elementos aprendidos.",
+        "grammar": "Oración compuesta con conectores y negación",
+        "tef_level": "A1/A2",
+        "timestamp": 688,
+        "tags": [
+          "examen_final",
+          "desafio",
+          "oraciones",
+          "clave_curso",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "c3ApP17hUGg": {
+    "id": "c3ApP17hUGg",
+    "video_id": "c3ApP17hUGg",
+    "title": "APRENDER FRANCÉS | Curso completo para principiantes | Formar Frases en francés - Curso 2",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 838,
+    "lesson_number": 2,
+    "tef_level": "A1 (Débutant)",
+    "description": "Lección 2 del curso completo de Judy. Construcción de oraciones con maintenant, très, bon, fantastique, régimen infinitivo (d'être ici, de le faire), avoir besoin y examen final.",
+    "thumbnail": "https://img.youtube.com/vi/c3ApP17hUGg/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c2_01",
+        "french": "maintenant",
+        "spanish": "ahora",
+        "english": "now",
+        "phonetics": "[mɛ̃t.nɑ̃]",
+        "tip": "Los hablantes nativos lo pronuncian rápido como \"mènt-nan\" [mɛ̃t.nɑ̃], acortando la vocal intermedia.",
+        "grammar": "Adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 62,
+        "tags": [
+          "vocabulario",
+          "tiempo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_02",
+        "french": "C'est impossible maintenant.",
+        "spanish": "Es imposible ahora.",
+        "english": "It is impossible now.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔ.sibl mɛ̃t.nɑ̃]",
+        "tip": "Liaison entre c'est e impossible: la \"t\" conecta con el sonido nasal.",
+        "grammar": "C'est + adjetivo + adverbio",
+        "tef_level": "A1",
+        "timestamp": 82,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_03",
+        "french": "parfait",
+        "spanish": "perfecto",
+        "english": "perfect",
+        "phonetics": "[paʁ.fɛ]",
+        "tip": "\"ai\" suena [ɛ] (como \"e\" abierta española). La \"t\" final es muda.",
+        "grammar": "Adjetivo masculino",
+        "tef_level": "A1",
+        "timestamp": 108,
+        "tags": [
+          "adjetivo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_04",
+        "french": "C'est parfait.",
+        "spanish": "Es perfecto.",
+        "english": "It is perfect.",
+        "phonetics": "[sɛ paʁ.fɛ]",
+        "tip": "Una de las frases de confirmación más usadas en el día a día en francés.",
+        "grammar": "C'est + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 115,
+        "tags": [
+          "oraciones",
+          "expresiones"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_05",
+        "french": "comme ça",
+        "spanish": "así / de esta manera",
+        "english": "like this / like that",
+        "phonetics": "[kɔm sa]",
+        "tip": "La \"e\" de comme es muda. La \"ç\" con cedilla siempre suena como \"s\" suave.",
+        "grammar": "Locución adverbial de modo",
+        "tef_level": "A1",
+        "timestamp": 128,
+        "tags": [
+          "locucion",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_06",
+        "french": "C'est comme ça.",
+        "spanish": "Es así.",
+        "english": "It is like that.",
+        "phonetics": "[sɛ kɔm sa]",
+        "tip": "Famosa frase idiomática francesa para aceptar una situación tal cual es.",
+        "grammar": "Expresión idiomática básica",
+        "tef_level": "A1",
+        "timestamp": 143,
+        "tags": [
+          "oraciones",
+          "idiomatico",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_07",
+        "french": "C'est parfait comme ça.",
+        "spanish": "Es perfecto así.",
+        "english": "It is perfect like that.",
+        "phonetics": "[sɛ paʁ.fɛ kɔm sa]",
+        "tip": "Combinación natural de adjetivo + locución de modo.",
+        "grammar": "Oración descriptiva compuesta",
+        "tef_level": "A1",
+        "timestamp": 160,
+        "tags": [
+          "oraciones",
+          "fluidez",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_08",
+        "french": "Maintenant c'est parfait.",
+        "spanish": "Ahora es perfecto.",
+        "english": "Now it is perfect.",
+        "phonetics": "[mɛ̃t.nɑ̃ sɛ paʁ.fɛ]",
+        "tip": "El adverbio al inicio enfatiza el cambio temporal respecto al pasado.",
+        "grammar": "Adverbio inicial + predicado",
+        "tef_level": "A1",
+        "timestamp": 182,
+        "tags": [
+          "oraciones",
+          "sintaxis"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_09",
+        "french": "Maintenant c'est parfait comme ça.",
+        "spanish": "Ahora es perfecto así.",
+        "english": "Now it is perfect like that.",
+        "phonetics": "[mɛ̃t.nɑ̃ sɛ paʁ.fɛ kɔm sa]",
+        "tip": "Frase completa fluida para cerrar acuerdos o tareas.",
+        "grammar": "Oración compuesta completa",
+        "tef_level": "A1",
+        "timestamp": 201,
+        "tags": [
+          "oraciones",
+          "comunicacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_10",
+        "french": "Maintenant ce n'est pas important.",
+        "spanish": "Ahora no es importante.",
+        "english": "Now it is not important.",
+        "phonetics": "[mɛ̃t.nɑ̃ sə nɛ pa.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Negación estándar con liaison facultativa entre \"pas\" e \"important\" [pa-zɛ̃-pɔʁ-tɑ̃].",
+        "grammar": "Negación (ne... pas) + adverbio",
+        "tef_level": "A1",
+        "timestamp": 218,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_11",
+        "french": "très",
+        "spanish": "muy",
+        "english": "very",
+        "phonetics": "[tʁɛ]",
+        "tip": "Lleva acento grave (è). La \"s\" final es muda, salvo cuando precede a una vocal en liaison.",
+        "grammar": "Adverbio de intensidad",
+        "tef_level": "A1",
+        "timestamp": 228,
+        "tags": [
+          "adverbio",
+          "fonetica",
+          "regla_clave",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_12",
+        "french": "C'est très important.",
+        "spanish": "Es muy importante.",
+        "english": "It is very important.",
+        "phonetics": "[sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "LIAISON OBLIGATORIA: la \"s\" de \"très\" se une a \"important\" sonando como una \"z\" francesa [tʁɛ-zɛ̃-pɔʁ-tɑ̃].",
+        "grammar": "Liaison obligatoria con très",
+        "tef_level": "A1",
+        "timestamp": 240,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_13",
+        "french": "Ce n'est pas très important.",
+        "spanish": "No es muy importante.",
+        "english": "It is not very important.",
+        "phonetics": "[sə nɛ pa tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Construcción negativa con atenuador (\"no muy importante\").",
+        "grammar": "Negación de grado",
+        "tef_level": "A1",
+        "timestamp": 255,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_14",
+        "french": "C'est très important pour moi.",
+        "spanish": "Es muy importante para mí.",
+        "english": "It is very important for me.",
+        "phonetics": "[sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Oración fundamental para expresar opiniones y motivaciones en el TEF Speaking.",
+        "grammar": "C'est + intensificador + complemento",
+        "tef_level": "A1",
+        "timestamp": 279,
+        "tags": [
+          "oraciones",
+          "tef_speaking",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_15",
+        "french": "Aujourd'hui c'est très important pour moi.",
+        "spanish": "Hoy es muy importante para mí.",
+        "english": "Today it is very important for me.",
+        "phonetics": "[o.ʒuʁ.dɥi sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Pronunciación rítmica encadenada: \"o-zhur-dwi / sè-trè-zen-por-tan / pur-muá\".",
+        "grammar": "Oración temporal compleja",
+        "tef_level": "A1",
+        "timestamp": 302,
+        "tags": [
+          "oraciones",
+          "fluidez",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c2_16",
+        "french": "nécessaire",
+        "spanish": "necesario",
+        "english": "necessary",
+        "phonetics": "[ne.sɛ.sɛʁ]",
+        "tip": "La \"c\" suena como \"s\", y la doble \"ss\" mantiene sonido de \"s\" sorda. La terminación \"-aire\" suena [ɛʁ].",
+        "grammar": "Adjetivo invariable m/f",
+        "tef_level": "A1",
+        "timestamp": 325,
+        "tags": [
+          "adjetivo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_17",
+        "french": "C'est nécessaire.",
+        "spanish": "Es necesario.",
+        "english": "It is necessary.",
+        "phonetics": "[sɛ ne.sɛ.sɛʁ]",
+        "tip": "Estructura impersonal de necesidad.",
+        "grammar": "C'est + adjetivo impersonal",
+        "tef_level": "A1",
+        "timestamp": 337,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_18",
+        "french": "C'est très nécessaire.",
+        "spanish": "Es muy necesario.",
+        "english": "It is very necessary.",
+        "phonetics": "[sɛ tʁɛ ne.sɛ.sɛʁ]",
+        "tip": "Aquí \"très\" va antes de consonante (\"n\"), por lo que la \"s\" NO se pronuncia.",
+        "grammar": "Adverbio + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 346,
+        "tags": [
+          "oraciones",
+          "regla_liaison"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_19",
+        "french": "C'est très nécessaire pour toi.",
+        "spanish": "Es muy necesario para ti.",
+        "english": "It is very necessary for you.",
+        "phonetics": "[sɛ tʁɛ ne.sɛ.sɛʁ puʁ twa]",
+        "tip": "Recuerda: pour [puʁ] + toi [twa].",
+        "grammar": "Oración con destinatario",
+        "tef_level": "A1",
+        "timestamp": 354,
+        "tags": [
+          "oraciones",
+          "dialogo",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_20",
+        "french": "bon",
+        "spanish": "bueno / rico (sabor)",
+        "english": "good / tasty",
+        "phonetics": "[bɔ̃]",
+        "tip": "Vocal nasal [bɔ̃]. No se pronuncia la \"n\" como consonante; el aire sale por la nariz.",
+        "grammar": "Adjetivo calificativo masculino",
+        "tef_level": "A1",
+        "timestamp": 374,
+        "tags": [
+          "adjetivo",
+          "nasales",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_21",
+        "french": "C'est bon.",
+        "spanish": "Es bueno. / Está bueno / rico.",
+        "english": "It is good / tasty.",
+        "phonetics": "[sɛ bɔ̃]",
+        "tip": "Se usa tanto para alimentos deliciosos (\"está rico\") como para dar el visto bueno (\"está bien / de acuerdo\").",
+        "grammar": "Expresión polisémica esencial",
+        "tef_level": "A1",
+        "timestamp": 384,
+        "tags": [
+          "oraciones",
+          "expresiones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_22",
+        "french": "Ce n'est pas bon.",
+        "spanish": "No es bueno. / No está bueno / rico.",
+        "english": "It is not good.",
+        "phonetics": "[sə nɛ pa bɔ̃]",
+        "tip": "Negación: en lenguaje informal oral a menudo se dice \"c'est pas bon\".",
+        "grammar": "Negación de estado",
+        "tef_level": "A1",
+        "timestamp": 395,
+        "tags": [
+          "oraciones",
+          "negacion"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_23",
+        "french": "C'est très bon.",
+        "spanish": "Es muy bueno. / Está muy rico.",
+        "english": "It is very good / delicious.",
+        "phonetics": "[sɛ tʁɛ bɔ̃]",
+        "tip": "Cumplido estándar en restaurantes y comidas familiares.",
+        "grammar": "Adverbio + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 410,
+        "tags": [
+          "oraciones",
+          "restaurante"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_24",
+        "french": "Ce n'est pas très bon.",
+        "spanish": "No es muy bueno. / No está muy rico.",
+        "english": "It is not very good.",
+        "phonetics": "[sə nɛ pa tʁɛ bɔ̃]",
+        "tip": "Forma educada de decir que algo no agrada demasiado.",
+        "grammar": "Negación atenuada",
+        "tef_level": "A1",
+        "timestamp": 423,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "cortesia",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_25",
+        "french": "C'est très bon comme ça.",
+        "spanish": "Está muy bien así. / Es muy bueno así.",
+        "english": "It is very good like that.",
+        "phonetics": "[sɛ tʁɛ bɔ̃ kɔm sa]",
+        "tip": "Usado frecuentemente para indicar satisfacción con cómo se preparó algo.",
+        "grammar": "Oración compuesta evaluativa",
+        "tef_level": "A1",
+        "timestamp": 439,
+        "tags": [
+          "oraciones",
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_26",
+        "french": "fantastique",
+        "spanish": "fantástico",
+        "english": "fantastic",
+        "phonetics": "[fɑ̃.tas.tik]",
+        "tip": "\"an\" es nasal [ɑ̃]. La terminación \"-que\" suena como una \"k\" seca.",
+        "grammar": "Adjetivo invariable m/f",
+        "tef_level": "A1",
+        "timestamp": 447,
+        "tags": [
+          "adjetivo",
+          "cognados"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_27",
+        "french": "C'est fantastique.",
+        "spanish": "Es fantástico.",
+        "english": "It is fantastic.",
+        "phonetics": "[sɛ fɑ̃.tas.tik]",
+        "tip": "Expresión de entusiasmo y aprobación en conversaciones cotidianas.",
+        "grammar": "C'est + adjetivo exclamativo",
+        "tef_level": "A1",
+        "timestamp": 458,
+        "tags": [
+          "oraciones",
+          "dialogo",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_28",
+        "french": "C'est fantastique pour moi.",
+        "spanish": "Es fantástico para mí.",
+        "english": "It is fantastic for me.",
+        "phonetics": "[sɛ fɑ̃.tas.tik puʁ mwa]",
+        "tip": "Estructura de personalización de opinión.",
+        "grammar": "Oración afirmativa con destinatario",
+        "tef_level": "A1",
+        "timestamp": 471,
+        "tags": [
+          "oraciones",
+          "comunicacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_29",
+        "french": "C'est fantastique comme ça.",
+        "spanish": "Es fantástico así.",
+        "english": "It is fantastic like that.",
+        "phonetics": "[sɛ fɑ̃.tas.tik kɔm sa]",
+        "tip": "Evaluación positiva de un resultado o estado.",
+        "grammar": "Oración con locución de modo",
+        "tef_level": "A1",
+        "timestamp": 486,
+        "tags": [
+          "oraciones"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_30",
+        "french": "ici",
+        "spanish": "aquí / acá",
+        "english": "here",
+        "phonetics": "[i.si]",
+        "tip": "Palabra de dos sílabas nítidas: \"i-si\".",
+        "grammar": "Adverbio de lugar",
+        "tef_level": "A1",
+        "timestamp": 501,
+        "tags": [
+          "vocabulario",
+          "lugar",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_31",
+        "french": "être",
+        "spanish": "ser / estar",
+        "english": "to be",
+        "phonetics": "[ɛtʁ]",
+        "tip": "Verbo infinitivo base con acento circunflejo (ê). Se pronuncia como una \"e\" abierta seguida de \"tr\" suave.",
+        "grammar": "Verbo infinitivo copulativo",
+        "tef_level": "A1",
+        "timestamp": 630,
+        "tags": [
+          "verbos",
+          "infinitivo",
+          "clave"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_32",
+        "french": "être ici",
+        "spanish": "estar aquí",
+        "english": "to be here",
+        "phonetics": "[ɛ.tʁ‿i.si]",
+        "tip": "Enlace suave continuo entre la consonante \"r\" y la vocal \"i\".",
+        "grammar": "Infinitivo + adverbio de lugar",
+        "tef_level": "A1",
+        "timestamp": 643,
+        "tags": [
+          "frases_verbales",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c2_33",
+        "french": "C'est important d'être ici.",
+        "spanish": "Es importante estar aquí.",
+        "english": "It is important to be here.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃ d‿ɛ.tʁ‿i.si]",
+        "tip": "ELISIÓN CLAVE: Antes de un infinitivo que comienza con vocal, la preposición \"de\" se contrae en \"d'\".",
+        "grammar": "C'est + adjetivo + d' + infinitivo vocal",
+        "tef_level": "A1",
+        "timestamp": 655,
+        "tags": [
+          "gramatica",
+          "elision",
+          "regla_oro",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_34",
+        "french": "C'est fantastique d'être ici.",
+        "spanish": "Es fantástico estar aquí.",
+        "english": "It is fantastic to be here.",
+        "phonetics": "[sɛ fɑ̃.tas.tik d‿ɛ.tʁ‿i.si]",
+        "tip": "Frase formal y amigable típica para presentarse en conferencias, eventos o entrevistas.",
+        "grammar": "C'est + adjetivo + d'être",
+        "tef_level": "A1",
+        "timestamp": 670,
+        "tags": [
+          "oraciones",
+          "cortesia",
+          "dialogo",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_35",
+        "french": "C'est très difficile d'être ici aujourd'hui.",
+        "spanish": "Es muy difícil estar aquí hoy.",
+        "english": "It is very difficult to be here today.",
+        "phonetics": "[sɛ tʁɛ di.fi.sil d‿ɛ.tʁ‿i.si o.ʒuʁ.dɥi]",
+        "tip": "Frase avanzada de nivel A2/B1 que encadena adverbio temporal, elisión infinitiva y modificador de grado.",
+        "grammar": "Oración compuesta compleja",
+        "tef_level": "A1/A2",
+        "timestamp": 684,
+        "tags": [
+          "oraciones",
+          "fluidez",
+          "desafio",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c2_36",
+        "french": "faire",
+        "spanish": "hacer",
+        "english": "to do / to make",
+        "phonetics": "[fɛʁ]",
+        "tip": "\"ai\" se pronuncia [ɛ]. Uno de los 3 verbos más utilizados en toda la lengua francesa.",
+        "grammar": "Verbo infinitivo irregular de alta frecuencia",
+        "tef_level": "A1",
+        "timestamp": 706,
+        "tags": [
+          "verbos",
+          "infinitivo",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_37",
+        "french": "le faire",
+        "spanish": "hacerlo",
+        "english": "to do it",
+        "phonetics": "[lə fɛʁ]",
+        "tip": "En francés, el pronombre de objeto directo (\"le\") se coloca DELANTE del infinitivo (\"le faire\"), nunca soldado al final como en español (\"hacerlo\").",
+        "grammar": "Posición del pronombre complemento",
+        "tef_level": "A1",
+        "timestamp": 712,
+        "tags": [
+          "pronombres",
+          "sintaxis",
+          "regla_clave",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_38",
+        "french": "C'est important de le faire.",
+        "spanish": "Es importante hacerlo.",
+        "english": "It is important to do it.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃ də lə fɛʁ]",
+        "tip": "Estructura francesa: C'est + adjetivo + \"DE\" + verbo en infinitivo.",
+        "grammar": "Régimen preposicional obligatorio (de)",
+        "tef_level": "A1",
+        "timestamp": 728,
+        "tags": [
+          "oraciones",
+          "gramatica",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_39",
+        "french": "C'est impossible de le faire.",
+        "spanish": "Es imposible hacerlo.",
+        "english": "It is impossible to do it.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔ.sibl də lə fɛʁ]",
+        "tip": "Liaison entre c'est e impossible + preposición \"de\" con \"le faire\".",
+        "grammar": "C'est + adjetivo + de + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 747,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_40",
+        "french": "avoir besoin (de)",
+        "spanish": "necesitar / tener necesidad (de)",
+        "english": "to need / to have need of",
+        "phonetics": "[a.vwaʁ bə.zwɛ̃]",
+        "tip": "En francés no se usa un verbo directo \"necesitar\", sino la locución con el verbo tener (\"avoir\") + necesidad (\"besoin\").",
+        "grammar": "Locución verbal idiomática",
+        "tef_level": "A1",
+        "timestamp": 764,
+        "tags": [
+          "locucion_verbal",
+          "idiomatico",
+          "clave",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_41",
+        "french": "J'ai besoin.",
+        "spanish": "Necesito. / Tengo necesidad.",
+        "english": "I need.",
+        "phonetics": "[ʒe bə.zwɛ̃]",
+        "tip": "Contracción obligatoria de \"Je\" + \"ai\" = \"J'ai\". \"oi\" en besoin suena \"ua\" [wɛ̃ nasal].",
+        "grammar": "Conjugación presente 1ra pers.",
+        "tef_level": "A1",
+        "timestamp": 777,
+        "tags": [
+          "conjugacion",
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_42",
+        "french": "Je n'ai pas besoin.",
+        "spanish": "No necesito. / No tengo necesidad.",
+        "english": "I do not need.",
+        "phonetics": "[ʒə n‿e pa bə.zwɛ̃]",
+        "tip": "Negación: el verbo conjugado \"ai\" queda atrapado entre \"n'\" y \"pas\".",
+        "grammar": "Negación verbal con elisión",
+        "tef_level": "A1",
+        "timestamp": 797,
+        "tags": [
+          "negacion",
+          "gramatica",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_43",
+        "french": "C'est quelque chose de difficile.",
+        "spanish": "Es algo difícil.",
+        "english": "It is something difficult.",
+        "phonetics": "[sɛ kɛl.kə.ʃoz də di.fi.sil]",
+        "tip": "\"Quelque chose\" siempre va seguido de la preposición \"de\" antes de un adjetivo.",
+        "grammar": "Quelque chose + de + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 805,
+        "tags": [
+          "gramatica",
+          "regla_clave",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c2_44",
+        "french": "C'est quelque chose de difficile mais c'est nécessaire de le faire maintenant.",
+        "spanish": "Es algo difícil pero es necesario hacerlo ahora.",
+        "english": "It is something difficult but it is necessary to do it now.",
+        "phonetics": "[sɛ kɛl.kə.ʃoz də di.fi.sil mɛ sɛ ne.sɛ.sɛʁ də lə fɛʁ mɛ̃t.nɑ̃]",
+        "tip": "🎯 PREGUNTA EXAMEN DE JUDY (CURSO 2): La prueba final de la lección 2 para unir quelque chose, conectores, régimen preposicional de infinitivo y adverbios.",
+        "grammar": "Oración compuesta compleja con conectores y régimen infinitivo",
+        "tef_level": "A1/A2",
+        "timestamp": 812,
+        "tags": [
+          "examen_final",
+          "desafio",
+          "oraciones",
+          "clave_curso",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "akCgOSj-6JY": {
+    "id": "akCgOSj-6JY",
+    "video_id": "akCgOSj-6JY",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar Frases en francés - Curso 3",
+    "channel": "Aprende Francés con Judy",
+    "lesson_number": 3,
+    "description": "Curso 3: Dominio de la necesidad y deseos en francés (\"avoir besoin de\" y \"vouloir\"), la elisión obligatoria \"d'être\", subordinadas causales con \"parce que\", y fórmulas de interrogación indirecta (\"J'ai besoin de savoir si...\") para el TEF Canada.",
+    "tef_level": "A1/A2",
+    "cards": [
+      {
+        "id": "c3_01",
+        "french": "C'est quelque chose de difficile mais c'est très nécessaire de le faire maintenant.",
+        "spanish": "Es algo difícil pero es muy necesario hacerlo ahora.",
+        "english": "It is something difficult but it is very necessary to do it now.",
+        "phonetics": "[sɛ kɛl.kə.ʃoz də di.fi.sil mɛ sɛ tʁɛ ne.sɛ.sɛʁ də lə fɛʁ mɛ̃t.nɑ̃]",
+        "tip": "Judy abre la lección 3 repasando el reto final del curso 2 uniendo quelque chose de, conector de contraste mais, y régimen de infinitivo.",
+        "grammar": "Oración compuesta compleja con conectores",
+        "tef_level": "A1/A2",
+        "timestamp": 35,
+        "tags": [
+          "oraciones",
+          "repaso",
+          "conectores",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_02",
+        "french": "le faire",
+        "spanish": "hacerlo",
+        "english": "to do it",
+        "phonetics": "[lə fɛʁ]",
+        "tip": "Pronombre objeto directo \"le\" antes del verbo en infinitivo \"faire\". La \"ai\" suena como \"è\" abierta [ɛ].",
+        "grammar": "Pronombre objeto + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 64,
+        "tags": [
+          "verbos",
+          "infinitivo",
+          "pronombres"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_03",
+        "french": "J'ai besoin de",
+        "spanish": "Necesito (tengo necesidad de)",
+        "english": "I need to / I need",
+        "phonetics": "[ʒe bə.zwɛ̃ də]",
+        "tip": "Estructura clave en francés: \"avoir besoin de\". Judy enfatiza que la preposición \"de\" es obligatoria antes del verbo o sustantivo.",
+        "grammar": "Perífrasis verbal de necesidad",
+        "tef_level": "A1",
+        "timestamp": 74,
+        "tags": [
+          "perifrasis",
+          "esencial",
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_04",
+        "french": "J'ai besoin de le faire.",
+        "spanish": "Necesito hacerlo.",
+        "english": "I need to do it.",
+        "phonetics": "[ʒe bə.zwɛ̃ də lə fɛʁ]",
+        "tip": "Enlace de tres palabras cortas: \"de le faire\". Cada \"e\" se pronuncia suave con boca redondeada [ə].",
+        "grammar": "Avoir besoin de + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 83,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_05",
+        "french": "Je n'ai pas besoin de",
+        "spanish": "No necesito",
+        "english": "I do not need to",
+        "phonetics": "[ʒə ne pa bə.zwɛ̃ də]",
+        "tip": "Negación alrededor del verbo auxiliar \"ai\": \"ne... pas\". Con la elisión se convierte en \"je n'ai pas\".",
+        "grammar": "Negación compuesta (ne ... pas)",
+        "tef_level": "A1",
+        "timestamp": 90,
+        "tags": [
+          "negacion",
+          "perifrasis"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_06",
+        "french": "Je n'ai pas besoin de le faire.",
+        "spanish": "No necesito hacerlo.",
+        "english": "I do not need to do it.",
+        "phonetics": "[ʒə ne pa bə.zwɛ̃ də lə fɛʁ]",
+        "tip": "En francés hablado coloquial, los nativos suelen omitir el \"ne\": \"J'ai pas besoin de le faire\".",
+        "grammar": "Negación + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 98,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_07",
+        "french": "être",
+        "spanish": "estar / ser",
+        "english": "to be",
+        "phonetics": "[ɛtʁ]",
+        "tip": "La \"e\" final no se pronuncia. El acento circunflejo \"ê\" indica una \"e\" abierta [ɛ].",
+        "grammar": "Verbo copulativo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 107,
+        "tags": [
+          "verbos",
+          "esencial"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_08",
+        "french": "d'être",
+        "spanish": "estar (con preposición elidida)",
+        "english": "to be (elided)",
+        "phonetics": "[d‿ɛtʁ]",
+        "tip": "Regla de elisión explicada por Judy: como \"de\" y \"être\" tienen vocales consecutivas, eliminamos la \"e\" de \"de\" y colocamos apóstrofe.",
+        "grammar": "Elisión preposicional (de + voyelle)",
+        "tef_level": "A1",
+        "timestamp": 125,
+        "tags": [
+          "fonetica",
+          "elision",
+          "gramatica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_09",
+        "french": "J'ai besoin d'être ici.",
+        "spanish": "Necesito estar aquí.",
+        "english": "I need to be here.",
+        "phonetics": "[ʒe bə.zwɛ̃ d‿ɛ.tʁ‿i.si]",
+        "tip": "Doble encadenamiento fluido: \"d'être\" [dɛtʁ] se encadena consonánticamente con \"ici\" [i.si].",
+        "grammar": "Avoir besoin de + infinitif + adverbio",
+        "tef_level": "A1",
+        "timestamp": 136,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_10",
+        "french": "Je n'ai pas besoin d'être ici.",
+        "spanish": "No necesito estar aquí.",
+        "english": "I do not need to be here.",
+        "phonetics": "[ʒə ne pa bə.zwɛ̃ d‿ɛ.tʁ‿i.si]",
+        "tip": "Negación completa. Muy útil en situaciones de examen para expresar desacuerdo o límites personales.",
+        "grammar": "Negación + régimen infinitivo",
+        "tef_level": "A1",
+        "timestamp": 161,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_11",
+        "french": "Je n'ai pas besoin d'être ici aujourd'hui.",
+        "spanish": "No necesito estar aquí hoy.",
+        "english": "I do not need to be here today.",
+        "phonetics": "[ʒə ne pa bə.zwɛ̃ d‿ɛ.tʁ‿i.si o.ʒuʁ.dɥi]",
+        "tip": "Frase compleja fluida que integra negación, elisión infinitiva y complemento circunstancial temporal.",
+        "grammar": "Oración compleja negativa + tiempo",
+        "tef_level": "A1",
+        "timestamp": 185,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_12",
+        "french": "maintenant",
+        "spanish": "ahora",
+        "english": "now",
+        "phonetics": "[mɛ̃t.nɑ̃]",
+        "tip": "Pronunciación nativa: la \"e\" central es casi muda (\"mèn-tnan\"), terminando con nasal [ɑ̃]. La \"t\" final no suena.",
+        "grammar": "Adverbio de tiempo",
+        "tef_level": "A1",
+        "timestamp": 206,
+        "tags": [
+          "adverbios",
+          "tiempo",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_13",
+        "french": "J'ai besoin de le faire maintenant.",
+        "spanish": "Necesito hacerlo ahora.",
+        "english": "I need to do it now.",
+        "phonetics": "[ʒe bə.zwɛ̃ də lə fɛʁ mɛ̃t.nɑ̃]",
+        "tip": "Oración de urgencia cotidiana de alta frecuencia.",
+        "grammar": "Avoir besoin de + infinitivo + adverbio",
+        "tef_level": "A1",
+        "timestamp": 219,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_14",
+        "french": "J'ai besoin d'être ici maintenant.",
+        "spanish": "Necesito estar aquí ahora.",
+        "english": "I need to be here now.",
+        "phonetics": "[ʒe bə.zwɛ̃ d‿ɛ.tʁ‿i.si mɛ̃t.nɑ̃]",
+        "tip": "Unión de elisión (\"d'être\"), localización (\"ici\") y momento presente (\"maintenant\").",
+        "grammar": "Avoir besoin de + infinitif + deícticos",
+        "tef_level": "A1",
+        "timestamp": 236,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_15",
+        "french": "parce que",
+        "spanish": "porque",
+        "english": "because",
+        "phonetics": "[paʁs kə]",
+        "tip": "Conector causal rey del examen TEF. Judy pide repetir: \"parce que\". La \"ce\" se funde en un solo sonido [paʁskə].",
+        "grammar": "Conjunción causal subordinante",
+        "tef_level": "A1",
+        "timestamp": 247,
+        "tags": [
+          "conectores",
+          "causa",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_16",
+        "french": "parce que c'est important",
+        "spanish": "porque es importante",
+        "english": "because it is important",
+        "phonetics": "[paʁs kə sɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison obligatoria [t] entre \"c'est\" y la vocal nasal de \"important\" [sɛ.t‿ɛ̃.pɔʁ.tɑ̃].",
+        "grammar": "Subordinada causal explicativa",
+        "tef_level": "A1",
+        "timestamp": 266,
+        "tags": [
+          "conectores",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_17",
+        "french": "parce que c'est très important",
+        "spanish": "porque es muy importante",
+        "english": "because it is very important",
+        "phonetics": "[paʁs kə sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison obligatoria sonora [z] entre \"très\" y la vocal nasal de \"important\" [tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃].",
+        "grammar": "Subordinada causal intensificada",
+        "tef_level": "A1",
+        "timestamp": 279,
+        "tags": [
+          "conectores",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_18",
+        "french": "J'ai besoin de le faire aujourd'hui parce que c'est important.",
+        "spanish": "Necesito hacerlo hoy porque es importante.",
+        "english": "I need to do it today because it is important.",
+        "phonetics": "[ʒe bə.zwɛ̃ də lə fɛʁ o.ʒuʁ.dɥi paʁs kə sɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Frase compuesta fluida que combina necesidad + acción + tiempo + justificación causal. Liaison [t] en \"c'est‿important\".",
+        "grammar": "Oración compuesta compleja con subordinada causal",
+        "tef_level": "A1/A2",
+        "timestamp": 309,
+        "tags": [
+          "oraciones",
+          "argumentacion",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_19",
+        "french": "J'ai besoin d'être ici aujourd'hui parce que c'est important.",
+        "spanish": "Necesito estar aquí hoy porque es importante.",
+        "english": "I need to be here today because it is important.",
+        "phonetics": "[ʒe bə.zwɛ̃ d‿ɛ.tʁ‿i.si o.ʒuʁ.dɥi paʁs kə sɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Variación de alta fluidez combinando elisión \"d'être ici\" con justificación causal \"parce que c'est‿important\".",
+        "grammar": "Oración compuesta compleja con subordinada causal",
+        "tef_level": "A1/A2",
+        "timestamp": 334,
+        "tags": [
+          "oraciones",
+          "argumentacion",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_20",
+        "french": "possible",
+        "spanish": "posible",
+        "english": "possible",
+        "phonetics": "[pɔ.sibl]",
+        "tip": "Cognado directo. La \"o\" es abierta [ɔ] y la \"e\" final es muda.",
+        "grammar": "Adjetivo calificativo",
+        "tef_level": "A1",
+        "timestamp": 354,
+        "tags": [
+          "adjetivos",
+          "cognados"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_21",
+        "french": "impossible",
+        "spanish": "imposible",
+        "english": "impossible",
+        "phonetics": "[ɛ̃.pɔ.sibl]",
+        "tip": "La \"im\" inicial es una vocal nasal [ɛ̃], exactamente igual que en \"important\".",
+        "grammar": "Adjetivo calificativo antonímico",
+        "tef_level": "A1",
+        "timestamp": 350,
+        "tags": [
+          "adjetivos",
+          "cognados",
+          "fonetica"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_22",
+        "french": "C'est possible.",
+        "spanish": "Es posible.",
+        "english": "It is possible.",
+        "phonetics": "[sɛ pɔ.sibl]",
+        "tip": "Frase afirmativa de valoración y disponibilidad.",
+        "grammar": "C'est + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 361,
+        "tags": [
+          "expresiones",
+          "oraciones"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_23",
+        "french": "Ce n'est pas possible.",
+        "spanish": "No es posible.",
+        "english": "It is not possible.",
+        "phonetics": "[sə ne pa pɔ.sibl]",
+        "tip": "Negación estándar con \"ce n'est pas\". En habla oral coloquial suele decirse \"c'est pas possible\" [sɛ pa pɔsibl].",
+        "grammar": "Negación predicativa",
+        "tef_level": "A1",
+        "timestamp": 369,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_24",
+        "french": "Maintenant ce n'est pas possible.",
+        "spanish": "Ahora no es posible.",
+        "english": "Now it is not possible.",
+        "phonetics": "[mɛ̃t.nɑ̃ sə ne pa pɔ.sibl]",
+        "tip": "Adverbio temporal al inicio que da tono asertivo y natural a la respuesta.",
+        "grammar": "Adverbio + oración negativa",
+        "tef_level": "A1",
+        "timestamp": 380,
+        "tags": [
+          "oraciones",
+          "comunicacion",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_25",
+        "french": "savoir",
+        "spanish": "saber",
+        "english": "to know",
+        "phonetics": "[sa.vwaʁ]",
+        "tip": "Verbo en infinitivo de tercer grupo. El diptongo \"oi\" se pronuncia como [wa].",
+        "grammar": "Verbo transitivo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 395,
+        "tags": [
+          "verbos",
+          "esencial"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_26",
+        "french": "J'ai besoin de savoir",
+        "spanish": "Necesito saber",
+        "english": "I need to know",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ]",
+        "tip": "La fórmula reina para iniciar preguntas formales en el examen TEF (Speaking Sección A - Demande d'informations).",
+        "grammar": "Perífrasis de necesidad + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 411,
+        "tags": [
+          "expresiones",
+          "comunicacion",
+          "tef_speaking",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_27",
+        "french": "si",
+        "spanish": "si (condicional / duda)",
+        "english": "if / whether",
+        "phonetics": "[si]",
+        "tip": "Judy explica que el \"si\" condicional o interrogativo indirecto se pronuncia como una [i] clara y cerrada.",
+        "grammar": "Conjunción subordinante interrogativa indirecta",
+        "tef_level": "A1",
+        "timestamp": 423,
+        "tags": [
+          "conectores",
+          "condicion"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_28",
+        "french": "si c'est possible",
+        "spanish": "si es posible",
+        "english": "if it is possible",
+        "phonetics": "[si sɛ pɔ.sibl]",
+        "tip": "Fórmula de cortesía interrogativa indirecta para consultas presenciales o telefónicas.",
+        "grammar": "Cláusula condicional subordinada",
+        "tef_level": "A1",
+        "timestamp": 447,
+        "tags": [
+          "cortesia",
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_29",
+        "french": "si c'est possible pour moi",
+        "spanish": "si es posible para mí",
+        "english": "if it is possible for me",
+        "phonetics": "[si sɛ pɔ.sibl puʁ mwa]",
+        "tip": "Agrega el pronombre tónico \"pour moi\" al final para personalizar la consulta.",
+        "grammar": "Cláusula condicional + sintagma preposicional",
+        "tef_level": "A1",
+        "timestamp": 459,
+        "tags": [
+          "cortesia",
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_30",
+        "french": "J'ai besoin de savoir si c'est possible.",
+        "spanish": "Necesito saber si es posible.",
+        "english": "I need to know if it is possible.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ pɔ.sibl]",
+        "tip": "Oración compuesta fluida indispensable para el diálogo de rol formal en TEF Speaking Sección A.",
+        "grammar": "Oración compleja subordinada sustantiva",
+        "tef_level": "A1/A2",
+        "timestamp": 472,
+        "tags": [
+          "oraciones",
+          "tef_speaking",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_31",
+        "french": "J'ai besoin de savoir si c'est possible aujourd'hui.",
+        "spanish": "Necesito saber si es posible hoy.",
+        "english": "I need to know if it is possible today.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ pɔ.sibl o.ʒuʁ.dɥi]",
+        "tip": "Oración con precisión de tiempo para solicitar citas o confirmar disponibilidad.",
+        "grammar": "Oración compleja subordinada + adverbio temporal",
+        "tef_level": "A1/A2",
+        "timestamp": 498,
+        "tags": [
+          "oraciones",
+          "tef_speaking",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_32",
+        "french": "de le faire",
+        "spanish": "hacerlo (con régimen preposicional)",
+        "english": "to do it (with preposition)",
+        "phonetics": "[də lə fɛʁ]",
+        "tip": "En francés, \"c'est possible\" rige la preposición \"de\" antes de cualquier verbo en infinitivo.",
+        "grammar": "Régimen preposicional de infinitivo",
+        "tef_level": "A1",
+        "timestamp": 521,
+        "tags": [
+          "gramatica",
+          "regimen_preposicional"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_33",
+        "french": "J'ai besoin de savoir si c'est possible de le faire aujourd'hui.",
+        "spanish": "Necesito saber si es posible hacerlo hoy.",
+        "english": "I need to know if it is possible to do it today.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ pɔ.sibl də lə fɛʁ o.ʒuʁ.dɥi]",
+        "tip": "Estructura multicapa: Necesidad (\"j'ai besoin\") + Consulta (\"de savoir\") + Condicional (\"si c'est possible\") + Régimen (\"de le faire\") + Tiempo (\"aujourd'hui\").",
+        "grammar": "Oración compleja subordinada múltiple",
+        "tef_level": "A2",
+        "timestamp": 526,
+        "tags": [
+          "oraciones",
+          "tef_speaking",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_34",
+        "french": "J'ai besoin de savoir si c'est possible de le faire maintenant parce que c'est très important.",
+        "spanish": "Necesito saber si es posible hacerlo ahora porque es muy importante.",
+        "english": "I need to know if it is possible to do it now because it is very important.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ pɔ.sibl də lə fɛʁ mɛ̃t.nɑ̃ paʁs kə sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "🏆 CUMBRE DEL CURSO 3: Frase de nivel B1 que une 4 cláusulas fluidas. Liaison sonora [z] en \"très‿important\".",
+        "grammar": "Oración compuesta subordinada causal compleja",
+        "tef_level": "A2/B1",
+        "timestamp": 560,
+        "tags": [
+          "oraciones",
+          "argumentacion",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_35",
+        "french": "quelque chose",
+        "spanish": "algo",
+        "english": "something",
+        "phonetics": "[kɛl.kə ʃoz]",
+        "tip": "Pronunciación: \"quelque\" [kɛlkə] + \"chose\" [ʃoz]. La \"s\" final es sonora [z]. Siempre rige \"de/d'\" ante adjetivos.",
+        "grammar": "Pronombre indefinido",
+        "tef_level": "A1",
+        "timestamp": 580,
+        "tags": [
+          "vocabulario",
+          "esencial"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_36",
+        "french": "quelque chose d'important",
+        "spanish": "algo importante",
+        "english": "something important",
+        "phonetics": "[kɛl.kə ʃoz d‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Régimen preposicional obligatorio: \"quelque chose\" exige \"de\" (elidido en \"d'\") antes del adjetivo calificativo.",
+        "grammar": "Pronombre indefinido + preposición + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 598,
+        "tags": [
+          "expresiones",
+          "gramatica",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_37",
+        "french": "J'ai besoin de savoir si c'est quelque chose d'important.",
+        "spanish": "Necesito saber si es algo importante.",
+        "english": "I need to know if it is something important.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ kɛl.kə ʃoz d‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Estructura sofisticada para pedir clarificación o prioridad sobre un asunto en el trabajo o vida diaria.",
+        "grammar": "Oración compleja subordinada sustantiva",
+        "tef_level": "A2",
+        "timestamp": 604,
+        "tags": [
+          "oraciones",
+          "comunicacion",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c3_38",
+        "french": "vouloir",
+        "spanish": "querer",
+        "english": "to want",
+        "phonetics": "[vu.lwaʁ]",
+        "tip": "Verbo modal de tercer grupo indispensable para expresar deseos, peticiones y voluntad.",
+        "grammar": "Verbo modal en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 624,
+        "tags": [
+          "verbos",
+          "modales",
+          "esencial"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_39",
+        "french": "Je veux",
+        "spanish": "Quiero",
+        "english": "I want",
+        "phonetics": "[ʒə vø]",
+        "tip": "La \"x\" final es muda. La combinación \"eu\" produce el sonido labial cerrado francés [ø].",
+        "grammar": "Presente de indicativo (1ª persona singular)",
+        "tef_level": "A1",
+        "timestamp": 630,
+        "tags": [
+          "verbos",
+          "modales",
+          "esencial"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_40",
+        "french": "Je veux le faire.",
+        "spanish": "Quiero hacerlo.",
+        "english": "I want to do it.",
+        "phonetics": "[ʒə vø lə fɛʁ]",
+        "tip": "Pronunciación rítmica de 4 sílabas limpias: \"zhe-vö-le-fèr\".",
+        "grammar": "Verbo modal + pronombre + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 652,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_41",
+        "french": "Je veux le faire aujourd'hui.",
+        "spanish": "Quiero hacerlo hoy.",
+        "english": "I want to do it today.",
+        "phonetics": "[ʒə vø lə fɛʁ o.ʒuʁ.dɥi]",
+        "tip": "Expresión de intención y voluntad directa para conversaciones diarias.",
+        "grammar": "Modal + infinitivo + adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 665,
+        "tags": [
+          "oraciones",
+          "esencial",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_42",
+        "french": "Je ne veux pas",
+        "spanish": "No quiero",
+        "english": "I do not want",
+        "phonetics": "[ʒə nə vø pa]",
+        "tip": "Negación formal. La \"s\" de \"pas\" es muda. En el habla oral informal se escucha \"Je veux pas\" [ʒvøpa].",
+        "grammar": "Negación regular de presente",
+        "tef_level": "A1",
+        "timestamp": 677,
+        "tags": [
+          "negacion",
+          "verbos"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_43",
+        "french": "comme ça",
+        "spanish": "así / de esta manera",
+        "english": "like that / this way",
+        "phonetics": "[kɔm sa]",
+        "tip": "La \"ç\" con cedilla se pronuncia como \"s\" sorda [s]. La \"e\" de \"comme\" se apocopa ante consonante.",
+        "grammar": "Locución adverbial de modo",
+        "tef_level": "A1",
+        "timestamp": 696,
+        "tags": [
+          "expresiones",
+          "adverbios"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_44",
+        "french": "Je ne veux pas le faire comme ça.",
+        "spanish": "No quiero hacerlo así.",
+        "english": "I do not want to do it like that.",
+        "phonetics": "[ʒə nə vø pa lə fɛʁ kɔm sa]",
+        "tip": "Fórmula cortés y asertiva para rechazar una propuesta o indicar una preferencia distinta.",
+        "grammar": "Negación modal + objeto + locución de modo",
+        "tef_level": "A1/A2",
+        "timestamp": 711,
+        "tags": [
+          "oraciones",
+          "asertividad",
+          "tef_star"
+        ],
+        "is_tef_key": true,
+        "is_complex": false
+      },
+      {
+        "id": "c3_45",
+        "french": "Je veux pas le faire comme ça.",
+        "spanish": "No quiero hacerlo así (francés oral coloquial).",
+        "english": "I don't want to do it like that (spoken French).",
+        "phonetics": "[ʒvø pa lə fɛʁ kɔm sa]",
+        "tip": "Judy resalta explícitamente cómo hablan los franceses nativos en la calle, elidiendo el \"ne\" y contrayendo \"je veux\".",
+        "grammar": "Registro oral coloquial (omisión de \"ne\")",
+        "tef_level": "A1/A2",
+        "timestamp": 721,
+        "tags": [
+          "oral",
+          "coloquial",
+          "fluidez"
+        ],
+        "is_tef_key": false,
+        "is_complex": false
+      },
+      {
+        "id": "c3_46",
+        "french": "Je veux savoir si c'est facile pour moi de le faire.",
+        "spanish": "Quiero saber si es fácil para mí hacerlo.",
+        "english": "I want to know if it is easy for me to do it.",
+        "phonetics": "[ʒə vø sa.vwaʁ si sɛ fa.sil puʁ mwa də lə fɛʁ]",
+        "tip": "🎯 PREGUNTA EXAMEN DE JUDY (CURSO 3): La prueba final de la lección para unir \"vouloir + savoir + si + c'est facile pour moi + de le faire\". ¡Escríbela en los comentarios!",
+        "grammar": "Oración compleja compuesta con interrogativa indirecta e infinitivo",
+        "tef_level": "A2",
+        "timestamp": 735,
+        "tags": [
+          "examen_final",
+          "desafio",
+          "oraciones",
+          "clave_curso",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "AoEL9H99iMM": {
+    "id": "AoEL9H99iMM",
+    "video_id": "AoEL9H99iMM",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar Frases en francés - Curso 4",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 897,
+    "lesson_number": 4,
+    "tef_level": "A1/A2",
+    "description": "Curso 4: Dominio de verbos modales 'je dois' (deber/tener que) y 'je peux' (poder), adverbios de tiempo 'cette nuit' y 'plus tard', partículas interrogativas 'est-ce que' y locuciones esenciales como 'comme ça' y 'c'est parfait pour moi'.",
+    "thumbnail": "https://img.youtube.com/vi/AoEL9H99iMM/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c4_01",
+        "french": "Je veux savoir si c'est facile pour moi de le faire aujourd'hui.",
+        "spanish": "Quiero saber si es fácil para mí hacerlo hoy.",
+        "english": "I want to know if it is easy for me to do it today.",
+        "phonetics": "[ʒə vø sa.vwaʁ si sɛ fa.sil puʁ mwa də lə fɛʁ o.ʒuʁ.dɥi]",
+        "tip": "Judy abre el Curso 4 repasando el reto final del curso anterior uniendo querer saber con régimen de infinitivo 'de le faire'.",
+        "grammar": "Oración compuesta con condicional indirecto y régimen verbal",
+        "tef_level": "A1/A2",
+        "timestamp": 41,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c4_02",
+        "french": "facile",
+        "spanish": "fácil",
+        "english": "easy",
+        "phonetics": "[fa.sil]",
+        "tip": "Adjetivo regular. La 'c' suena suave como 's' [s] y la 'e' final es muda.",
+        "grammar": "Adjetivo calificativo",
+        "tef_level": "A1",
+        "timestamp": 23,
+        "tags": [
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c4_03",
+        "french": "C'est possible de le faire.",
+        "spanish": "Es posible hacerlo.",
+        "english": "It is possible to do it.",
+        "phonetics": "[sɛ pɔ.sibl də lə fɛʁ]",
+        "tip": "Regla clave de Judy: en español decimos 'es posible hacerlo', pero en francés es obligatorio añadir la preposición 'de' antes del infinitivo.",
+        "grammar": "Estructura impersonal + de + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 64,
+        "tags": [
+          "gramatica",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_04",
+        "french": "Je veux savoir si c'est pour moi.",
+        "spanish": "Quiero saber si es para mí.",
+        "english": "I want to know if it is for me.",
+        "phonetics": "[ʒə vø sa.vwaʁ si sɛ puʁ mwa]",
+        "tip": "Uso del pronombre tónico 'moi' tras la preposición 'pour'.",
+        "grammar": "Interrogación indirecta con si",
+        "tef_level": "A1",
+        "timestamp": 115,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_05",
+        "french": "être",
+        "spanish": "estar / ser",
+        "english": "to be",
+        "phonetics": "[ɛtʁ]",
+        "tip": "Verbo auxiliar por excelencia. La 'e' final no se pronuncia.",
+        "grammar": "Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 127,
+        "tags": [
+          "verbos",
+          "esenciales"
+        ]
+      },
+      {
+        "id": "c4_06",
+        "french": "Je veux être ici.",
+        "spanish": "Quiero estar aquí.",
+        "english": "I want to be here.",
+        "phonetics": "[ʒə vø.t‿ɛtʁ i.si]",
+        "tip": "Encadenamiento consonántico de 'être' con el adverbio de lugar 'ici'.",
+        "grammar": "Vouloir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 144,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_07",
+        "french": "Je ne veux pas être ici maintenant.",
+        "spanish": "No quiero estar aquí ahora.",
+        "english": "I don't want to be here now.",
+        "phonetics": "[ʒə nə vø pa ɛtʁ i.si mɛ̃t.nɑ̃]",
+        "tip": "Estructura negativa 'ne... pas' rodeando al verbo conjugado 'veux'.",
+        "grammar": "Negación verbal",
+        "tef_level": "A1",
+        "timestamp": 157,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_08",
+        "french": "J'ai besoin de savoir si c'est important.",
+        "spanish": "Necesito saber si es importante.",
+        "english": "I need to know if it is important.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison obligatoria [t] entre 'c'est' y la vocal nasal de 'important'.",
+        "grammar": "Avoir besoin de + interrogación indirecta",
+        "tef_level": "A1/A2",
+        "timestamp": 217,
+        "tags": [
+          "liaison",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_09",
+        "french": "C'est important pour moi et j'ai besoin de savoir si c'est possible de le faire aujourd'hui.",
+        "spanish": "Es importante para mí y necesito saber si es posible hacerlo hoy.",
+        "english": "It is important to me and I need to know if it is possible to do it today.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa e ʒe bə.zwɛ̃ də sa.vwaʁ si sɛ pɔ.sibl də lə fɛʁ o.ʒuʁ.dɥi]",
+        "tip": "Oración compuesta fundamental para la interacción formal del examen TEF (solicitud de información).",
+        "grammar": "Oración compuesta con coordinación y régimen preposicional",
+        "tef_level": "A2",
+        "timestamp": 247,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c4_10",
+        "french": "C'est nécessaire pour moi et je veux savoir si c'est possible de le faire aujourd'hui.",
+        "spanish": "Es necesario para mí y quiero saber si es posible hacerlo hoy.",
+        "english": "It is necessary for me and I want to know if it is possible to do it today.",
+        "phonetics": "[sɛ ne.sɛ.sɛʁ puʁ mwa e ʒə vø sa.vwaʁ si sɛ pɔ.sibl də lə fɛʁ o.ʒuʁ.dɥi]",
+        "tip": "Variación clave usando 'c'est nécessaire' en lugar de 'c'est important'.",
+        "grammar": "Oración compuesta de justificación y consulta",
+        "tef_level": "A2",
+        "timestamp": 309,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c4_11",
+        "french": "sortir",
+        "spanish": "salir",
+        "english": "to go out / to leave",
+        "phonetics": "[sɔʁ.tiʁ]",
+        "tip": "Verbo de tercer grupo. La 'r' final se pronuncia suave con fricativa uvular [ʁ].",
+        "grammar": "Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 335,
+        "tags": [
+          "verbos",
+          "accion"
+        ]
+      },
+      {
+        "id": "c4_12",
+        "french": "J'ai besoin de sortir aujourd'hui.",
+        "spanish": "Necesito salir hoy.",
+        "english": "I need to go out today.",
+        "phonetics": "[ʒe bə.zwɛ̃ də sɔʁ.tiʁ o.ʒuʁ.dɥi]",
+        "tip": "Estructura 'avoir besoin de' seguida del infinitivo 'sortir'.",
+        "grammar": "Avoir besoin de + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 347,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_13",
+        "french": "Je veux sortir maintenant.",
+        "spanish": "Quiero salir ahora.",
+        "english": "I want to go out now.",
+        "phonetics": "[ʒə vø sɔʁ.tiʁ mɛ̃t.nɑ̃]",
+        "tip": "Construcción modal de intención inmediata con adverbio temporal.",
+        "grammar": "Vouloir + Infinitivo + Adverbio",
+        "tef_level": "A1",
+        "timestamp": 355,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_14",
+        "french": "la nuit",
+        "spanish": "la noche",
+        "english": "the night",
+        "phonetics": "[la nɥi]",
+        "tip": "Sustantivo femenino. La 'ui' se pronuncia [ɥi] juntando los labios y la 't' final es muda.",
+        "grammar": "Sustantivo femenino",
+        "tef_level": "A1",
+        "timestamp": 368,
+        "tags": [
+          "vocabulario",
+          "tiempo"
+        ]
+      },
+      {
+        "id": "c4_15",
+        "french": "cette nuit",
+        "spanish": "esta noche",
+        "english": "tonight",
+        "phonetics": "[sɛt nɥi]",
+        "tip": "Demostrativo femenino 'cette' ante sustantivo femenino. Ambas palabras son muy cortas y enérgicas.",
+        "grammar": "Adjetivo demostrativo femenino",
+        "tef_level": "A1",
+        "timestamp": 398,
+        "tags": [
+          "tiempo",
+          "demostrativos"
+        ]
+      },
+      {
+        "id": "c4_16",
+        "french": "Je veux sortir cette nuit.",
+        "spanish": "Quiero salir esta noche.",
+        "english": "I want to go out tonight.",
+        "phonetics": "[ʒə vø sɔʁ.tiʁ sɛt nɥi]",
+        "tip": "Frase cotidiana para hacer planes o expresar deseos sociales.",
+        "grammar": "Vouloir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 402,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_17",
+        "french": "Je ne veux pas sortir cette nuit.",
+        "spanish": "No quiero salir esta noche.",
+        "english": "I don't want to go out tonight.",
+        "phonetics": "[ʒə nə vø pa sɔʁ.tiʁ sɛt nɥi]",
+        "tip": "Negación verbal rodeando 'veux'.",
+        "grammar": "Negación",
+        "tef_level": "A1",
+        "timestamp": 416,
+        "tags": [
+          "oraciones",
+          "negacion"
+        ]
+      },
+      {
+        "id": "c4_18",
+        "french": "Je dois",
+        "spanish": "Tengo que / Debo",
+        "english": "I must / I have to",
+        "phonetics": "[ʒə dwa]",
+        "tip": "Del verbo modal 'devoir'. El diptongo 'oi' suena [wa] y la 's' final no se pronuncia.",
+        "grammar": "Verbo devoir (1ª persona singular presente)",
+        "tef_level": "A1",
+        "timestamp": 448,
+        "tags": [
+          "verbos",
+          "modales",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_19",
+        "french": "Je dois sortir",
+        "spanish": "Tengo que salir",
+        "english": "I have to go out",
+        "phonetics": "[ʒə dwa sɔʁ.tiʁ]",
+        "tip": "Obligación directa con 'devoir' sin necesidad de preposición intermedia.",
+        "grammar": "Devoir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 463,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_20",
+        "french": "Je dois sortir aujourd'hui.",
+        "spanish": "Tengo que salir hoy.",
+        "english": "I have to go out today.",
+        "phonetics": "[ʒə dwa sɔʁ.tiʁ o.ʒuʁ.dɥi]",
+        "tip": "Expresión de obligación temporal cotidiana.",
+        "grammar": "Devoir + Infinitivo + Adverbio",
+        "tef_level": "A1",
+        "timestamp": 478,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_21",
+        "french": "Je dois sortir cette nuit.",
+        "spanish": "Tengo que salir esta noche.",
+        "english": "I have to go out tonight.",
+        "phonetics": "[ʒə dwa sɔʁ.tiʁ sɛt nɥi]",
+        "tip": "Obligación fijada en la noche.",
+        "grammar": "Devoir + Infinitivo + Demostrativo",
+        "tef_level": "A1",
+        "timestamp": 487,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_22",
+        "french": "Je dois être ici.",
+        "spanish": "Tengo que estar aquí.",
+        "english": "I have to be here.",
+        "phonetics": "[ʒə dwa.t‿ɛtʁ i.si]",
+        "tip": "Obligación de presencia física. Muy común en el ámbito laboral y de citas.",
+        "grammar": "Devoir + être",
+        "tef_level": "A1",
+        "timestamp": 504,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_23",
+        "french": "Je dois être ici cette nuit parce que c'est très important.",
+        "spanish": "Tengo que estar aquí esta noche porque es muy importante.",
+        "english": "I have to be here tonight because it is very important.",
+        "phonetics": "[ʒə dwa.t‿ɛtʁ i.si sɛt nɥi paʁs kə sɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison obligatoria sonora [z] en 'très‿important'. Frase compuesta para dar razones claras.",
+        "grammar": "Oración compuesta con conector causal parce que y liaison sonora",
+        "tef_level": "A1/A2",
+        "timestamp": 525,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c4_24",
+        "french": "Je dois savoir.",
+        "spanish": "Tengo que saber.",
+        "english": "I have to know.",
+        "phonetics": "[ʒə dwa sa.vwaʁ]",
+        "tip": "Devoir seguido directamente por infinitivo 'savoir'.",
+        "grammar": "Devoir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 564,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_25",
+        "french": "Je dois le faire.",
+        "spanish": "Tengo que hacerlo.",
+        "english": "I have to do it.",
+        "phonetics": "[ʒə dwa lə fɛʁ]",
+        "tip": "El pronombre objeto directo 'le' se coloca justo antes del verbo en infinitivo.",
+        "grammar": "Pronombre objeto antes del infinitivo",
+        "tef_level": "A1",
+        "timestamp": 574,
+        "tags": [
+          "oraciones",
+          "pronombres",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_26",
+        "french": "C'est important et je dois le faire cette nuit.",
+        "spanish": "Es importante y tengo que hacerlo esta noche.",
+        "english": "It is important and I have to do it tonight.",
+        "phonetics": "[sɛ.t‿ɛ̃.pɔʁ.tɑ̃ e ʒə dwa lə fɛʁ sɛt nɥi]",
+        "tip": "Liaison facultativa/frecuente en 'c'est‿important' y conjunción de coordinación 'et'.",
+        "grammar": "Oración coordinada con et",
+        "tef_level": "A1",
+        "timestamp": 591,
+        "tags": [
+          "oraciones",
+          "coordinacion"
+        ]
+      },
+      {
+        "id": "c4_27",
+        "french": "parfait",
+        "spanish": "perfecto",
+        "english": "perfect",
+        "phonetics": "[paʁ.fɛ]",
+        "tip": "El diptongo 'ai' suena como 'è' abierta [ɛ]. La 't' final no se pronuncia.",
+        "grammar": "Adjetivo masculino",
+        "tef_level": "A1",
+        "timestamp": 611,
+        "tags": [
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c4_28",
+        "french": "C'est parfait pour moi.",
+        "spanish": "Es perfecto para mí.",
+        "english": "It is perfect for me.",
+        "phonetics": "[sɛ paʁ.fɛ puʁ mwa]",
+        "tip": "Fórmula indispensable para aceptar propuestas o acordar horarios en el speaking TEF.",
+        "grammar": "Fórmula evaluativa",
+        "tef_level": "A1",
+        "timestamp": 616,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_29",
+        "french": "comme ça",
+        "spanish": "así / de esta manera",
+        "english": "like this / like that",
+        "phonetics": "[kɔm sa]",
+        "tip": "La 'ç' con cedilla suena siempre sorda [s]. Locución adverbial fundamental en francés.",
+        "grammar": "Locución adverbial de modo",
+        "tef_level": "A1",
+        "timestamp": 629,
+        "tags": [
+          "adverbios",
+          "modismos",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_30",
+        "french": "C'est normal comme ça.",
+        "spanish": "Es normal así.",
+        "english": "It is normal like that.",
+        "phonetics": "[sɛ nɔʁ.mal kɔm sa]",
+        "tip": "Estructura descriptiva cotidiana.",
+        "grammar": "Oración atributiva",
+        "tef_level": "A1",
+        "timestamp": 633,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_31",
+        "french": "Est-ce que",
+        "spanish": "¿Acaso...? (marcador de pregunta)",
+        "english": "Is it...? / Do...?",
+        "phonetics": "[ɛs kə]",
+        "tip": "Partícula interrogativa universal en francés para formular preguntas cerradas.",
+        "grammar": "Partícula interrogativa",
+        "tef_level": "A1",
+        "timestamp": 634,
+        "tags": [
+          "preguntas",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_32",
+        "french": "Est-ce que c'est normal comme ça ?",
+        "spanish": "¿Es normal así?",
+        "english": "Is it normal like that?",
+        "phonetics": "[ɛs kə sɛ nɔʁ.mal kɔm sa]",
+        "tip": "Pregunta de verificación indispensable para la Sección A del TEF.",
+        "grammar": "Interrogación con est-ce que",
+        "tef_level": "A1",
+        "timestamp": 638,
+        "tags": [
+          "preguntas",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_33",
+        "french": "Ce n'est pas impossible.",
+        "spanish": "No es imposible.",
+        "english": "It is not impossible.",
+        "phonetics": "[sə ne pa ɛ̃.pɔ.sibl]",
+        "tip": "Negación formal estándar 'ce n'est pas' con vocal nasal [ɛ̃] en impossible.",
+        "grammar": "Negación formal",
+        "tef_level": "A1",
+        "timestamp": 671,
+        "tags": [
+          "oraciones",
+          "negacion"
+        ]
+      },
+      {
+        "id": "c4_34",
+        "french": "quelque chose",
+        "spanish": "algo",
+        "english": "something",
+        "phonetics": "[kɛl.kə ʃoz]",
+        "tip": "Pronombre indefinido compuesto de altísima frecuencia.",
+        "grammar": "Pronombre indefinido",
+        "tef_level": "A1",
+        "timestamp": 683,
+        "tags": [
+          "vocabulario",
+          "indefinidos"
+        ]
+      },
+      {
+        "id": "c4_35",
+        "french": "C'est quelque chose pour moi.",
+        "spanish": "Es algo para mí.",
+        "english": "It is something for me.",
+        "phonetics": "[sɛ kɛl.kə ʃoz puʁ mwa]",
+        "tip": "Estructura declarativa simple.",
+        "grammar": "Oración atributiva",
+        "tef_level": "A1",
+        "timestamp": 702,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_36",
+        "french": "Est-ce que c'est quelque chose pour moi ?",
+        "spanish": "¿Es algo para mí?",
+        "english": "Is it something for me?",
+        "phonetics": "[ɛs kə sɛ kɛl.kə ʃoz puʁ mwa]",
+        "tip": "Pregunta con 'est-ce que' para indagar si una actividad o servicio es adecuado.",
+        "grammar": "Interrogación con est-ce que",
+        "tef_level": "A1",
+        "timestamp": 710,
+        "tags": [
+          "preguntas",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_37",
+        "french": "C'est très bon ici.",
+        "spanish": "Es muy bueno aquí.",
+        "english": "It is very good here.",
+        "phonetics": "[sɛ tʁɛ bɔ̃ i.si]",
+        "tip": "Valoración positiva sobre calidad de un lugar o comida.",
+        "grammar": "Oración atributiva con adverbio",
+        "tef_level": "A1",
+        "timestamp": 723,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_38",
+        "french": "C'est fantastique comme ça.",
+        "spanish": "Es fantástico así.",
+        "english": "It is fantastic like that.",
+        "phonetics": "[sɛ fɑ̃.tas.tik kɔm sa]",
+        "tip": "Adjetivo cognado con nasal inicial [fɑ̃] seguido de 'comme ça'.",
+        "grammar": "Oración atributiva",
+        "tef_level": "A1",
+        "timestamp": 745,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_39",
+        "french": "Ce n'est pas possible de le faire cette nuit.",
+        "spanish": "No es posible hacerlo esta noche.",
+        "english": "It is not possible to do it tonight.",
+        "phonetics": "[sə ne pa pɔ.sibl də lə fɛʁ sɛt nɥi]",
+        "tip": "Estructura negativa impersonal con régimen 'de le faire'.",
+        "grammar": "Negación impersonal + de + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 769,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_40",
+        "french": "Je peux",
+        "spanish": "Puedo",
+        "english": "I can",
+        "phonetics": "[ʒə pø]",
+        "tip": "Verbo modal 'pouvoir' en primera persona. La combinación 'eu' suena cerrada [ø] con labios redondeados.",
+        "grammar": "Verbo pouvoir (presente)",
+        "tef_level": "A1",
+        "timestamp": 772,
+        "tags": [
+          "verbos",
+          "modales",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_41",
+        "french": "Je peux sortir",
+        "spanish": "Puedo salir",
+        "english": "I can go out",
+        "phonetics": "[ʒə pø sɔʁ.tiʁ]",
+        "tip": "Pouvoir rige infinitivo directo sin preposición.",
+        "grammar": "Pouvoir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 788,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c4_42",
+        "french": "plus tard",
+        "spanish": "más tarde",
+        "english": "later",
+        "phonetics": "[ply taʁ]",
+        "tip": "La 's' de 'plus' y la 'd' final de 'tard' son mudas. La 'u' es cerrada francesa [y].",
+        "grammar": "Locución adverbial temporal",
+        "tef_level": "A1",
+        "timestamp": 800,
+        "tags": [
+          "adverbios",
+          "tiempo",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_43",
+        "french": "Je peux sortir plus tard.",
+        "spanish": "Puedo salir más tarde.",
+        "english": "I can go out later.",
+        "phonetics": "[ʒə pø sɔʁ.tiʁ ply taʁ]",
+        "tip": "Frase clave para proponer alternativas de horarios en Speaking TEF.",
+        "grammar": "Pouvoir + Infinitivo + Adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 818,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_44",
+        "french": "Je peux le faire plus tard.",
+        "spanish": "Puedo hacerlo más tarde.",
+        "english": "I can do it later.",
+        "phonetics": "[ʒə pø lə fɛʁ ply taʁ]",
+        "tip": "Pronombre 'le' intercalado entre 'peux' y 'faire'.",
+        "grammar": "Pouvoir + Pronombre + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 833,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_45",
+        "french": "Je peux être ici plus tard.",
+        "spanish": "Puedo estar aquí más tarde.",
+        "english": "I can be here later.",
+        "phonetics": "[ʒə pø.t‿ɛtʁ i.si ply taʁ]",
+        "tip": "Liaison / encadenamiento con 'être ici' y culminación temporal con 'plus tard'.",
+        "grammar": "Pouvoir + être + Adverbios",
+        "tef_level": "A1",
+        "timestamp": 851,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c4_46",
+        "french": "C'est normal d'être ici cette nuit parce que c'est très bon et fantastique.",
+        "spanish": "Es normal estar aquí esta noche porque es muy bueno y fantástico.",
+        "english": "It is normal to be here tonight because it is very good and fantastic.",
+        "phonetics": "[sɛ nɔʁ.mal d‿ɛtʁ i.si sɛt nɥi paʁs kə sɛ tʁɛ bɔ̃ e fɑ̃.tas.tik]",
+        "tip": "🏆 RETO FINAL DEL CURSO 4 (Examen de Judy): Integra elisión 'd'être ici', complemento 'cette nuit' y justificación causal.",
+        "grammar": "Oración compleja de cierre con elisión, justificación y coordinación",
+        "tef_level": "A1/A2",
+        "timestamp": 875,
+        "tags": [
+          "reto_examen",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "jNOcf8Ts578": {
+    "id": "jNOcf8Ts578",
+    "video_id": "jNOcf8Ts578",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar frases en francés - Curso 5",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 892,
+    "lesson_number": 5,
+    "tef_level": "A1/A2",
+    "description": "Curso 5: Negación modal 'je ne peux pas', planificación futura con 'demain', conjunción disyuntiva 'ou', y dominio exhaustivo de 'tout' (todo) con liaison obligatoria 'tout‿est', 'tout‿est‿important' y 'tout est parfait comme ça'.",
+    "thumbnail": "https://img.youtube.com/vi/jNOcf8Ts578/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c5_01",
+        "french": "C'est normal d'être ici cette nuit parce que c'est très bon et fantastique.",
+        "spanish": "Es normal estar aquí esta noche porque es muy bueno y fantástico.",
+        "english": "It is normal to be here tonight because it is very good and fantastic.",
+        "phonetics": "[sɛ nɔʁ.mal d‿ɛtʁ i.si sɛt nɥi paʁs kə sɛ tʁɛ bɔ̃ e fɑ̃.tas.tik]",
+        "tip": "Judy abre el Curso 5 respondiendo al examen final de la lección 4.",
+        "grammar": "Repaso del examen anterior",
+        "tef_level": "A1/A2",
+        "timestamp": 20,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c5_02",
+        "french": "Je ne peux pas",
+        "spanish": "No puedo",
+        "english": "I cannot / I can't",
+        "phonetics": "[ʒə nə pø pa]",
+        "tip": "Negación del verbo pouvoir. La estructura 'ne... pas' abraza la forma verbal 'peux'.",
+        "grammar": "Negación de poder",
+        "tef_level": "A1",
+        "timestamp": 62,
+        "tags": [
+          "verbos",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_03",
+        "french": "demain",
+        "spanish": "mañana (el día de mañana)",
+        "english": "tomorrow",
+        "phonetics": "[də.mɛ̃]",
+        "tip": "La terminación 'ain' se pronuncia con vocal nasal abierta [ɛ̃]. Judy explica que la 'e' de 'de' es muy suave.",
+        "grammar": "Adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 75,
+        "tags": [
+          "vocabulario",
+          "tiempo",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_04",
+        "french": "Je ne peux pas être ici demain.",
+        "spanish": "No puedo estar aquí mañana.",
+        "english": "I cannot be here tomorrow.",
+        "phonetics": "[ʒə nə pø pa ɛtʁ i.si də.mɛ̃]",
+        "tip": "Frase indispensable para reagendar citas o indicar imposibilidad temporal.",
+        "grammar": "Negación + Infinitivo + Tiempo",
+        "tef_level": "A1",
+        "timestamp": 100,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_05",
+        "french": "Je ne peux pas le faire demain.",
+        "spanish": "No puedo hacerlo mañana.",
+        "english": "I cannot do it tomorrow.",
+        "phonetics": "[ʒə nə pø pa lə fɛʁ də.mɛ̃]",
+        "tip": "Pronombre 'le' antes del infinitivo 'faire' en contexto negativo.",
+        "grammar": "Negación + Pronombre + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 131,
+        "tags": [
+          "oraciones",
+          "pronombres",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_06",
+        "french": "Demain est parfait pour moi.",
+        "spanish": "Mañana es perfecto para mí.",
+        "english": "Tomorrow is perfect for me.",
+        "phonetics": "[də.mɛ̃ ɛ paʁ.fɛ puʁ mwa]",
+        "tip": "Excelente para confirmar fechas y citas acordadas durante el juego de rol en Speaking TEF.",
+        "grammar": "Sujeto temporal + être + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 158,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_07",
+        "french": "Je peux être ici aujourd'hui et demain.",
+        "spanish": "Puedo estar aquí hoy y mañana.",
+        "english": "I can be here today and tomorrow.",
+        "phonetics": "[ʒə pø.t‿ɛtʁ i.si o.ʒuʁ.dɥi e də.mɛ̃]",
+        "tip": "Coordinación temporal con 'et'. Muestra amplia disponibilidad.",
+        "grammar": "Pouvoir + être + adverbios coordinados",
+        "tef_level": "A1",
+        "timestamp": 183,
+        "tags": [
+          "oraciones",
+          "coordinacion"
+        ]
+      },
+      {
+        "id": "c5_08",
+        "french": "ou",
+        "spanish": "o (conjunción disyuntiva)",
+        "english": "or",
+        "phonetics": "[u]",
+        "tip": "La grafía 'ou' suena exactamente como una 'u' española limpia [u], sin acento.",
+        "grammar": "Conjunción disyuntiva",
+        "tef_level": "A1",
+        "timestamp": 226,
+        "tags": [
+          "conectores",
+          "esenciales",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_09",
+        "french": "Je peux le faire aujourd'hui ou demain.",
+        "spanish": "Puedo hacerlo hoy o mañana.",
+        "english": "I can do it today or tomorrow.",
+        "phonetics": "[ʒə pø lə fɛʁ o.ʒuʁ.dɥi u də.mɛ̃]",
+        "tip": "Alternativa de fechas de alta naturalidad conversacional.",
+        "grammar": "Oración con disyunción temporal",
+        "tef_level": "A1",
+        "timestamp": 251,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_10",
+        "french": "Je veux sortir demain.",
+        "spanish": "Quiero salir mañana.",
+        "english": "I want to go out tomorrow.",
+        "phonetics": "[ʒə vø sɔʁ.tiʁ də.mɛ̃]",
+        "tip": "Vouloir + Sortir proyectado hacia el día siguiente.",
+        "grammar": "Vouloir + Infinitivo + Demain",
+        "tef_level": "A1",
+        "timestamp": 307,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_11",
+        "french": "tout",
+        "spanish": "todo",
+        "english": "all / everything",
+        "phonetics": "[tu]",
+        "tip": "La combinación 'ou' suena [u] y la 't' final no se pronuncia.",
+        "grammar": "Pronombre indefinido / Determinante",
+        "tef_level": "A1",
+        "timestamp": 377,
+        "tags": [
+          "vocabulario",
+          "esenciales",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_12",
+        "french": "C'est tout.",
+        "spanish": "Es todo / Eso es todo.",
+        "english": "That is all / That's it.",
+        "phonetics": "[sɛ tu]",
+        "tip": "Fórmula corta para concluir turnos de habla o intervenciones.",
+        "grammar": "Expresión hecha",
+        "tef_level": "A1",
+        "timestamp": 383,
+        "tags": [
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_13",
+        "french": "C'est tout pour moi.",
+        "spanish": "Es todo para mí.",
+        "english": "That is all for me.",
+        "phonetics": "[sɛ tu puʁ mwa]",
+        "tip": "Excelente para cerrar pedidos o trámites en ventanilla.",
+        "grammar": "Expresión fija",
+        "tef_level": "A1",
+        "timestamp": 397,
+        "tags": [
+          "expresiones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_14",
+        "french": "C'est tout pour aujourd'hui.",
+        "spanish": "Es todo por hoy.",
+        "english": "That's all for today.",
+        "phonetics": "[sɛ tu puʁ o.ʒuʁ.dɥi]",
+        "tip": "Fórmula habitual para terminar una sesión de estudio o jornada laboral.",
+        "grammar": "Expresión fija de cierre",
+        "tef_level": "A1",
+        "timestamp": 418,
+        "tags": [
+          "expresiones"
+        ]
+      },
+      {
+        "id": "c5_15",
+        "french": "Est-ce que c'est tout ?",
+        "spanish": "¿Es todo? / ¿Eso es todo?",
+        "english": "Is that all?",
+        "phonetics": "[ɛs kə sɛ tu]",
+        "tip": "Pregunta rápida de confirmación en compras o atención al cliente.",
+        "grammar": "Interrogación con est-ce que",
+        "tef_level": "A1",
+        "timestamp": 437,
+        "tags": [
+          "preguntas",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_16",
+        "french": "Est-ce que c'est tout pour aujourd'hui ?",
+        "spanish": "¿Es todo por hoy?",
+        "english": "Is that all for today?",
+        "phonetics": "[ɛs kə sɛ tu puʁ o.ʒuʁ.dɥi]",
+        "tip": "Pregunta de cortesía frecuente en recepciones y comercios.",
+        "grammar": "Interrogación",
+        "tef_level": "A1",
+        "timestamp": 462,
+        "tags": [
+          "preguntas"
+        ]
+      },
+      {
+        "id": "c5_17",
+        "french": "Tout est possible.",
+        "spanish": "Todo es posible.",
+        "english": "Everything is possible.",
+        "phonetics": "[tu.t‿ɛ pɔ.sibl]",
+        "tip": "Liaison obligatoria [t] entre 'tout' y 'est' [tu.t‿ɛ].",
+        "grammar": "Tout como sujeto + Liaison obligatoria",
+        "tef_level": "A1",
+        "timestamp": 483,
+        "tags": [
+          "liaison",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_18",
+        "french": "Tout est possible pour moi.",
+        "spanish": "Todo es posible para mí.",
+        "english": "Everything is possible for me.",
+        "phonetics": "[tu.t‿ɛ pɔ.sibl puʁ mwa]",
+        "tip": "Liaison sonora [t] en 'tout‿est'.",
+        "grammar": "Oración atributiva con pronombre tónico",
+        "tef_level": "A1",
+        "timestamp": 498,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_19",
+        "french": "Tout est possible aujourd'hui.",
+        "spanish": "Todo es posible hoy.",
+        "english": "Everything is possible today.",
+        "phonetics": "[tu.t‿ɛ pɔ.sibl o.ʒuʁ.dɥi]",
+        "tip": "Liaison en 'tout‿est' + precisión temporal.",
+        "grammar": "Tout sujeto + adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 515,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_20",
+        "french": "Tout est possible demain.",
+        "spanish": "Todo es posible mañana.",
+        "english": "Everything is possible tomorrow.",
+        "phonetics": "[tu.t‿ɛ pɔ.sibl də.mɛ̃]",
+        "tip": "Proyección optimista hacia el día siguiente.",
+        "grammar": "Tout sujeto + demain",
+        "tef_level": "A1",
+        "timestamp": 526,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_21",
+        "french": "Tout est important.",
+        "spanish": "Todo es importante.",
+        "english": "Everything is important.",
+        "phonetics": "[tu.t‿ɛ.t‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Doble encadenamiento fluido: 'tout‿est‿important'.",
+        "grammar": "Liaison consecutiva con tout y être",
+        "tef_level": "A1",
+        "timestamp": 551,
+        "tags": [
+          "liaison",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_22",
+        "french": "Tout est important pour moi.",
+        "spanish": "Todo es importante para mí.",
+        "english": "Everything is important to me.",
+        "phonetics": "[tu.t‿ɛ.t‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Enfatiza el valor personal otorgado a un conjunto de temas.",
+        "grammar": "Oración con pronombre tónico",
+        "tef_level": "A1",
+        "timestamp": 560,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_23",
+        "french": "Tout est très important.",
+        "spanish": "Todo es muy importante.",
+        "english": "Everything is very important.",
+        "phonetics": "[tu.t‿ɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃]",
+        "tip": "Liaison sonora [z] entre 'très' y 'important'.",
+        "grammar": "Tout sujeto + intensificador très + liaison",
+        "tef_level": "A1",
+        "timestamp": 579,
+        "tags": [
+          "liaison",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_24",
+        "french": "Tout est très important pour moi.",
+        "spanish": "Todo es muy importante para mí.",
+        "english": "Everything is very important to me.",
+        "phonetics": "[tu.t‿ɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Liaison [z] en 'très‿important' con remate 'pour moi'.",
+        "grammar": "Oración atributiva compleja",
+        "tef_level": "A1",
+        "timestamp": 591,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_25",
+        "french": "Tout est parfait.",
+        "spanish": "Todo es perfecto.",
+        "english": "Everything is perfect.",
+        "phonetics": "[tu.t‿ɛ paʁ.fɛ]",
+        "tip": "Liaison en 'tout‿est'. Expresión de total satisfacción.",
+        "grammar": "Tout sujeto + adjetivo parfait",
+        "tef_level": "A1",
+        "timestamp": 622,
+        "tags": [
+          "liaison",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c5_26",
+        "french": "Tout est parfait pour moi.",
+        "spanish": "Todo es perfecto para mí.",
+        "english": "Everything is perfect for me.",
+        "phonetics": "[tu.t‿ɛ paʁ.fɛ puʁ mwa]",
+        "tip": "Frase clave para dar visto bueno rotundo.",
+        "grammar": "Oración atributiva",
+        "tef_level": "A1",
+        "timestamp": 634,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_27",
+        "french": "Tout est parfait comme ça.",
+        "spanish": "Todo es perfecto así.",
+        "english": "Everything is perfect like that.",
+        "phonetics": "[tu.t‿ɛ paʁ.fɛ kɔm sa]",
+        "tip": "Combinación fluida de 'tout est parfait' con la locución 'comme ça'.",
+        "grammar": "Oración con locución de modo",
+        "tef_level": "A1",
+        "timestamp": 648,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_28",
+        "french": "Est-ce que tout est possible ?",
+        "spanish": "¿Todo es posible?",
+        "english": "Is everything possible?",
+        "phonetics": "[ɛs kə tu.t‿ɛ pɔ.sibl]",
+        "tip": "Interrogación con 'est-ce que' y liaison en 'tout‿est'.",
+        "grammar": "Interrogación formal",
+        "tef_level": "A1",
+        "timestamp": 673,
+        "tags": [
+          "preguntas",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c5_29",
+        "french": "Est-ce que tout est parfait ?",
+        "spanish": "¿Todo es perfecto?",
+        "english": "Is everything perfect?",
+        "phonetics": "[ɛs kə tu.t‿ɛ paʁ.fɛ]",
+        "tip": "Pregunta de control de calidad o satisfacción.",
+        "grammar": "Interrogación formal",
+        "tef_level": "A1",
+        "timestamp": 692,
+        "tags": [
+          "preguntas"
+        ]
+      },
+      {
+        "id": "c5_30",
+        "french": "Est-ce que tout est parfait comme ça ?",
+        "spanish": "¿Todo es perfecto así?",
+        "english": "Is everything perfect like that?",
+        "phonetics": "[ɛs kə tu.t‿ɛ paʁ.fɛ kɔm sa]",
+        "tip": "Pregunta para cerciorarse de que un acuerdo es del agrado de la otra parte.",
+        "grammar": "Interrogación con como ça",
+        "tef_level": "A1",
+        "timestamp": 709,
+        "tags": [
+          "preguntas",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_31",
+        "french": "Mais maintenant tout est très important pour moi.",
+        "spanish": "Pero ahora todo es muy importante para mí.",
+        "english": "But now everything is very important to me.",
+        "phonetics": "[mɛ mɛ̃t.nɑ̃ tu.t‿ɛ tʁɛ.z‿ɛ̃.pɔʁ.tɑ̃ puʁ mwa]",
+        "tip": "Conector de contraste 'mais' seguido de adverbio temporal y liaison sonora [z] en 'très‿important'.",
+        "grammar": "Conector adversativo mais + liaison",
+        "tef_level": "A1/A2",
+        "timestamp": 733,
+        "tags": [
+          "conectores",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c5_32",
+        "french": "Je veux le faire mais c'est impossible parce que je ne peux pas être ici aujourd'hui.",
+        "spanish": "Quiero hacerlo pero es imposible porque no puedo estar aquí hoy.",
+        "english": "I want to do it but it is impossible because I cannot be here today.",
+        "phonetics": "[ʒə vø lə fɛʁ mɛ sɛ.t‿ɛ̃.pɔ.sibl paʁs kə ʒə nə pø pa ɛtʁ i.si o.ʒuʁ.dɥi]",
+        "tip": "Oración multicapa de alto impacto para argumentar y justificar impedimentos en Speaking Sección B.",
+        "grammar": "Oración compleja con contraste (mais) y causalidad (parce que)",
+        "tef_level": "A2",
+        "timestamp": 789,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c5_33",
+        "french": "Je ne peux pas le faire aujourd'hui parce que je dois sortir plus tard.",
+        "spanish": "No puedo hacerlo hoy porque tengo que salir más tarde.",
+        "english": "I cannot do it today because I have to go out later.",
+        "phonetics": "[ʒə nə pø pa lə fɛʁ o.ʒuʁ.dɥi paʁs kə ʒə dwa sɔʁ.tiʁ ply taʁ]",
+        "tip": "Combina incapacidad circunstancial con obligación alternativa (je dois sortir).",
+        "grammar": "Oración compleja causal con poder y deber",
+        "tef_level": "A2",
+        "timestamp": 834,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c5_34",
+        "french": "Je veux sortir maintenant mais je ne peux pas parce que c'est impossible.",
+        "spanish": "Quiero salir ahora pero no puedo porque es imposible.",
+        "english": "I want to go out now but I cannot because it is impossible.",
+        "phonetics": "[ʒə vø sɔʁ.tiʁ mɛ̃t.nɑ̃ mɛ ʒə nə pø pa paʁs kə sɛ.t‿ɛ̃.pɔ.sibl]",
+        "tip": "🏆 RETO FINAL DEL CURSO 5 (Examen de Judy): Articula deseo, oposición con 'mais', imposibilidad y causalidad.",
+        "grammar": "Oración compleja de cierre con contraste y causalidad",
+        "tef_level": "A1/A2",
+        "timestamp": 860,
+        "tags": [
+          "reto_examen",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "guRpGaJ3pdY": {
+    "id": "guRpGaJ3pdY",
+    "video_id": "guRpGaJ3pdY",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | CURSO COMPLETO DE FRANCÉS PARA PRINCIPIANTES | curso 6",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 641,
+    "lesson_number": 6,
+    "tef_level": "A1/A2",
+    "description": "Curso 6: Verbo 'étudier' con elisión obligatoria ('d'étudier'), gustos y preferencias con 'aimer' ('j'aime', 'je n'aime pas', 'j'aime beaucoup'), vocabulario gastronómico ('la nourriture', 'manger') y subordinadas de finalidad con 'pour'.",
+    "thumbnail": "https://img.youtube.com/vi/guRpGaJ3pdY/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c6_01",
+        "french": "Je veux sortir maintenant mais je ne peux pas parce que c'est impossible.",
+        "spanish": "Quiero salir ahora pero no puedo porque es imposible.",
+        "english": "I want to go out now but I cannot because it is impossible.",
+        "phonetics": "[ʒə vø sɔʁ.tiʁ mɛ̃t.nɑ̃ mɛ ʒə nə pø pa paʁs kə sɛ.t‿ɛ̃.pɔ.sibl]",
+        "tip": "Judy abre el Curso 6 respondiendo y consolidando el examen del curso anterior.",
+        "grammar": "Repaso del examen anterior",
+        "tef_level": "A1/A2",
+        "timestamp": 23,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c6_02",
+        "french": "étudier",
+        "spanish": "estudiar",
+        "english": "to study",
+        "phonetics": "[e.ty.dje]",
+        "tip": "Verbo regular de primer grupo (-er). La terminación '-er' suena como 'é' cerrada [e]. La 'r' no se pronuncia.",
+        "grammar": "Infinitivo primer grupo",
+        "tef_level": "A1",
+        "timestamp": 40,
+        "tags": [
+          "verbos",
+          "educacion",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_03",
+        "french": "d'étudier",
+        "spanish": "estudiar (con preposición elidida)",
+        "english": "to study (elided)",
+        "phonetics": "[d‿e.ty.dje]",
+        "tip": "Regla de elisión explicada por Judy: como 'de' termina en vocal y 'étudier' empieza por 'é', se elide en 'd''.",
+        "grammar": "Elisión de preposición",
+        "tef_level": "A1",
+        "timestamp": 76,
+        "tags": [
+          "elision",
+          "gramatica"
+        ]
+      },
+      {
+        "id": "c6_04",
+        "french": "J'ai besoin d'étudier.",
+        "spanish": "Necesito estudiar.",
+        "english": "I need to study.",
+        "phonetics": "[ʒe bə.zwɛ̃ d‿e.ty.dje]",
+        "tip": "Estructura 'avoir besoin de' + elisión obligatoria 'd'étudier'.",
+        "grammar": "Avoir besoin de + elisión",
+        "tef_level": "A1",
+        "timestamp": 93,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_05",
+        "french": "Je n'ai pas besoin d'étudier.",
+        "spanish": "No necesito estudiar.",
+        "english": "I do not need to study.",
+        "phonetics": "[ʒə ne pa bə.zwɛ̃ d‿e.ty.dje]",
+        "tip": "Doble elisión: 'je n'ai pas' (elisión de 'ne') y 'd'étudier' (elisión de 'de').",
+        "grammar": "Negación con doble elisión",
+        "tef_level": "A1",
+        "timestamp": 116,
+        "tags": [
+          "oraciones",
+          "negacion",
+          "elision",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_06",
+        "french": "Je veux étudier.",
+        "spanish": "Quiero estudiar.",
+        "english": "I want to study.",
+        "phonetics": "[ʒə vø e.ty.dje]",
+        "tip": "Vouloir seguido de infinitivo directo sin preposición.",
+        "grammar": "Vouloir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 162,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_07",
+        "french": "Je ne veux pas étudier.",
+        "spanish": "No quiero estudiar.",
+        "english": "I don't want to study.",
+        "phonetics": "[ʒə nə vø pa e.ty.dje]",
+        "tip": "Negación verbal alrededor de 'veux'.",
+        "grammar": "Negación",
+        "tef_level": "A1",
+        "timestamp": 183,
+        "tags": [
+          "oraciones",
+          "negacion"
+        ]
+      },
+      {
+        "id": "c6_08",
+        "french": "Je dois étudier.",
+        "spanish": "Tengo que estudiar / Debo estudiar.",
+        "english": "I have to study / I must study.",
+        "phonetics": "[ʒə dwa e.ty.dje]",
+        "tip": "Expresión de obligación escolar o académica.",
+        "grammar": "Devoir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 206,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_09",
+        "french": "Je ne dois pas étudier.",
+        "spanish": "No debo estudiar / No tengo por qué estudiar.",
+        "english": "I must not study.",
+        "phonetics": "[ʒə nə dwa pa e.ty.dje]",
+        "tip": "Negación de devoir.",
+        "grammar": "Negación de obligación",
+        "tef_level": "A1",
+        "timestamp": 225,
+        "tags": [
+          "oraciones",
+          "negacion"
+        ]
+      },
+      {
+        "id": "c6_10",
+        "french": "Je peux étudier.",
+        "spanish": "Puedo estudiar.",
+        "english": "I can study.",
+        "phonetics": "[ʒə pø e.ty.dje]",
+        "tip": "Expresión de posibilidad o capacidad de estudio.",
+        "grammar": "Pouvoir + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 248,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c6_11",
+        "french": "Je ne peux pas étudier comme ça.",
+        "spanish": "No puedo estudiar así.",
+        "english": "I cannot study like that.",
+        "phonetics": "[ʒə nə pø pa e.ty.dje kɔm sa]",
+        "tip": "Frase muy natural para expresar incomodidad con las condiciones del entorno.",
+        "grammar": "Negación + Infinitivo + Locución modal",
+        "tef_level": "A1",
+        "timestamp": 271,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_12",
+        "french": "Je veux étudier mais je ne peux pas.",
+        "spanish": "Quiero estudiar pero no puedo.",
+        "english": "I want to study but I cannot.",
+        "phonetics": "[ʒə vø e.ty.dje mɛ ʒə nə pø pa]",
+        "tip": "Oposición clásica y fluida con 'mais'.",
+        "grammar": "Oración coordinada con mais",
+        "tef_level": "A1",
+        "timestamp": 312,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_13",
+        "french": "Je veux étudier mais je ne peux pas parce que je dois sortir.",
+        "spanish": "Quiero estudiar pero no puedo porque tengo que salir.",
+        "english": "I want to study but I cannot because I have to go out.",
+        "phonetics": "[ʒə vø e.ty.dje mɛ ʒə nə pø pa paʁs kə ʒə dwa sɔʁ.tiʁ]",
+        "tip": "Estructura multicapa: Deseo (vouloir) + Obstáculo (mais je ne peux pas) + Justificación causal (parce que je dois sortir).",
+        "grammar": "Oración compuesta compleja con 3 núcleos verbales",
+        "tef_level": "A1/A2",
+        "timestamp": 338,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c6_14",
+        "french": "oui",
+        "spanish": "sí",
+        "english": "yes",
+        "phonetics": "[wi]",
+        "tip": "Afirmación estándar francesa.",
+        "grammar": "Adverbio afirmativo",
+        "tef_level": "A1",
+        "timestamp": 361,
+        "tags": [
+          "esenciales"
+        ]
+      },
+      {
+        "id": "c6_15",
+        "french": "aimer",
+        "spanish": "gustar / amar",
+        "english": "to like / to love",
+        "phonetics": "[e.me]",
+        "tip": "Verbo regular de primer grupo. El diptongo 'ai' suena [e] y la terminación '-er' suena [e].",
+        "grammar": "Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 368,
+        "tags": [
+          "verbos",
+          "preferencias",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_16",
+        "french": "J'aime",
+        "spanish": "Me gusta / Amo",
+        "english": "I like / I love",
+        "phonetics": "[ʒɛm]",
+        "tip": "Elisión obligatoria: 'Je' pasa a 'J'' ante vocal. Suena como una sola sílaba fluida [ʒɛm].",
+        "grammar": "Verbo aimer (1ª persona singular)",
+        "tef_level": "A1",
+        "timestamp": 371,
+        "tags": [
+          "verbos",
+          "elision",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_17",
+        "french": "Oui, j'aime.",
+        "spanish": "Sí, me gusta.",
+        "english": "Yes, I like it.",
+        "phonetics": "[wi ʒɛm]",
+        "tip": "Respuesta afirmativa directa.",
+        "grammar": "Afirmación + Verbo elidido",
+        "tef_level": "A1",
+        "timestamp": 374,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c6_18",
+        "french": "beaucoup",
+        "spanish": "mucho",
+        "english": "a lot / much",
+        "phonetics": "[bo.ku]",
+        "tip": "La combinación 'eau' suena [o], 'ou' suena [u], y la 'p' final es totalmente muda.",
+        "grammar": "Adverbio de cantidad",
+        "tef_level": "A1",
+        "timestamp": 383,
+        "tags": [
+          "adverbios",
+          "cantidad",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_19",
+        "french": "Oui, j'aime beaucoup.",
+        "spanish": "Sí, me gusta mucho.",
+        "english": "Yes, I like it very much.",
+        "phonetics": "[wi ʒɛm bo.ku]",
+        "tip": "Expresión clave para manifestar entusiasmo en el examen TEF.",
+        "grammar": "J'aime + Adverbio de cantidad",
+        "tef_level": "A1",
+        "timestamp": 410,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_20",
+        "french": "J'aime ici.",
+        "spanish": "Me gusta aquí.",
+        "english": "I like it here.",
+        "phonetics": "[ʒɛ.m‿i.si]",
+        "tip": "Encadenamiento consonántico de la 'm' con la vocal 'i' de 'ici'.",
+        "grammar": "Aimer + Adverbio de lugar",
+        "tef_level": "A1",
+        "timestamp": 440,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_21",
+        "french": "la nourriture",
+        "spanish": "la comida / el alimento",
+        "english": "the food",
+        "phonetics": "[la nu.ʁi.tyʁ]",
+        "tip": "Sustantivo femenino. 'ou' suena [u] y la 'u' final suena [y] con boca de 'u' y emitiendo 'i'.",
+        "grammar": "Sustantivo femenino",
+        "tef_level": "A1",
+        "timestamp": 449,
+        "tags": [
+          "vocabulario",
+          "comida",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_22",
+        "french": "J'aime la nourriture ici.",
+        "spanish": "Me gusta la comida aquí.",
+        "english": "I like the food here.",
+        "phonetics": "[ʒɛm la nu.ʁi.tyʁ i.si]",
+        "tip": "Frase imprescindible para dar opiniones sobre restaurantes y estancia en Canadá o Francia.",
+        "grammar": "Aimer + Objeto directo determinado",
+        "tef_level": "A1",
+        "timestamp": 464,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_23",
+        "french": "Je n'aime pas",
+        "spanish": "No me gusta",
+        "english": "I do not like",
+        "phonetics": "[ʒə nɛm pa]",
+        "tip": "Elisión de la negación: 'ne' elide en 'n'' ante 'aime'. Se pronuncia 'zhe-nèm-pa'.",
+        "grammar": "Negación con elisión obligatoria",
+        "tef_level": "A1",
+        "timestamp": 476,
+        "tags": [
+          "negacion",
+          "preferencias",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_24",
+        "french": "Je n'aime pas ici.",
+        "spanish": "No me gusta aquí.",
+        "english": "I don't like it here.",
+        "phonetics": "[ʒə nɛm pa i.si]",
+        "tip": "Expresión de desagrado sobre un entorno o lugar.",
+        "grammar": "Negación de preferencia",
+        "tef_level": "A1",
+        "timestamp": 495,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c6_25",
+        "french": "Je n'aime pas la nourriture ici.",
+        "spanish": "No me gusta la comida aquí.",
+        "english": "I do not like the food here.",
+        "phonetics": "[ʒə nɛm pa la nu.ʁi.tyʁ i.si]",
+        "tip": "Forma educada de expresar inconformidad en hostelería o reuniones.",
+        "grammar": "Negación + Objeto directo",
+        "tef_level": "A1",
+        "timestamp": 519,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_26",
+        "french": "Je n'aime pas beaucoup.",
+        "spanish": "No me gusta mucho.",
+        "english": "I don't like it very much.",
+        "phonetics": "[ʒə nɛm pa bo.ku]",
+        "tip": "Atenuación cortés: 'pas beaucoup' suaviza la crítica.",
+        "grammar": "Negación con adverbio atenuador",
+        "tef_level": "A1",
+        "timestamp": 542,
+        "tags": [
+          "oraciones",
+          "cortesia",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_27",
+        "french": "manger",
+        "spanish": "comer",
+        "english": "to eat",
+        "phonetics": "[mɑ̃.ʒe]",
+        "tip": "Verbo de primer grupo. Vocal nasal [ɑ̃] y la 'g' suave [ʒ]. Terminación '-er' suena [e].",
+        "grammar": "Infinitivo primer grupo",
+        "tef_level": "A1",
+        "timestamp": 552,
+        "tags": [
+          "verbos",
+          "comida",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_28",
+        "french": "J'aime manger.",
+        "spanish": "Me gusta comer.",
+        "english": "I like to eat.",
+        "phonetics": "[ʒɛm mɑ̃.ʒe]",
+        "tip": "Aimer seguido directamente por infinitivo.",
+        "grammar": "Aimer + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 560,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c6_29",
+        "french": "J'aime manger ici.",
+        "spanish": "Me gusta comer aquí.",
+        "english": "I like eating here.",
+        "phonetics": "[ʒɛm mɑ̃.ʒe i.si]",
+        "tip": "Frase agradable para socializar sobre restaurantes favoritos.",
+        "grammar": "Aimer + Infinitivo + Adverbio",
+        "tef_level": "A1",
+        "timestamp": 580,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c6_30",
+        "french": "Je n'aime pas manger ici.",
+        "spanish": "No me gusta comer aquí.",
+        "english": "I do not like eating here.",
+        "phonetics": "[ʒə nɛm pa mɑ̃.ʒe i.si]",
+        "tip": "Contraste negativo de preferencia gastronómica.",
+        "grammar": "Negación + Infinitivo",
+        "tef_level": "A1",
+        "timestamp": 603,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c6_31",
+        "french": "Je veux étudier maintenant mais je ne peux pas parce que je dois sortir pour manger.",
+        "spanish": "Quiero estudiar ahora pero no puedo porque tengo que salir para comer.",
+        "english": "I want to study now but I cannot because I have to go out to eat.",
+        "phonetics": "[ʒə vø e.ty.dje mɛ̃t.nɑ̃ mɛ ʒə nə pø pa paʁs kə ʒə dwa sɔʁ.tiʁ puʁ mɑ̃.ʒe]",
+        "tip": "🏆 RETO FINAL DEL CURSO 6 (Examen de Judy): Sintetiza querer estudiar, oposición (mais je ne peux pas), causa (parce que je dois sortir) y finalidad (pour manger).",
+        "grammar": "Oración compleja de cierre con 4 verbos modales y proposición de finalidad",
+        "tef_level": "A1/A2",
+        "timestamp": 621,
+        "tags": [
+          "reto_examen",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "w71XKir2Rkg": {
+    "id": "w71XKir2Rkg",
+    "video_id": "w71XKir2Rkg",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | curso completo de francés para PRINCIPIANTES - curso 7",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 1350,
+    "lesson_number": 7,
+    "tef_level": "A1/A2",
+    "description": "Curso 7 de francés para principiantes por Judy.",
+    "thumbnail": "https://img.youtube.com/vi/w71XKir2Rkg/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c7_01",
+        "french": "Je veux étudier maintenant mais je ne peux pas parce que je dois sortir pour manger.",
+        "spanish": "Quiero estudiar ahora pero no puedo porque tengo que salir para comer.",
+        "english": "I want to study now but I cannot because I have to go out to eat.",
+        "phonetics": "[ʒə vø e.ty.dje mɛ̃t.nɑ̃ mɛ ʒə nə pø pa paʁs kə ʒə dwa sɔʁ.tiʁ puʁ mɑ̃.ʒe]",
+        "tip": "Judy abre el Curso 7 repasando y consolidando el examen final del curso anterior uniendo 3 proposiciones.",
+        "grammar": "Oración compuesta trimembre (vouloir + pouvoir négatif + devoir)",
+        "tef_level": "A1/A2",
+        "timestamp": 38,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c7_02",
+        "french": "manger",
+        "spanish": "comer",
+        "english": "to eat",
+        "phonetics": "[mɑ̃.ʒe]",
+        "tip": "Verbo regular de primer grupo (-er). La terminación '-er' suena como 'é' cerrada [e].",
+        "grammar": "Verbo regular en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 50,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c7_03",
+        "french": "pour manger",
+        "spanish": "para comer",
+        "english": "to eat / in order to eat",
+        "phonetics": "[puʁ mɑ̃.ʒe]",
+        "tip": "La preposición 'pour' seguida de infinitivo expresa propósito o finalidad.",
+        "grammar": "Preposición de finalidad + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 60,
+        "tags": [
+          "oraciones",
+          "preposiciones"
+        ]
+      },
+      {
+        "id": "c7_04",
+        "french": "J'aimerais",
+        "spanish": "Me gustaría",
+        "english": "I would like",
+        "phonetics": "[ʒɛ.mə.ʁɛ]",
+        "tip": "Condicional de cortesía de aimer. Imprescindible para el examen TEF en solicitudes formales y peticiones amables.",
+        "grammar": "Condicional de cortesía (1ª persona)",
+        "tef_level": "A1/A2",
+        "timestamp": 244,
+        "tags": [
+          "tef_star",
+          "cortesia",
+          "condicional"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_05",
+        "french": "J'aimerais manger.",
+        "spanish": "Me gustaría comer.",
+        "english": "I would like to eat.",
+        "phonetics": "[ʒɛ.mə.ʁɛ mɑ̃.ʒe]",
+        "tip": "J'aimerais se combina directamente con el infinitivo sin preposición.",
+        "grammar": "Condicional + infinitivo directo",
+        "tef_level": "A1",
+        "timestamp": 247,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_06",
+        "french": "J'aimerais manger ici.",
+        "spanish": "Me gustaría comer aquí.",
+        "english": "I would like to eat here.",
+        "phonetics": "[ʒɛ.mə.ʁɛ mɑ̃.ʒe i.si]",
+        "tip": "Combinación con el adverbio de lugar ici.",
+        "grammar": "Condicional + infinitivo + adverbio",
+        "tef_level": "A1",
+        "timestamp": 260,
+        "tags": [
+          "oraciones",
+          "restaurante"
+        ]
+      },
+      {
+        "id": "c7_07",
+        "french": "J'aimerais manger ici cette nuit.",
+        "spanish": "Me gustaría comer aquí esta noche.",
+        "english": "I would like to eat here tonight.",
+        "phonetics": "[ʒɛ.mə.ʁɛ mɑ̃.ʒe i.si sɛt nɥi]",
+        "tip": "Oración muy natural para reservas o planes de cena.",
+        "grammar": "Condicional + complemento circunstancial de tiempo",
+        "tef_level": "A1",
+        "timestamp": 280,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_08",
+        "french": "lire",
+        "spanish": "leer",
+        "english": "to read",
+        "phonetics": "[liʁ]",
+        "tip": "Verbo irregular de 3er grupo. La 'e' final es muda, termina en consonante vibrante [ʁ].",
+        "grammar": "Verbo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 292,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c7_09",
+        "french": "J'aimerais lire.",
+        "spanish": "Me gustaría leer.",
+        "english": "I would like to read.",
+        "phonetics": "[ʒɛ.mə.ʁɛ liʁ]",
+        "tip": "Expresión de deseo personal o afición.",
+        "grammar": "Condicional + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 306,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c7_10",
+        "french": "le livre",
+        "spanish": "el libro",
+        "english": "the book",
+        "phonetics": "[lə livʁ]",
+        "tip": "Sustantivo masculino con artículo determinado 'le'.",
+        "grammar": "Sustantivo masculino",
+        "tef_level": "A1",
+        "timestamp": 310,
+        "tags": [
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c7_11",
+        "french": "J'aimerais lire le livre.",
+        "spanish": "Me gustaría leer el libro.",
+        "english": "I would like to read the book.",
+        "phonetics": "[ʒɛ.mə.ʁɛ liʁ lə livʁ]",
+        "tip": "Complemento de objeto directo tras infinitivo.",
+        "grammar": "Condicional + infinitivo + COD",
+        "tef_level": "A1",
+        "timestamp": 331,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c7_12",
+        "french": "avec",
+        "spanish": "con",
+        "english": "with",
+        "phonetics": "[a.vɛk]",
+        "tip": "La 'c' final se pronuncia netamente como [k].",
+        "grammar": "Preposición",
+        "tef_level": "A1",
+        "timestamp": 348,
+        "tags": [
+          "preposiciones",
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c7_13",
+        "french": "avec toi",
+        "spanish": "contigo",
+        "english": "with you (informal)",
+        "phonetics": "[a.vɛk twa]",
+        "tip": "Pronombre tónico 'toi' tras la preposición avec.",
+        "grammar": "Preposición + pronombre tónico 2ª persona",
+        "tef_level": "A1",
+        "timestamp": 352,
+        "tags": [
+          "pronombres"
+        ]
+      },
+      {
+        "id": "c7_14",
+        "french": "avec vous",
+        "spanish": "con usted / con ustedes",
+        "english": "with you (formal / plural)",
+        "phonetics": "[a.vɛk vu]",
+        "tip": "Pronombre tónico formal 'vous'. La 's' final es muda ante pausa o consonante.",
+        "grammar": "Preposición + pronombre tónico formal",
+        "tef_level": "A1",
+        "timestamp": 365,
+        "tags": [
+          "pronombres",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_15",
+        "french": "parler",
+        "spanish": "hablar",
+        "english": "to speak / to talk",
+        "phonetics": "[paʁ.le]",
+        "tip": "Verbo regular en -er. La 'r' final es muda.",
+        "grammar": "Verbo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 380,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c7_16",
+        "french": "J'aimerais parler avec toi.",
+        "spanish": "Me gustaría hablar contigo.",
+        "english": "I would like to speak with you.",
+        "phonetics": "[ʒɛ.mə.ʁɛ paʁ.le a.vɛk twa]",
+        "tip": "Propuesta conversacional informal.",
+        "grammar": "Condicional + parler avec + tónico",
+        "tef_level": "A1",
+        "timestamp": 401,
+        "tags": [
+          "oraciones",
+          "comunicacion"
+        ]
+      },
+      {
+        "id": "c7_17",
+        "french": "J'aimerais parler avec vous.",
+        "spanish": "Me gustaría hablar con usted.",
+        "english": "I would like to speak with you (formal).",
+        "phonetics": "[ʒɛ.mə.ʁɛ paʁ.le a.vɛk vu]",
+        "tip": "Frase de cortesía fundamental para iniciar el diálogo formal con el examinador TEF.",
+        "grammar": "Condicional + cortesía formal",
+        "tef_level": "A1/A2",
+        "timestamp": 418,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_18",
+        "french": "J'aimerais parler avec vous aujourd'hui.",
+        "spanish": "Me gustaría hablar con usted hoy.",
+        "english": "I would like to speak with you today.",
+        "phonetics": "[ʒɛ.mə.ʁɛ paʁ.le a.vɛk vu o.ʒuʁ.dɥi]",
+        "tip": "Solicitud de entrevista o reunión para el mismo día.",
+        "grammar": "Condicional + complemento temporal",
+        "tef_level": "A1",
+        "timestamp": 435,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_19",
+        "french": "savoir",
+        "spanish": "saber",
+        "english": "to know",
+        "phonetics": "[sa.vwaʁ]",
+        "tip": "El diptongo 'oi' suena [wa] y la terminación en -r es sonora y uvular.",
+        "grammar": "Verbo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 465,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c7_20",
+        "french": "J'aimerais savoir.",
+        "spanish": "Me gustaría saber.",
+        "english": "I would like to know.",
+        "phonetics": "[ʒɛ.mə.ʁɛ sa.vwaʁ]",
+        "tip": "Forma más educada y refinada de preguntar en francés.",
+        "grammar": "Condicional de cortesía",
+        "tef_level": "A1",
+        "timestamp": 477,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_21",
+        "french": "J'aimerais savoir si c'est possible.",
+        "spanish": "Me gustaría saber si es posible.",
+        "english": "I would like to know if it is possible.",
+        "phonetics": "[ʒɛ.mə.ʁɛ sa.vwaʁ si sɛ pɔ.sibl]",
+        "tip": "Subordinada interrogativa indirecta con 'si'. Fórmula estrella del examen TEF.",
+        "grammar": "Subordinada indirecta con si",
+        "tef_level": "A1/A2",
+        "timestamp": 497,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_22",
+        "french": "J'aimerais savoir si c'est possible de le faire.",
+        "spanish": "Me gustaría saber si es posible hacerlo.",
+        "english": "I would like to know if it is possible to do it.",
+        "phonetics": "[ʒɛ.mə.ʁɛ sa.vwaʁ si sɛ pɔ.sibl də lə fɛʁ]",
+        "tip": "Régimen preposicional obligatorio: 'possible de' + infinitivo 'le faire'.",
+        "grammar": "Régimen preposicional de infinitivo",
+        "tef_level": "A2",
+        "timestamp": 535,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c7_23",
+        "french": "travailler",
+        "spanish": "trabajar",
+        "english": "to work",
+        "phonetics": "[tʁa.va.je]",
+        "tip": "La doble 'll' en -ailler suena como una 'y' líquida [j]. La 'r' final es muda.",
+        "grammar": "Verbo regular de 1er grupo",
+        "tef_level": "A1",
+        "timestamp": 620,
+        "tags": [
+          "vocabulario",
+          "trabajo"
+        ]
+      },
+      {
+        "id": "c7_24",
+        "french": "J'aimerais travailler.",
+        "spanish": "Me gustaría trabajar.",
+        "english": "I would like to work.",
+        "phonetics": "[ʒɛ.mə.ʁɛ tʁa.va.je]",
+        "tip": "Expresión de vocación laboral o búsqueda de empleo.",
+        "grammar": "Condicional + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 634,
+        "tags": [
+          "oraciones",
+          "trabajo"
+        ]
+      },
+      {
+        "id": "c7_25",
+        "french": "J'aimerais travailler avec vous.",
+        "spanish": "Me gustaría trabajar con usted.",
+        "english": "I would like to work with you.",
+        "phonetics": "[ʒɛ.mə.ʁɛ tʁa.va.je a.vɛk vu]",
+        "tip": "Propuesta laboral formal de alto rendimiento en entrevistas y cartas de motivación.",
+        "grammar": "Condicional + preposición avec + vous",
+        "tef_level": "A1/A2",
+        "timestamp": 655,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "trabajo"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_26",
+        "french": "chaque jour",
+        "spanish": "cada día / todos los días",
+        "english": "every day",
+        "phonetics": "[ʃak ʒuʁ]",
+        "tip": "'chaque' es invariable y acompaña a un sustantivo singular. 'jour' suena con [ʒ] suave.",
+        "grammar": "Adjetivo indefinido distributivo + sustantivo",
+        "tef_level": "A1",
+        "timestamp": 720,
+        "tags": [
+          "tiempo",
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c7_27",
+        "french": "J'aimerais travailler avec vous chaque jour.",
+        "spanish": "Me gustaría trabajar con usted cada día.",
+        "english": "I would like to work with you every day.",
+        "phonetics": "[ʒɛ.mə.ʁɛ tʁa.va.je a.vɛk vu ʃak ʒuʁ]",
+        "tip": "Expresión de constancia y compromiso formal.",
+        "grammar": "Oración con régimen verbal y complemento de frecuencia",
+        "tef_level": "A2",
+        "timestamp": 750,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_28",
+        "french": "moi-même",
+        "spanish": "yo mismo / por mí mismo",
+        "english": "myself",
+        "phonetics": "[mwa.mɛm]",
+        "tip": "Pronombre enfático reflexivo. Se une con guión.",
+        "grammar": "Pronombre enfático",
+        "tef_level": "A1",
+        "timestamp": 1180,
+        "tags": [
+          "pronombres"
+        ]
+      },
+      {
+        "id": "c7_29",
+        "french": "J'aimerais le faire moi-même.",
+        "spanish": "Me gustaría hacerlo yo mismo.",
+        "english": "I would like to do it myself.",
+        "phonetics": "[ʒɛ.mə.ʁɛ lə fɛʁ mwa.mɛm]",
+        "tip": "Pronombre COD 'le' colocado antes de 'faire' reforzado con 'moi-même'.",
+        "grammar": "Condicional + COD + pronombre enfático",
+        "tef_level": "A1/A2",
+        "timestamp": 1210,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c7_30",
+        "french": "J'aimerais le faire moi-même parce que c'est nécessaire pour moi.",
+        "spanish": "Me gustaría hacerlo yo mismo porque es necesario para mí.",
+        "english": "I would like to do it myself because it is necessary for me.",
+        "phonetics": "[ʒɛ.mə.ʁɛ lə fɛʁ mwa.mɛm paʁs kə sɛ ne.sɛ.sɛʁ puʁ mwa]",
+        "tip": "Frase de justificación causal con causa subjetiva 'pour moi'.",
+        "grammar": "Oración compuesta causal",
+        "tef_level": "A2",
+        "timestamp": 1302,
+        "tags": [
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c7_31",
+        "french": "J'aimerais travailler avec vous chaque jour et je peux le faire parce que c'est nécessaire pour moi.",
+        "spanish": "Me gustaría trabajar con usted cada día y yo puedo hacerlo porque es necesario para mí.",
+        "english": "I would like to work with you every day and I can do it because it is necessary for me.",
+        "phonetics": "[ʒɛ.mə.ʁɛ tʁa.va.je a.vɛk vu ʃak ʒuʁ e ʒə pø lə fɛʁ paʁs kə sɛ ne.sɛ.sɛʁ puʁ mwa]",
+        "tip": "Reto y pregunta examen final del Curso 7: integra condicional, cortesía formal, frecuencia, capacidad y justificación causal.",
+        "grammar": "Oración compuesta coordinada y causal",
+        "tef_level": "A2",
+        "timestamp": 1322,
+        "tags": [
+          "examen_final",
+          "reto",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "2mxAFnoKqQo": {
+    "id": "2mxAFnoKqQo",
+    "video_id": "2mxAFnoKqQo",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | Complete French Course for BEGINNERS | Course 8",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 1350,
+    "lesson_number": 8,
+    "tef_level": "A1/A2",
+    "description": "Curso 8 de francés para principiantes por Judy.",
+    "thumbnail": "https://img.youtube.com/vi/2mxAFnoKqQo/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c8_01",
+        "french": "J'aimerais travailler avec vous chaque jour et je peux le faire parce que c'est nécessaire pour moi.",
+        "spanish": "Me gustaría trabajar con usted cada día y yo puedo hacerlo porque es necesario para mí.",
+        "english": "I would like to work with you every day and I can do it because it is necessary for me.",
+        "phonetics": "[ʒɛ.mə.ʁɛ tʁa.va.je a.vɛk vu ʃak ʒuʁ e ʒə pø lə fɛʁ paʁs kə sɛ ne.sɛ.sɛʁ puʁ mwa]",
+        "tip": "Judy abre el Curso 8 repasando y resolviendo el examen final del Curso 7.",
+        "grammar": "Oración compuesta coordinada y causal",
+        "tef_level": "A2",
+        "timestamp": 31,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c8_02",
+        "french": "pouvoir",
+        "spanish": "poder (verbo)",
+        "english": "to be able to / can",
+        "phonetics": "[pu.vwaʁ]",
+        "tip": "Verbo modal irregular. 'ou' suena [u] y 'oi' suena [wa].",
+        "grammar": "Verbo modal en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 57,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c8_03",
+        "french": "Il peut",
+        "spanish": "Él puede",
+        "english": "He can",
+        "phonetics": "[il pø]",
+        "tip": "Tercera persona singular del presente de poder. La 't' final es muda.",
+        "grammar": "Verbo pouvoir (3ª persona singular)",
+        "tef_level": "A1",
+        "timestamp": 64,
+        "tags": [
+          "conjugacion",
+          "gramatica"
+        ]
+      },
+      {
+        "id": "c8_04",
+        "french": "Elle peut",
+        "spanish": "Ella puede",
+        "english": "She can",
+        "phonetics": "[ɛl pø]",
+        "tip": "Forma femenina de 3ª persona. 'Elle' se pronuncia [ɛl].",
+        "grammar": "Pronombre femenino + verbo",
+        "tef_level": "A1",
+        "timestamp": 75,
+        "tags": [
+          "conjugacion",
+          "gramatica"
+        ]
+      },
+      {
+        "id": "c8_05",
+        "french": "Il peut être ici.",
+        "spanish": "Él puede estar aquí.",
+        "english": "He can be here.",
+        "phonetics": "[il pø.t‿ɛtʁ i.si]",
+        "tip": "Liaison sonora [t] entre 'peut' y el infinitivo 'être'.",
+        "grammar": "Liaison obligatoria modal + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 132,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c8_06",
+        "french": "Elle peut être ici.",
+        "spanish": "Ella puede estar aquí.",
+        "english": "She can be here.",
+        "phonetics": "[ɛl pø.t‿ɛtʁ i.si]",
+        "tip": "Liaison en [t] con sujeto femenino.",
+        "grammar": "Liaison modal + être",
+        "tef_level": "A1",
+        "timestamp": 140,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c8_07",
+        "french": "plus tard",
+        "spanish": "más tarde",
+        "english": "later",
+        "phonetics": "[ply taʁ]",
+        "tip": "La 's' de 'plus' y la 'd' de 'tard' son mudas. Expresión temporal clave para postergar citas.",
+        "grammar": "Locución adverbial temporal",
+        "tef_level": "A1",
+        "timestamp": 168,
+        "tags": [
+          "tiempo",
+          "vocabulario",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c8_08",
+        "french": "Il peut être ici plus tard.",
+        "spanish": "Él puede estar aquí más tarde.",
+        "english": "He can be here later.",
+        "phonetics": "[il pø.t‿ɛtʁ i.si ply taʁ]",
+        "tip": "Disponibilidad diferida para terceras personas.",
+        "grammar": "Modal + infinitivo + adverbio temporal",
+        "tef_level": "A1",
+        "timestamp": 195,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_09",
+        "french": "Elle peut être ici plus tard.",
+        "spanish": "Ella puede estar aquí más tarde.",
+        "english": "She can be here later.",
+        "phonetics": "[ɛl pø.t‿ɛtʁ i.si ply taʁ]",
+        "tip": "Coordinación de horarios en speaking TEF.",
+        "grammar": "Oración modal afirmativa",
+        "tef_level": "A1",
+        "timestamp": 208,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_10",
+        "french": "Il ne peut pas être ici.",
+        "spanish": "Él no puede estar aquí.",
+        "english": "He cannot be here.",
+        "phonetics": "[il nə pø pa ɛtʁ i.si]",
+        "tip": "Negación verbal estándar de 3ª persona rodeando 'peut'.",
+        "grammar": "Negación de 3ª persona (ne... pas)",
+        "tef_level": "A1",
+        "timestamp": 256,
+        "tags": [
+          "negacion",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_11",
+        "french": "Elle ne peut pas être ici.",
+        "spanish": "Ella no puede estar aquí.",
+        "english": "She cannot be here.",
+        "phonetics": "[ɛl nə pø pa ɛtʁ i.si]",
+        "tip": "Negación modal con sujeto femenino.",
+        "grammar": "Negación modal",
+        "tef_level": "A1",
+        "timestamp": 272,
+        "tags": [
+          "negacion",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_12",
+        "french": "Il veut",
+        "spanish": "Él quiere",
+        "english": "He wants",
+        "phonetics": "[il vø]",
+        "tip": "Tercera persona singular de vouloir. La 't' final es muda.",
+        "grammar": "Verbo vouloir (3ª persona)",
+        "tef_level": "A1",
+        "timestamp": 380,
+        "tags": [
+          "conjugacion",
+          "gramatica"
+        ]
+      },
+      {
+        "id": "c8_13",
+        "french": "Elle veut",
+        "spanish": "Ella quiere",
+        "english": "She wants",
+        "phonetics": "[ɛl vø]",
+        "tip": "Intención o deseo de tercera persona femenina.",
+        "grammar": "Verbo vouloir (3ª persona f)",
+        "tef_level": "A1",
+        "timestamp": 395,
+        "tags": [
+          "conjugacion",
+          "gramatica"
+        ]
+      },
+      {
+        "id": "c8_14",
+        "french": "Il veut être ici.",
+        "spanish": "Él quiere estar aquí.",
+        "english": "He wants to be here.",
+        "phonetics": "[il vø.t‿ɛtʁ i.si]",
+        "tip": "Liaison [t] entre 'veut' y 'être'.",
+        "grammar": "Liaison vouloir + être",
+        "tef_level": "A1",
+        "timestamp": 415,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c8_15",
+        "french": "Elle veut être ici.",
+        "spanish": "Ella quiere estar aquí.",
+        "english": "She wants to be here.",
+        "phonetics": "[ɛl vø.t‿ɛtʁ i.si]",
+        "tip": "Deseo de presencia física.",
+        "grammar": "Liaison con sujeto femenino",
+        "tef_level": "A1",
+        "timestamp": 425,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c8_16",
+        "french": "avec moi",
+        "spanish": "conmigo",
+        "english": "with me",
+        "phonetics": "[a.vɛk mwa]",
+        "tip": "Pronombre tónico 'moi' tras la preposición avec.",
+        "grammar": "Preposición + tónico",
+        "tef_level": "A1",
+        "timestamp": 435,
+        "tags": [
+          "pronombres"
+        ]
+      },
+      {
+        "id": "c8_17",
+        "french": "Il veut être ici avec moi aujourd'hui.",
+        "spanish": "Él quiere estar aquí conmigo hoy.",
+        "english": "He wants to be here with me today.",
+        "phonetics": "[il vø.t‿ɛtʁ i.si a.vɛk mwa o.ʒuʁ.dɥi]",
+        "tip": "Oración compuesta con pronombres tónicos y complementos temporales.",
+        "grammar": "Oración extendida de deseo",
+        "tef_level": "A1/A2",
+        "timestamp": 450,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c8_18",
+        "french": "le faire",
+        "spanish": "hacerlo",
+        "english": "to do it",
+        "phonetics": "[lə fɛʁ]",
+        "tip": "El pronombre 'le' antecede inmediatamente al infinitivo 'faire'.",
+        "grammar": "Pronombre COD + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 459,
+        "tags": [
+          "pronombres",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c8_19",
+        "french": "Il veut le faire demain.",
+        "spanish": "Él quiere hacerlo mañana.",
+        "english": "He wants to do it tomorrow.",
+        "phonetics": "[il vø lə fɛʁ də.mɛ̃]",
+        "tip": "Planificación de tareas para el día siguiente.",
+        "grammar": "Modal + COD + infinitivo + tiempo",
+        "tef_level": "A1",
+        "timestamp": 494,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_20",
+        "french": "Elle veut le faire plus tard.",
+        "spanish": "Ella quiere hacerlo más tarde.",
+        "english": "She wants to do it later.",
+        "phonetics": "[ɛl vø lə fɛʁ ply taʁ]",
+        "tip": "Gestión de tareas diferidas en el tiempo.",
+        "grammar": "Modal + COD + locución adverbial",
+        "tef_level": "A1",
+        "timestamp": 510,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c8_21",
+        "french": "m'appeler",
+        "spanish": "llamarme",
+        "english": "to call me",
+        "phonetics": "[ma.ple]",
+        "tip": "Elisión de 'me' ante vocal: 'm'appeler'. La 'e' interior es casi inaudible.",
+        "grammar": "Pronombre reflexivo/objeto elidido + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 1280,
+        "tags": [
+          "pronombres",
+          "comunicacion",
+          "elision"
+        ]
+      },
+      {
+        "id": "c8_22",
+        "french": "Elle peut m'appeler.",
+        "spanish": "Ella puede llamarme.",
+        "english": "She can call me.",
+        "phonetics": "[ɛl pø ma.ple]",
+        "tip": "Autorización de contacto telefónico en el juego de rol TEF.",
+        "grammar": "Pouvoir + pronombre objeto elidido + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 1310,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c8_23",
+        "french": "Elle peut m'appeler plus tard.",
+        "spanish": "Ella puede llamarme más tarde.",
+        "english": "She can call me later.",
+        "phonetics": "[ɛl pø ma.ple ply taʁ]",
+        "tip": "Fórmula clave para convenir llamadas en horarios posteriores.",
+        "grammar": "Oración modal con pronombre objeto y adverbio",
+        "tef_level": "A1/A2",
+        "timestamp": 1335,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c8_24",
+        "french": "occupé",
+        "spanish": "ocupado",
+        "english": "busy",
+        "phonetics": "[ɔ.ky.pe]",
+        "tip": "Adjetivo masculino. La 'u' suena [y] con labios redondeados y la terminación '-é' es cerrada [e].",
+        "grammar": "Adjetivo calificativo",
+        "tef_level": "A1",
+        "timestamp": 1350,
+        "tags": [
+          "adjetivo",
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c8_25",
+        "french": "Je suis occupé.",
+        "spanish": "Estoy ocupado.",
+        "english": "I am busy.",
+        "phonetics": "[ʒə sɥi.z‿ɔ.ky.pe]",
+        "tip": "Liaison obligatoria [z] entre la 's' de 'suis' y la vocal 'o' de 'occupé'.",
+        "grammar": "Verbo être + liaison con adjetivo",
+        "tef_level": "A1",
+        "timestamp": 1370,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c8_26",
+        "french": "Maintenant je ne peux pas parce que je suis occupé. Elle peut m'appeler plus tard.",
+        "spanish": "Ahora no puedo porque estoy ocupado. Ella puede llamarme más tarde.",
+        "english": "Now I cannot because I am busy. She can call me later.",
+        "phonetics": "[mɛ̃t.nɑ̃ ʒə nə pø pa paʁs kə ʒə sɥi.z‿ɔ.ky.pe ɛl pø ma.ple ply taʁ]",
+        "tip": "Reto final del Curso 8: cómo excusarse formalmente y ofrecer una alternativa viable de contacto.",
+        "grammar": "Estructura compleja de justificación y propuesta alternativa",
+        "tef_level": "A2",
+        "timestamp": 1410,
+        "tags": [
+          "examen_final",
+          "reto",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "fMWIYCSnF20": {
+    "id": "fMWIYCSnF20",
+    "video_id": "fMWIYCSnF20",
+    "title": "LEARN FRENCH FROM SCRATCH EASILY AND FAST | Complete French Course for BEGINNERS Course 9",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 1350,
+    "lesson_number": 9,
+    "tef_level": "A1/A2",
+    "description": "Curso 9 de francés para principiantes por Judy.",
+    "thumbnail": "https://img.youtube.com/vi/fMWIYCSnF20/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c9_01",
+        "french": "Laura veut parler avec toi maintenant. Maintenant je ne peux pas parce que je suis occupé. Elle peut m'appeler plus tard.",
+        "spanish": "Laura quiere hablar contigo ahora. Ahora no puedo porque estoy ocupado. Ella puede llamarme más tarde.",
+        "english": "Laura wants to speak with you now. Now I cannot because I am busy. She can call me later.",
+        "phonetics": "[lo.ʁa vø paʁ.le a.vɛk twa mɛ̃t.nɑ̃ mɛ̃t.nɑ̃ ʒə nə pø pa paʁs kə ʒə sɥi.z‿ɔ.ky.pe ɛl pø ma.ple ply taʁ]",
+        "tip": "Judy abre el Curso 9 respondiendo y analizando el examen final de la sesión anterior.",
+        "grammar": "Diálogo completo en 3 turnos (deseo ajeno + impedimento + solución diferida)",
+        "tef_level": "A2",
+        "timestamp": 25,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c9_02",
+        "french": "Il aimerait",
+        "spanish": "A él le gustaría",
+        "english": "He would like",
+        "phonetics": "[i.l‿ɛ.mə.ʁɛ]",
+        "tip": "Condicional de 3ª persona masculina. Liaison en [l] con el pronombre 'il'.",
+        "grammar": "Condicional 3ª persona singular",
+        "tef_level": "A1/A2",
+        "timestamp": 74,
+        "tags": [
+          "conjugacion",
+          "condicional"
+        ]
+      },
+      {
+        "id": "c9_03",
+        "french": "Elle aimerait",
+        "spanish": "A ella le gustaría",
+        "english": "She would like",
+        "phonetics": "[ɛ.l‿ɛ.mə.ʁɛ]",
+        "tip": "Condicional de 3ª persona femenina.",
+        "grammar": "Condicional 3ª persona femenina",
+        "tef_level": "A1/A2",
+        "timestamp": 85,
+        "tags": [
+          "conjugacion",
+          "condicional"
+        ]
+      },
+      {
+        "id": "c9_04",
+        "french": "Il aimerait le faire.",
+        "spanish": "A él le gustaría hacerlo.",
+        "english": "He would like to do it.",
+        "phonetics": "[i.l‿ɛ.mə.ʁɛ lə fɛʁ]",
+        "tip": "El pronombre 'le' antecede inmediatamente al infinitivo 'faire'.",
+        "grammar": "Condicional 3ª persona + COD + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 95,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_05",
+        "french": "Il aimerait le faire demain.",
+        "spanish": "A él le gustaría hacerlo mañana.",
+        "english": "He would like to do it tomorrow.",
+        "phonetics": "[i.l‿ɛ.mə.ʁɛ lə fɛʁ də.mɛ̃]",
+        "tip": "Proyección de planes formales para terceros.",
+        "grammar": "Condicional + tiempo",
+        "tef_level": "A1",
+        "timestamp": 102,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c9_06",
+        "french": "attendre",
+        "spanish": "esperar (tiempo / a alguien)",
+        "english": "to wait / to wait for",
+        "phonetics": "[a.tɑ̃dʁ]",
+        "tip": "Verbo de 3er grupo. La 'en' es nasal abierta [ɑ̃] y la 're' final es suave. No confundir con espérer (desear/esperanza).",
+        "grammar": "Verbo transitivo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 250,
+        "tags": [
+          "vocabulario",
+          "verbos",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_07",
+        "french": "J'attends",
+        "spanish": "Espero / Estoy esperando",
+        "english": "I am waiting",
+        "phonetics": "[ʒa.tɑ̃]",
+        "tip": "Elisión de 'je' ante vocal: 'j'attends'. La 'ds' final es muda.",
+        "grammar": "Presente de indicativo (1ª persona)",
+        "tef_level": "A1",
+        "timestamp": 265,
+        "tags": [
+          "conjugacion"
+        ]
+      },
+      {
+        "id": "c9_08",
+        "french": "J'attends ici.",
+        "spanish": "Espero aquí.",
+        "english": "I am waiting here.",
+        "phonetics": "[ʒa.tɑ̃.z‿i.si]",
+        "tip": "Liaison facultativa/frecuente [z] entre la 's' de 'attends' y la vocal 'i' de 'ici'.",
+        "grammar": "Verbo + adverbio de lugar",
+        "tef_level": "A1",
+        "timestamp": 280,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c9_09",
+        "french": "J'attends un ami.",
+        "spanish": "Espero a un amigo.",
+        "english": "I am waiting for a friend.",
+        "phonetics": "[ʒa.tɑ̃.z‿œ̃.n‿a.mi]",
+        "tip": "Doble encadenamiento fonético: 'attends‿un‿ami'. En francés attendre no lleva preposición.",
+        "grammar": "Verbo transitivo directo + COD",
+        "tef_level": "A1",
+        "timestamp": 310,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_10",
+        "french": "ne... plus",
+        "spanish": "ya no",
+        "english": "no longer / not anymore",
+        "phonetics": "[nə ply]",
+        "tip": "Negación adverbial que indica cesación de un estado. La 's' de 'plus' es muda aquí.",
+        "grammar": "Negación temporal (ne... plus)",
+        "tef_level": "A1/A2",
+        "timestamp": 720,
+        "tags": [
+          "gramatica",
+          "negacion",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_11",
+        "french": "Je ne peux plus",
+        "spanish": "Ya no puedo",
+        "english": "I can no longer",
+        "phonetics": "[ʒə nə pø ply]",
+        "tip": "Expresión rotunda de límite de capacidad o paciencia.",
+        "grammar": "Negación con verbo pouvoir",
+        "tef_level": "A1",
+        "timestamp": 745,
+        "tags": [
+          "negacion",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c9_12",
+        "french": "Je ne peux plus attendre.",
+        "spanish": "Ya no puedo esperar.",
+        "english": "I can no longer wait.",
+        "phonetics": "[ʒə nə pø ply.z‿a.tɑ̃dʁ]",
+        "tip": "Liaison sonora [z] entre 'plus' y el infinitivo 'attendre' [ply.z‿a.tɑ̃dʁ].",
+        "grammar": "Liaison obligatoria con infinitivo vocal",
+        "tef_level": "A1/A2",
+        "timestamp": 770,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_13",
+        "french": "Il ne peut plus attendre.",
+        "spanish": "Él ya no puede esperar.",
+        "english": "He can no longer wait.",
+        "phonetics": "[il nə pø ply.z‿a.tɑ̃dʁ]",
+        "tip": "Liaison sonora [z] con sujeto de tercera persona.",
+        "grammar": "Negación modal + liaison",
+        "tef_level": "A1/A2",
+        "timestamp": 795,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c9_14",
+        "french": "te voir",
+        "spanish": "verte",
+        "english": "to see you",
+        "phonetics": "[tə vwaʁ]",
+        "tip": "Pronombre objeto 'te' antes del infinitivo 'voir'.",
+        "grammar": "Pronombre COD 2ª persona + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 910,
+        "tags": [
+          "pronombres",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c9_15",
+        "french": "Il veut te voir.",
+        "spanish": "Él quiere verte.",
+        "english": "He wants to see you.",
+        "phonetics": "[il vø tə vwaʁ]",
+        "tip": "Frase de contacto directo para transmitir recados.",
+        "grammar": "Modal + COD + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 925,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c9_16",
+        "french": "lui-même",
+        "spanish": "él mismo / en persona",
+        "english": "himself",
+        "phonetics": "[lɥi.mɛm]",
+        "tip": "Pronombre de refuerzo enfático para subrayar la urgencia de una reunión presencial.",
+        "grammar": "Pronombre enfático 3ª persona",
+        "tef_level": "A1/A2",
+        "timestamp": 980,
+        "tags": [
+          "pronombres",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_17",
+        "french": "Il veut te voir lui-même.",
+        "spanish": "Él quiere verte él mismo.",
+        "english": "He wants to see you himself.",
+        "phonetics": "[il vø tə vwaʁ lɥi.mɛm]",
+        "tip": "Matiz de exclusividad o asunto personal confidencial.",
+        "grammar": "Modal + infinitivo + pronombre enfático",
+        "tef_level": "A2",
+        "timestamp": 1005,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_18",
+        "french": "urgent",
+        "spanish": "urgente",
+        "english": "urgent",
+        "phonetics": "[yʁ.ʒɑ̃]",
+        "tip": "La 'u' es cerrada redondeada [y] y la terminación 'ent' es nasal [ɑ̃].",
+        "grammar": "Adjetivo masculino",
+        "tef_level": "A1",
+        "timestamp": 1020,
+        "tags": [
+          "vocabulario",
+          "adjetivo"
+        ]
+      },
+      {
+        "id": "c9_19",
+        "french": "c'est urgent",
+        "spanish": "es urgente",
+        "english": "it is urgent",
+        "phonetics": "[sɛ.t‿yʁ.ʒɑ̃]",
+        "tip": "Liaison obligatoria [t] entre 'c'est' y la vocal 'u' de 'urgent'.",
+        "grammar": "Liaison obligatoria demostrativo + adjetivo",
+        "tef_level": "A1",
+        "timestamp": 1035,
+        "tags": [
+          "oraciones",
+          "liaison",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c9_20",
+        "french": "Il veut te voir lui-même parce que c'est urgent. Il ne peut plus attendre.",
+        "spanish": "Él quiere verte él mismo porque es urgente. Él ya no puede esperar.",
+        "english": "He wants to see you himself because it is urgent. He can no longer wait.",
+        "phonetics": "[il vø tə vwaʁ lɥi.mɛm paʁs kə sɛ.t‿yʁ.ʒɑ̃ il nə pø ply.z‿a.tɑ̃dʁ]",
+        "tip": "Pregunta reto y examen final del Curso 9: combina pronombre enfático, justificación causal con liaison [t] y negación con liaison [z].",
+        "grammar": "Oración compuesta compleja multicapa",
+        "tef_level": "A2",
+        "timestamp": 1365,
+        "tags": [
+          "examen_final",
+          "reto",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  },
+  "qfmqk2bx7p4": {
+    "id": "qfmqk2bx7p4",
+    "video_id": "qfmqk2bx7p4",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 10",
+    "channel": "Aprender francés con Judy",
+    "playlist_id": "PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "playlist_title": "Aprender francés con Judy - Curso Completo",
+    "duration": 1350,
+    "lesson_number": 10,
+    "tef_level": "A1/A2",
+    "description": "Curso 10 de francés para principiantes por Judy.",
+    "thumbnail": "https://img.youtube.com/vi/qfmqk2bx7p4/maxresdefault.jpg",
+    "cards": [
+      {
+        "id": "c10_01",
+        "french": "Il veut te voir lui-même parce que c'est urgent. Il ne peut plus attendre.",
+        "spanish": "Él quiere verte él mismo porque es urgente. Ya no puede esperar.",
+        "english": "He wants to see you himself because it is urgent. He can no longer wait.",
+        "phonetics": "[il vø tə vwaʁ lɥi.mɛm paʁs kə sɛ.t‿yʁ.ʒɑ̃ il nə pø ply.z‿a.tɑ̃dʁ]",
+        "tip": "Judy abre el Curso 10 resolviendo el examen final de la lección 9.",
+        "grammar": "Estructura compleja de causa y tiempo",
+        "tef_level": "A2",
+        "timestamp": 49,
+        "tags": [
+          "repaso",
+          "oraciones",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      },
+      {
+        "id": "c10_02",
+        "french": "expliquer",
+        "spanish": "explicar",
+        "english": "to explain",
+        "phonetics": "[ɛks.pli.ke]",
+        "tip": "Verbo regular de 1er grupo. La 'x' suena [ks] y la terminación '-er' suena como 'é' cerrada [e].",
+        "grammar": "Verbo en infinitivo",
+        "tef_level": "A1",
+        "timestamp": 106,
+        "tags": [
+          "vocabulario",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c10_03",
+        "french": "Je veux expliquer.",
+        "spanish": "Quiero explicar.",
+        "english": "I want to explain.",
+        "phonetics": "[ʒə vø.z‿ɛks.pli.ke]",
+        "tip": "Liaison sonora [z] facultativa/frecuente entre la 'x' de 'veux' y la vocal 'e' de 'expliquer'.",
+        "grammar": "Modal + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 127,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c10_04",
+        "french": "Il veut expliquer.",
+        "spanish": "Él quiere explicar.",
+        "english": "He wants to explain.",
+        "phonetics": "[il vø.t‿ɛks.pli.ke]",
+        "tip": "Liaison sonora [t] entre 'veut' y la vocal 'e' de 'expliquer'.",
+        "grammar": "Liaison modal + verbo",
+        "tef_level": "A1",
+        "timestamp": 144,
+        "tags": [
+          "oraciones",
+          "liaison"
+        ]
+      },
+      {
+        "id": "c10_05",
+        "french": "Tu veux expliquer.",
+        "spanish": "Tú quieres explicar.",
+        "english": "You want to explain.",
+        "phonetics": "[ty vø.z‿ɛks.pli.ke]",
+        "tip": "Segunda persona singular informal.",
+        "grammar": "Verbo vouloir (2ª persona singular)",
+        "tef_level": "A1",
+        "timestamp": 162,
+        "tags": [
+          "conjugacion",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c10_06",
+        "french": "Je ne veux pas expliquer.",
+        "spanish": "No quiero explicar.",
+        "english": "I do not want to explain.",
+        "phonetics": "[ʒə nə vø pa ɛks.pli.ke]",
+        "tip": "Negación modal antes de infinitivo.",
+        "grammar": "Negación verbal",
+        "tef_level": "A1",
+        "timestamp": 183,
+        "tags": [
+          "negacion",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c10_07",
+        "french": "te dire",
+        "spanish": "decirte",
+        "english": "to tell you",
+        "phonetics": "[tə diʁ]",
+        "tip": "Pronombre objeto indirecto 'te' colocado antes del infinitivo 'dire'.",
+        "grammar": "Pronombre COI + infinitivo",
+        "tef_level": "A1",
+        "timestamp": 310,
+        "tags": [
+          "pronombres",
+          "verbos"
+        ]
+      },
+      {
+        "id": "c10_08",
+        "french": "Je veux te dire.",
+        "spanish": "Quiero decirte.",
+        "english": "I want to tell you.",
+        "phonetics": "[ʒə vø tə diʁ]",
+        "tip": "Frase clave para introducir confidencias o información relevante.",
+        "grammar": "Modal + COI + dire",
+        "tef_level": "A1",
+        "timestamp": 325,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c10_09",
+        "french": "la vérité",
+        "spanish": "la verdad",
+        "english": "the truth",
+        "phonetics": "[la ve.ʁi.te]",
+        "tip": "Sustantivo femenino. Ambas 'e' con acento agudo son cerradas y limpias [e].",
+        "grammar": "Sustantivo femenino",
+        "tef_level": "A1",
+        "timestamp": 410,
+        "tags": [
+          "vocabulario"
+        ]
+      },
+      {
+        "id": "c10_10",
+        "french": "Je veux te dire la vérité.",
+        "spanish": "Quiero decirte la verdad.",
+        "english": "I want to tell you the truth.",
+        "phonetics": "[ʒə vø tə diʁ la ve.ʁi.te]",
+        "tip": "Frase de honestidad de alto impacto para la argumentación personal en TEF Speaking.",
+        "grammar": "Modal + COI + dire + COD",
+        "tef_level": "A1/A2",
+        "timestamp": 435,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c10_11",
+        "french": "le motif",
+        "spanish": "el motivo / la razón",
+        "english": "the reason / the motive",
+        "phonetics": "[lə mɔ.tif]",
+        "tip": "Sustantivo masculino. La 'f' final se pronuncia claramente [f].",
+        "grammar": "Sustantivo masculino",
+        "tef_level": "A1",
+        "timestamp": 620,
+        "tags": [
+          "vocabulario",
+          "sustantivos"
+        ]
+      },
+      {
+        "id": "c10_12",
+        "french": "Je veux te dire le motif.",
+        "spanish": "Quiero decirte el motivo.",
+        "english": "I want to tell you the motive.",
+        "phonetics": "[ʒə vø tə diʁ lə mɔ.tif]",
+        "tip": "Estructura formal para justificar decisiones o ausencias.",
+        "grammar": "Modal + COI + COD",
+        "tef_level": "A1",
+        "timestamp": 645,
+        "tags": [
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c10_13",
+        "french": "pourquoi",
+        "spanish": "por qué",
+        "english": "why",
+        "phonetics": "[puʁ.kwa]",
+        "tip": "Adverbio interrogativo y conjuntivo. 'ou' suena [u] y 'oi' suena [wa].",
+        "grammar": "Adverbio interrogativo / nexo causal",
+        "tef_level": "A1",
+        "timestamp": 660,
+        "tags": [
+          "interrogacion",
+          "vocabulario",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c10_14",
+        "french": "Je veux savoir pourquoi.",
+        "spanish": "Quiero saber por qué.",
+        "english": "I want to know why.",
+        "phonetics": "[ʒə vø sa.vwaʁ puʁ.kwa]",
+        "tip": "Pregunta indirecta estándar para pedir explicaciones.",
+        "grammar": "Vouloir + savoir + pourquoi",
+        "tef_level": "A1",
+        "timestamp": 680,
+        "tags": [
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c10_15",
+        "french": "Je ne peux rien dire.",
+        "spanish": "No puedo decir nada.",
+        "english": "I cannot say anything.",
+        "phonetics": "[ʒə nə pø ʁjɛ̃ diʁ]",
+        "tip": "Negación con 'ne... rien'. El pronombre indefinido 'rien' se sitúa antes del infinitivo 'dire'.",
+        "grammar": "Negación indefinida (ne... rien) + infinitivo",
+        "tef_level": "A1/A2",
+        "timestamp": 850,
+        "tags": [
+          "negacion",
+          "oraciones",
+          "tef_star"
+        ],
+        "is_tef_key": true
+      },
+      {
+        "id": "c10_16",
+        "french": "parce que le motif n'est pas important pour toi",
+        "spanish": "porque el motivo no es importante para ti",
+        "english": "because the reason is not important to you",
+        "phonetics": "[paʁs kə lə mɔ.tif nɛ pa.z‿ɛ̃.pɔʁ.tɑ̃ puʁ twa]",
+        "tip": "Subordinada causal negativa con elisión de 'ne' ('n'est pas').",
+        "grammar": "Proposición causal con negación verbal",
+        "tef_level": "A2",
+        "timestamp": 1220,
+        "tags": [
+          "gramatica",
+          "oraciones"
+        ]
+      },
+      {
+        "id": "c10_17",
+        "french": "Je veux te dire la vérité, mais je ne peux rien dire parce que le motif n'est pas important pour toi.",
+        "spanish": "¿Por qué él quiere decir la verdad? Porque no puede decir nada porque el motivo no es tan importante para ti.",
+        "english": "I want to tell you the truth, but I cannot say anything because the reason is not important to you.",
+        "phonetics": "[ʒə vø tə diʁ la ve.ʁi.te mɛ ʒə nə pø ʁjɛ̃ diʁ paʁs kə lə mɔ.tif nɛ pa.z‿ɛ̃.pɔʁ.tɑ̃ puʁ twa]",
+        "tip": "Pregunta reto y examen final del Curso 10: integra intención modal, oposición con 'mais', negación 'ne... rien' y causa compuesta.",
+        "grammar": "Oración compuesta avanzada bimembre coordinada y subordinada",
+        "tef_level": "A2",
+        "timestamp": 1270,
+        "tags": [
+          "examen_final",
+          "reto",
+          "tef_star",
+          "compleja"
+        ],
+        "is_tef_key": true,
+        "is_complex": true
+      }
+    ]
+  }
+}

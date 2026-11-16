@@ -1,0 +1,436 @@
+[
+  {
+    "lesson_number": 1,
+    "video_id": "XUKt0Uqireo",
+    "title": "French from scratch, easy and fast | Complete course for beginners | Forming French sentences 1",
+    "url": "https://www.youtube.com/watch?v=XUKt0Uqireo&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/XUKt0Uqireo/mqdefault.jpg",
+    "duration_str": "721"
+  },
+  {
+    "lesson_number": 2,
+    "video_id": "c3ApP17hUGg",
+    "title": "LEARN FRENCH | Complete French Course for Beginners | Forming French Sentences - Course 2",
+    "url": "https://www.youtube.com/watch?v=c3ApP17hUGg&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/c3ApP17hUGg/mqdefault.jpg",
+    "duration_str": "839"
+  },
+  {
+    "lesson_number": 3,
+    "video_id": "akCgOSj-6JY",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar Frases en francés - Curso 3",
+    "url": "https://www.youtube.com/watch?v=akCgOSj-6JY&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/akCgOSj-6JY/mqdefault.jpg",
+    "duration_str": "759",
+    "has_deck": true,
+    "card_count": 46
+  },
+  {
+    "lesson_number": 4,
+    "video_id": "AoEL9H99iMM",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar Frases en francés - Curso 4",
+    "url": "https://www.youtube.com/watch?v=AoEL9H99iMM&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/AoEL9H99iMM/mqdefault.jpg",
+    "duration_str": "897"
+  },
+  {
+    "lesson_number": 5,
+    "video_id": "jNOcf8Ts578",
+    "title": "LEARN FRENCH | Complete French Course for Beginners | Forming French Sentences - Course 5",
+    "url": "https://www.youtube.com/watch?v=jNOcf8Ts578&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/jNOcf8Ts578/mqdefault.jpg",
+    "duration_str": "892"
+  },
+  {
+    "lesson_number": 6,
+    "video_id": "guRpGaJ3pdY",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | COMPLETE FRENCH COURSE FOR BEGINNERS | Course 6",
+    "url": "https://www.youtube.com/watch?v=guRpGaJ3pdY&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/guRpGaJ3pdY/mqdefault.jpg",
+    "duration_str": "642"
+  },
+  {
+    "lesson_number": 7,
+    "video_id": "w71XKir2Rkg",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | curso completo de francés para PRINCIPIANTES - curso 7",
+    "url": "https://www.youtube.com/watch?v=w71XKir2Rkg&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/w71XKir2Rkg/mqdefault.jpg",
+    "duration_str": "1352"
+  },
+  {
+    "lesson_number": 8,
+    "video_id": "2mxAFnoKqQo",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | Complete French Course for BEGINNERS | Course 8",
+    "url": "https://www.youtube.com/watch?v=2mxAFnoKqQo&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/2mxAFnoKqQo/mqdefault.jpg",
+    "duration_str": "1442"
+  },
+  {
+    "lesson_number": 9,
+    "video_id": "fMWIYCSnF20",
+    "title": "LEARN FRENCH FROM SCRATCH EASILY AND FAST | Complete French Course for BEGINNERS Course 9",
+    "url": "https://www.youtube.com/watch?v=fMWIYCSnF20&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/fMWIYCSnF20/mqdefault.jpg",
+    "duration_str": "1396"
+  },
+  {
+    "lesson_number": 10,
+    "video_id": "qfmqk2bx7p4",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 10",
+    "url": "https://www.youtube.com/watch?v=qfmqk2bx7p4&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/qfmqk2bx7p4/mqdefault.jpg",
+    "duration_str": "1302"
+  },
+  {
+    "lesson_number": 11,
+    "video_id": "aEbHOvDExFo",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 11",
+    "url": "https://www.youtube.com/watch?v=aEbHOvDExFo&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/aEbHOvDExFo/mqdefault.jpg",
+    "duration_str": "684"
+  },
+  {
+    "lesson_number": 12,
+    "video_id": "rfiu5QyMxxo",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 12",
+    "url": "https://www.youtube.com/watch?v=rfiu5QyMxxo&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/rfiu5QyMxxo/mqdefault.jpg",
+    "duration_str": "1043"
+  },
+  {
+    "lesson_number": 13,
+    "video_id": "HRk3xzZB1qg",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 13",
+    "url": "https://www.youtube.com/watch?v=HRk3xzZB1qg&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/HRk3xzZB1qg/mqdefault.jpg",
+    "duration_str": "899"
+  },
+  {
+    "lesson_number": 14,
+    "video_id": "b7X05skbhvA",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | Complete French Course for BEGINNERS | Course 14",
+    "url": "https://www.youtube.com/watch?v=b7X05skbhvA&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/b7X05skbhvA/mqdefault.jpg",
+    "duration_str": "1170"
+  },
+  {
+    "lesson_number": 15,
+    "video_id": "zvf7Kq7Zoe0",
+    "title": "👉 aprender francés FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 15",
+    "url": "https://www.youtube.com/watch?v=zvf7Kq7Zoe0&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/zvf7Kq7Zoe0/mqdefault.jpg",
+    "duration_str": "1029"
+  },
+  {
+    "lesson_number": 16,
+    "video_id": "OSTw0DG6YKE",
+    "title": "👉APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO👈 Curso completo de francés para PRINCIPIANTES | Curso 16",
+    "url": "https://www.youtube.com/watch?v=OSTw0DG6YKE&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/OSTw0DG6YKE/mqdefault.jpg",
+    "duration_str": "1308"
+  },
+  {
+    "lesson_number": 17,
+    "video_id": "kdRgSg1S6P0",
+    "title": "✋aprender FRANCÉS desde cero fácil y rápido | curso completo de francés para PRINCIPIANTES 👌 curso17",
+    "url": "https://www.youtube.com/watch?v=kdRgSg1S6P0&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/kdRgSg1S6P0/mqdefault.jpg",
+    "duration_str": "878"
+  },
+  {
+    "lesson_number": 18,
+    "video_id": "MMsX9ZqKP2s",
+    "title": "🎁 Aprender francés desde cero FÁCIL y RÁPIDO || francés para principiantes | curso 18",
+    "url": "https://www.youtube.com/watch?v=MMsX9ZqKP2s&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/MMsX9ZqKP2s/mqdefault.jpg",
+    "duration_str": "982"
+  },
+  {
+    "lesson_number": 19,
+    "video_id": "TJYLYnqqqrQ",
+    "title": "FRANCÉS desde cero fácil y rápido | Curso completo  para principiantes | Formar Frases en francés 19",
+    "url": "https://www.youtube.com/watch?v=TJYLYnqqqrQ&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/TJYLYnqqqrQ/mqdefault.jpg",
+    "duration_str": "1055"
+  },
+  {
+    "lesson_number": 20,
+    "video_id": "O3mRxxs-BEY",
+    "title": "APRENDER FRANCÉS desde cero fácil y rápido | Curso completo  para principiantes | CURSO 20",
+    "url": "https://www.youtube.com/watch?v=O3mRxxs-BEY&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/O3mRxxs-BEY/mqdefault.jpg",
+    "duration_str": "918"
+  },
+  {
+    "lesson_number": 21,
+    "video_id": "_qT2nhctrGU",
+    "title": "APRENDER FRANCÉS desde cero fácil y rápido | Curso completo  para principiantes | CURSO 21",
+    "url": "https://www.youtube.com/watch?v=_qT2nhctrGU&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/_qT2nhctrGU/mqdefault.jpg",
+    "duration_str": "707"
+  },
+  {
+    "lesson_number": 22,
+    "video_id": "L5PqqsSJZaI",
+    "title": "APRENDER FRANCÉS desde cero fácil y rápido | Curso completo  para principiantes | CURSO 22",
+    "url": "https://www.youtube.com/watch?v=L5PqqsSJZaI&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/L5PqqsSJZaI/mqdefault.jpg",
+    "duration_str": "774"
+  },
+  {
+    "lesson_number": 23,
+    "video_id": "iwehEksmj3o",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 23",
+    "url": "https://www.youtube.com/watch?v=iwehEksmj3o&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/iwehEksmj3o/mqdefault.jpg",
+    "duration_str": "1002"
+  },
+  {
+    "lesson_number": 24,
+    "video_id": "Br7s-LulStM",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 24",
+    "url": "https://www.youtube.com/watch?v=Br7s-LulStM&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/Br7s-LulStM/mqdefault.jpg",
+    "duration_str": "1470"
+  },
+  {
+    "lesson_number": 25,
+    "video_id": "cIG101ZTa48",
+    "title": "Aprender francés para principiantes | conversación en francés paso a paso | Curso 25",
+    "url": "https://www.youtube.com/watch?v=cIG101ZTa48&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/cIG101ZTa48/mqdefault.jpg",
+    "duration_str": "1404"
+  },
+  {
+    "lesson_number": 26,
+    "video_id": "d0Du-6KDwE0",
+    "title": "Aprender francés para principiantes | Conversación en francés básica y lenta | Curso 26",
+    "url": "https://www.youtube.com/watch?v=d0Du-6KDwE0&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/d0Du-6KDwE0/mqdefault.jpg",
+    "duration_str": "1356"
+  },
+  {
+    "lesson_number": 27,
+    "video_id": "Lh9KbzJwR84",
+    "title": "LEARN FRENCH EASILY AND FAST | Complete French Course for BEGINNERS | Course 27",
+    "url": "https://www.youtube.com/watch?v=Lh9KbzJwR84&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/Lh9KbzJwR84/mqdefault.jpg",
+    "duration_str": "1354"
+  },
+  {
+    "lesson_number": 28,
+    "video_id": "bb8g3jnRSHU",
+    "title": "APRENDER FRANCÉS RÁPIDO & FÁCIL | Curso completo de francés para PRINCIPIANTES | Curso 28",
+    "url": "https://www.youtube.com/watch?v=bb8g3jnRSHU&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/bb8g3jnRSHU/mqdefault.jpg",
+    "duration_str": "984"
+  },
+  {
+    "lesson_number": 29,
+    "video_id": "Vf_4ti7XDVM",
+    "title": "APRENDER FRANCÉS | Curso completo de francés para principiantes | Formar Frases en francés -Curso 29",
+    "url": "https://www.youtube.com/watch?v=Vf_4ti7XDVM&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/Vf_4ti7XDVM/mqdefault.jpg",
+    "duration_str": "945"
+  },
+  {
+    "lesson_number": 30,
+    "video_id": "2Goqps9nM9Q",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Curso completo de francés para PRINCIPIANTES | Curso 30",
+    "url": "https://www.youtube.com/watch?v=2Goqps9nM9Q&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/2Goqps9nM9Q/mqdefault.jpg",
+    "duration_str": "901"
+  },
+  {
+    "lesson_number": 31,
+    "video_id": "4GeLrNE1TIs",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | Complete French Course for BEGINNERS | Course 31",
+    "url": "https://www.youtube.com/watch?v=4GeLrNE1TIs&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/4GeLrNE1TIs/mqdefault.jpg",
+    "duration_str": "487"
+  },
+  {
+    "lesson_number": 32,
+    "video_id": "YTjRKdTuEFo",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | Conversación en francés  | Curso 32",
+    "url": "https://www.youtube.com/watch?v=YTjRKdTuEFo&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/YTjRKdTuEFo/mqdefault.jpg",
+    "duration_str": "1031"
+  },
+  {
+    "lesson_number": 33,
+    "video_id": "ebiqdAtffhs",
+    "title": "LEARN FRENCH FROM ZERO | French conversation step by step from beginner to advanced | Course 33",
+    "url": "https://www.youtube.com/watch?v=ebiqdAtffhs&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/ebiqdAtffhs/mqdefault.jpg",
+    "duration_str": "1136"
+  },
+  {
+    "lesson_number": 34,
+    "video_id": "lxJksNRGlmQ",
+    "title": "LEARN FRENCH FROM SCRATCH QUICKLY AND EASILY | Complete French Course for BEGINNERS | Course 34",
+    "url": "https://www.youtube.com/watch?v=lxJksNRGlmQ&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/lxJksNRGlmQ/mqdefault.jpg",
+    "duration_str": "901"
+  },
+  {
+    "lesson_number": 35,
+    "video_id": "Lu3o8MX74x8",
+    "title": "French from scratch, easy and fast | Complete French course for beginners | Course 35",
+    "url": "https://www.youtube.com/watch?v=Lu3o8MX74x8&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/Lu3o8MX74x8/mqdefault.jpg",
+    "duration_str": "1220"
+  },
+  {
+    "lesson_number": 36,
+    "video_id": "Wr3ZQCC3c7M",
+    "title": "APRENDER FRANCÉS DESDE CERO | CONVERSACIÓN en francés paso a paso desde cero a avanzado | Curso 36",
+    "url": "https://www.youtube.com/watch?v=Wr3ZQCC3c7M&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/Wr3ZQCC3c7M/mqdefault.jpg",
+    "duration_str": "1090"
+  },
+  {
+    "lesson_number": 37,
+    "video_id": "GrIfIuLSoNg",
+    "title": "Curso completo de francés gratis para principiantes | APRENDER FRANCÉS RÁPIDO Y FÁCIL | Curso 37",
+    "url": "https://www.youtube.com/watch?v=GrIfIuLSoNg&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/GrIfIuLSoNg/mqdefault.jpg",
+    "duration_str": "1015"
+  },
+  {
+    "lesson_number": 38,
+    "video_id": "qlNpF2O0-2Q",
+    "title": "Curso completo de francés gratis para principiantes | APRENDER FRANCÉS RÁPIDO Y FÁCIL | Curso 38",
+    "url": "https://www.youtube.com/watch?v=qlNpF2O0-2Q&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/qlNpF2O0-2Q/mqdefault.jpg",
+    "duration_str": "1517"
+  },
+  {
+    "lesson_number": 39,
+    "video_id": "j6wK1T5EpYI",
+    "title": "Curso completo de francés gratis para principiantes | APRENDER FRANCÉS RÁPIDO Y FÁCIL | Curso 39",
+    "url": "https://www.youtube.com/watch?v=j6wK1T5EpYI&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/j6wK1T5EpYI/mqdefault.jpg",
+    "duration_str": "1450"
+  },
+  {
+    "lesson_number": 40,
+    "video_id": "GApJ2AeV2q4",
+    "title": "Curso completo de francés gratis para principiantes | APRENDER FRANCÉS RÁPIDO Y FÁCIL | Curso 40",
+    "url": "https://www.youtube.com/watch?v=GApJ2AeV2q4&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/GApJ2AeV2q4/mqdefault.jpg",
+    "duration_str": "976"
+  },
+  {
+    "lesson_number": 41,
+    "video_id": "6WThsuNG7nc",
+    "title": "Curso completo de francés gratis para principiantes | APRENDER FRANCÉS RÁPIDO Y FÁCIL | Curso 41",
+    "url": "https://www.youtube.com/watch?v=6WThsuNG7nc&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/6WThsuNG7nc/mqdefault.jpg",
+    "duration_str": "1253"
+  },
+  {
+    "lesson_number": 42,
+    "video_id": "nqqGgzVpkv8",
+    "title": "Dominarás rápido el francés | aprender fácilmente francés desde cero para principiantes | Curso 42",
+    "url": "https://www.youtube.com/watch?v=nqqGgzVpkv8&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/nqqGgzVpkv8/mqdefault.jpg",
+    "duration_str": "1523"
+  },
+  {
+    "lesson_number": 43,
+    "video_id": "DHCosqlZ2s0",
+    "title": "Practica la conversación paso a paso | Aprende francés desde cero para principiantes | Curso 43",
+    "url": "https://www.youtube.com/watch?v=DHCosqlZ2s0&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/DHCosqlZ2s0/mqdefault.jpg",
+    "duration_str": "1216"
+  },
+  {
+    "lesson_number": 44,
+    "video_id": "6Dk8mEYtoBA",
+    "title": "Practica la conversación paso a paso | Aprende francés desde cero para principiantes | Curso 44",
+    "url": "https://www.youtube.com/watch?v=6Dk8mEYtoBA&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/6Dk8mEYtoBA/mqdefault.jpg",
+    "duration_str": "1378"
+  },
+  {
+    "lesson_number": 45,
+    "video_id": "ro2DQaVF6yc",
+    "title": "APRENDER FRANCÉS  DESDE CERO FÁCIL & RÀPIDO | Curso completo de francés para PRINCIPIANTES |Curso 45",
+    "url": "https://www.youtube.com/watch?v=ro2DQaVF6yc&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/ro2DQaVF6yc/mqdefault.jpg",
+    "duration_str": "971"
+  },
+  {
+    "lesson_number": 46,
+    "video_id": "6-RY7lb9PrA",
+    "title": "LEARN FRENCH FROM ZERO | French conversation step by step from beginner to advanced | Course 46",
+    "url": "https://www.youtube.com/watch?v=6-RY7lb9PrA&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/6-RY7lb9PrA/mqdefault.jpg",
+    "duration_str": "1173"
+  },
+  {
+    "lesson_number": 47,
+    "video_id": "qf3P_q8M8OU",
+    "title": "LEARN FRENCH FROM ZERO | FRENCH CONVERSATION STEP BY STEP FROM COMPLETE TO ADVANCED | Course 47",
+    "url": "https://www.youtube.com/watch?v=qf3P_q8M8OU&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/qf3P_q8M8OU/mqdefault.jpg",
+    "duration_str": "1280"
+  },
+  {
+    "lesson_number": 48,
+    "video_id": "GMD95OMDPjI",
+    "title": "CONVERSACIÓN BÁSICA EN FRANCÉS | APRENDER FRANCÉS DESDE CERO PARA PRINCIPIANTES || Curso 48",
+    "url": "https://www.youtube.com/watch?v=GMD95OMDPjI&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/GMD95OMDPjI/mqdefault.jpg",
+    "duration_str": "2054"
+  },
+  {
+    "lesson_number": 49,
+    "video_id": "oZlcRs-uhFA",
+    "title": "APRENDER FRANCÉS DESDE CERO | CURSO COMPLETO DE FRANCÉS BÁSICO PARA LOS PRINCIPIANTES || Curso 49",
+    "url": "https://www.youtube.com/watch?v=oZlcRs-uhFA&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/oZlcRs-uhFA/mqdefault.jpg",
+    "duration_str": "1099"
+  },
+  {
+    "lesson_number": 50,
+    "video_id": "W3sf_TdI4UY",
+    "title": "APRENDER FRANCÉS DESDE CERO A AVANZADO | CONVERSACIÓN EN FRANCÉS PARA LOS PRINCIPIANTES || Curso 50",
+    "url": "https://www.youtube.com/watch?v=W3sf_TdI4UY&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/W3sf_TdI4UY/mqdefault.jpg",
+    "duration_str": "1129"
+  },
+  {
+    "lesson_number": 51,
+    "video_id": "BoSMJsNICSw",
+    "title": "APREBDER FRANCÉS RÁPIDO Y FÁCIL  🇫🇷 Memoriza y practica conmigo | CURSO 51",
+    "url": "https://www.youtube.com/watch?v=BoSMJsNICSw&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/BoSMJsNICSw/mqdefault.jpg",
+    "duration_str": "1144"
+  },
+  {
+    "lesson_number": 52,
+    "video_id": "uOAHk-48oWg",
+    "title": "SPEAK FRENCH LIKE A NATIVE! Memorize 25 everyday French phrases | Course 52",
+    "url": "https://www.youtube.com/watch?v=uOAHk-48oWg&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/uOAHk-48oWg/mqdefault.jpg",
+    "duration_str": "1095"
+  },
+  {
+    "lesson_number": 53,
+    "video_id": "aaTpbdXjboY",
+    "title": "APRENDER FRANCÉS DESDE CERO FÁCIL Y RÁPIDO | CURSO COMPLETO DE FRANCÉS | Curso 53",
+    "url": "https://www.youtube.com/watch?v=aaTpbdXjboY&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/aaTpbdXjboY/mqdefault.jpg",
+    "duration_str": "1278"
+  },
+  {
+    "lesson_number": 54,
+    "video_id": "fzc-LOveXwQ",
+    "title": "APRENDER FRANCÉS BÀSICO PARA PRINCIPIANTES | DOMINA LA CONVERSACIÓN EN FRANCÉS FÁCIL | Curso 54",
+    "url": "https://www.youtube.com/watch?v=fzc-LOveXwQ&list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG",
+    "thumbnail": "https://img.youtube.com/vi/fzc-LOveXwQ/mqdefault.jpg",
+    "duration_str": "1915"
+  }
+]
