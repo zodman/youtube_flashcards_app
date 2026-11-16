@@ -710,20 +710,48 @@
             <!-- Rendimiento en Exámenes Guardados -->
             <div class="card shadow-sm border-0 p-4">
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h5 class="fw-bold mb-0 text-dark"><i class="fa-solid fa-graduation-cap text-success me-2"></i>Efectividad en Modo Examen (Base de Datos)</h5>
+                    <h5 class="fw-bold mb-0 text-dark">
+                        <i class="fa-solid fa-graduation-cap text-success me-2"></i>Efectividad y Evaluaciones Finalizadas (Base de Datos)
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill ms-2 fs-6">
+                            <i class="fa-solid fa-user me-1"></i><span class="active-profile-label">Andres</span>
+                        </span>
+                    </h5>
                     <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="switchTab('quiz')"><i class="fa-solid fa-pen-to-square me-1"></i>Hacer Nuevo Test</button>
                 </div>
-                <div class="row align-items-center mb-3">
-                    <div class="col-md-4 text-center border-end">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-3 text-center border-end">
                         <div class="display-5 fw-bold text-success" id="analyticsAvgScore">--%</div>
                         <div class="text-muted small">Promedio de Aciertos Global</div>
                     </div>
-                    <div class="col-md-8">
-                        <p class="mb-1 text-muted small">El algoritmo calcula tu precisión evaluando las traducciones escritas al francés registradas en <code>data/app.db</code>.</p>
+                    <div class="col-md-3 text-center border-end">
+                        <div class="display-5 fw-bold text-primary" id="analyticsTotalExams">0</div>
+                        <div class="text-muted small">Exámenes Finalizados</div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mb-1 text-muted small">Precisión calculada evaluando las traducciones escritas al francés registradas en <code>data/app.db</code> para este perfil.</p>
                         <div class="progress" style="height: 12px;">
                             <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="analyticsAvgBar" style="width: 0%"></div>
                         </div>
                     </div>
+                </div>
+
+                <!-- Tabla de Historial Detallado de Exámenes Finalizados -->
+                <h6 class="fw-bold mb-2 text-dark"><i class="fa-solid fa-clock-rotate-left me-1"></i>Historial de Exámenes Guardados</h6>
+                <div class="table-responsive border rounded-3">
+                    <table class="table table-hover table-striped align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Fecha y Hora</th>
+                                <th>Ámbito / Lección</th>
+                                <th>Preguntas</th>
+                                <th>Exactas (100%)</th>
+                                <th>Calificación Final</th>
+                            </tr>
+                        </thead>
+                        <tbody id="analyticsExamHistoryTableBody">
+                            <tr><td colspan="5" class="text-center text-muted py-3">Cargando evaluaciones finalizadas...</td></tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>

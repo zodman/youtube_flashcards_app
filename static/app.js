@@ -2778,10 +2778,15 @@ async function renderAnalyticsTab() {
             }).join("");
         }
 
-        // Exam accuracy from SQLite
+        // Exam accuracy & finished sessions from SQLite
         const avgScoreEl = document.getElementById("analyticsAvgScore");
         const avgBarEl = document.getElementById("analyticsAvgBar");
+        const totalExamsEl = document.getElementById("analyticsTotalExams");
+        const tableBodyEl = document.getElementById("analyticsExamHistoryTableBody");
+
         const histories = historyData.history || [];
+        if (totalExamsEl) totalExamsEl.innerText = String(histories.length);
+
         if (histories.length > 0) {
             const totalScore = histories.reduce((acc, h) => acc + (h.accuracy || 0), 0);
             const avg = Math.round(totalScore / histories.length);
@@ -2790,9 +2795,33 @@ async function renderAnalyticsTab() {
                 avgBarEl.style.width = `${avg}%`;
                 avgBarEl.className = `progress-bar progress-bar-striped ${avg >= 75 ? "bg-success" : (avg >= 50 ? "bg-warning text-dark" : "bg-danger")}`;
             }
+
+            if (tableBodyEl) {
+                tableBodyEl.innerHTML = histories.map(h => {
+                    const dateStr = new Date(h.created_at * 1000).toLocaleString();
+                    const badgeClass = h.accuracy >= 80 ? "bg-success" : (h.accuracy >= 60 ? "bg-warning text-dark" : "bg-danger");
+                    let scopeLabel = h.scope || "Curso Actual";
+                    if (scopeLabel === "all") scopeLabel = "Todos los cursos";
+                    else if (scopeLabel === "current") scopeLabel = "Curso Actual";
+                    else if (state.decks[scopeLabel]) scopeLabel = `Curso ${state.decks[scopeLabel].lesson_number || 1}`;
+
+                    return `
+                        <tr>
+                            <td class="text-muted"><i class="fa-regular fa-calendar me-1"></i>${dateStr}</td>
+                            <td><span class="badge bg-light text-dark border">${scopeLabel}</span></td>
+                            <td>${h.total_questions} preguntas</td>
+                            <td class="fw-bold text-success">${h.score}</td>
+                            <td><span class="badge ${badgeClass} fs-6 px-2 py-1">${Math.round(h.accuracy)}%</span></td>
+                        </tr>
+                    `;
+                }).join("");
+            }
         } else {
             if (avgScoreEl) avgScoreEl.innerText = "--%";
             if (avgBarEl) avgBarEl.style.width = "0%";
+            if (tableBodyEl) {
+                tableBodyEl.innerHTML = `<tr><td colspan="5" class="text-center text-muted py-3">No hay exámenes finalizados registrados aún para este perfil.</td></tr>`;
+            }
         }
     } catch (e) {
         console.error("Error loading analytics:", e);

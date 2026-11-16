@@ -7,6 +7,9 @@ Todos los cambios notables de la plataforma **Judy French Flashcards Hub** queda
 ## [Unreleased] - 2026-11-15
 
 ### Added
+- **Historial y métricas de exámenes finalizados en pestaña de Avances/Seguimiento:**
+  - Añadido contador de *Exámenes Finalizados* y tabla completa con fecha/hora, lección evaluada, cantidad de preguntas, aciertos exactos (100%) y calificación final en porcentaje (`data/app.db`).
+  - Totalmente filtrado y sincronizado por perfil de usuario activo (`andres`, `patty`, `marco`).
 - **Pantalla de carga (Loading Overlay) al cambiar de perfil:**
   - Se añadió una vista de carga centrada (`profile-loading-backdrop`) con spinner animado y mensaje personalizado (`Cargando perfil de Andres...`).
   - Sincroniza y restaura de forma visual y atómica la última baraja, índice de tarjeta, estadísticas SRS y estado del catálogo del perfil seleccionado.
