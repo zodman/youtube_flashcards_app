@@ -54,15 +54,36 @@ class UpdateDeckRequest(BaseModel):
 # --- API ROUTES ---
 
 @app.get("/api/playlist")
-def get_playlist():
+def get_playlist(profile: Optional[str] = None):
     videos = generator.fetch_playlist_videos()
     decks = generator.load_decks()
+    srs_data = srs.load_srs_data(profile=profile)
+    vault = srs_data.get("srs_vault", {})
+    mastered_set = set(srs_data.get("mastered_cards", []))
+    completed_courses = set(srs_data.get("completed_courses", []))
+
     enriched = []
     for v in videos:
         vid = v["video_id"]
         v_copy = dict(v)
-        v_copy["has_deck"] = vid in decks
-        v_copy["card_count"] = len(decks[vid]["cards"]) if vid in decks else 0
+        has_deck = vid in decks
+        v_copy["has_deck"] = has_deck
+        cards = decks[vid]["cards"] if has_deck else []
+        total = len(cards)
+        v_copy["card_count"] = total
+
+        if has_deck and total > 0:
+            reviewed_count = sum(1 for c in cards if c.get("id") in vault and vault[c["id"]].get("review_count", 0) > 0)
+            mastered_count = sum(1 for c in cards if c.get("id") in mastered_set or vault.get(c.get("id"), {}).get("state") == "mastered")
+            is_finished = (vid in completed_courses) or (reviewed_count >= total) or (mastered_count >= total)
+            v_copy["reviewed_count"] = reviewed_count
+            v_copy["mastered_count"] = mastered_count
+            v_copy["is_finished"] = is_finished
+        else:
+            v_copy["reviewed_count"] = 0
+            v_copy["mastered_count"] = 0
+            v_copy["is_finished"] = False
+
         enriched.append(v_copy)
     return enriched
 

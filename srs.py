@@ -163,6 +163,10 @@ def save_profile_progress(progress_data: dict, profile: str = None) -> dict:
             "correct": int(progress_data["scores"].get("correct", 0)),
             "again": int(progress_data["scores"].get("again", 0))
         }
+    if "mark_course_completed" in progress_data and progress_data["mark_course_completed"]:
+        completed_set = set(data.setdefault("completed_courses", []))
+        completed_set.add(str(progress_data["mark_course_completed"]).strip())
+        data["completed_courses"] = list(completed_set)
     current_prog["updated_at"] = time.time()
     save_srs_data(data, profile)
     return current_prog

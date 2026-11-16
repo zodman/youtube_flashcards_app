@@ -92,6 +92,7 @@ async function selectProfile(profileName) {
 
     state.scores = { correct: 0, again: 0 };
     await loadSrsStats();
+    await loadPlaylist();
 
     if (state.studyMode === "srs") {
         await switchStudyMode("srs");
@@ -183,6 +184,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadPlaylist();
     await loadDecks();
     await loadSrsStats();
+    await loadPlaylist();
 
     // Restore last session progress from backend
     const savedProg = await loadProfileProgress();
@@ -298,6 +300,7 @@ async function switchStudyMode(mode) {
         }
     }
     await loadSrsStats();
+    await loadPlaylist();
 }
 
 async function loadSrsStats() {
@@ -321,10 +324,11 @@ async function loadSrsStats() {
 // --- Load Data from API ---
 async function loadPlaylist() {
     try {
-        const res = await fetch("/api/playlist");
+        const res = await fetch(`/api/playlist?profile=${encodeURIComponent(state.currentProfile)}`);
         if (res.ok) {
             state.playlist = await res.json();
             renderPlaylistGrid();
+            renderDeckSelector();
         }
     } catch (e) {
         console.error("Error loading playlist:", e);
@@ -348,6 +352,13 @@ function renderDeckSelector() {
     if (!sel) return;
     sel.innerHTML = "";
 
+    const playlistMap = {};
+    if (state.playlist && Array.isArray(state.playlist)) {
+        state.playlist.forEach(item => {
+            playlistMap[item.video_id] = item;
+        });
+    }
+
     const deckIds = Object.keys(state.decks).sort((a, b) => {
         return (state.decks[a].lesson_number || 99) - (state.decks[b].lesson_number || 99);
     });
@@ -356,7 +367,10 @@ function renderDeckSelector() {
         const opt = document.createElement("option");
         opt.value = id;
         const count = (d.cards || []).length;
-        opt.innerText = `Curso ${d.lesson_number || 1} (${count} tarjetas)`;
+        const plItem = playlistMap[id];
+        const isFinished = plItem ? Boolean(plItem.is_finished) : false;
+        const finishMark = isFinished ? " [X] " : "";
+        opt.innerText = `${finishMark}Curso ${d.lesson_number || 1} (${count} tarjetas)${isFinished ? ' ✓ Completado' : ''}`;
         if (id === state.currentDeckId) opt.selected = true;
         sel.appendChild(opt);
     });
@@ -408,21 +422,31 @@ function renderPlaylistGrid() {
         col.className = "col-md-6 col-lg-4";
         const isCurrent = item.video_id === state.currentDeckId;
         const hasDeck = item.has_deck;
+        const isFinished = Boolean(item.is_finished);
+        const reviewedCount = item.reviewed_count || 0;
+        const totalCards = item.card_count || 0;
 
         col.innerHTML = `
-            <div class="card playlist-card h-100 p-3 shadow-sm ${isCurrent ? 'border-primary border-2' : ''}">
+            <div class="card playlist-card h-100 p-3 shadow-sm ${isCurrent ? 'border-primary border-2' : ''} ${isFinished ? 'bg-success-subtle border-success' : ''}">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <span class="badge bg-primary">Curso ${item.lesson_number}</span>
-                    <span class="badge ${hasDeck ? 'bg-success' : 'bg-light text-muted border'}">
-                        ${hasDeck ? `<i class="fa-solid fa-check me-1"></i>${item.card_count} Tarjetas` : '⏳ Pendiente'}
+                    <div class="d-flex align-items-center gap-1">
+                        <span class="badge ${isFinished ? 'bg-success' : 'bg-primary'} fs-6">
+                            ${isFinished ? '[X] ' : ''}Curso ${item.lesson_number}
+                        </span>
+                        ${isFinished ? '<span class="badge bg-success-subtle text-success border border-success fw-bold"><i class="fa-solid fa-circle-check me-1"></i>Terminado [X]</span>' : ''}
+                    </div>
+                    <span class="badge ${isFinished ? 'bg-success text-white' : (hasDeck ? 'bg-light text-dark border' : 'bg-light text-muted border')}">
+                        ${hasDeck ? `<i class="fa-solid ${isFinished ? 'fa-check-double' : 'fa-layer-group'} me-1"></i>${reviewedCount > 0 ? `${reviewedCount}/` : ''}${totalCards} Tarjetas` : '⏳ Pendiente'}
                     </span>
                 </div>
-                <h6 class="fw-bold mb-2 text-truncate" title="${item.title}">${item.title}</h6>
+                <h6 class="fw-bold mb-2 text-truncate ${isFinished ? 'text-success-emphasis' : ''}" title="${item.title}">
+                    ${isFinished ? '<i class="fa-solid fa-check text-success me-1"></i>' : ''}${item.title}
+                </h6>
                 <div class="text-muted small mb-3">ID: <code>${item.video_id}</code></div>
                 <div class="mt-auto d-flex gap-2">
                     ${hasDeck ? `
-                        <button class="btn btn-sm btn-primary flex-grow-1 fw-bold" onclick="selectDeck('${item.video_id}'); switchTab('study'); switchStudyMode('all');">
-                            <i class="fa-solid fa-play me-1"></i> Estudiar Baraja
+                        <button class="btn btn-sm ${isFinished ? 'btn-success' : 'btn-primary'} flex-grow-1 fw-bold" onclick="selectDeck('${item.video_id}'); switchTab('study'); switchStudyMode('all');">
+                            <i class="fa-solid fa-play me-1"></i> ${isFinished ? 'Repasar [X]' : 'Estudiar Baraja'}
                         </button>
                     ` : `
                         <button class="btn btn-sm btn-outline-secondary flex-grow-1" onclick="copyPromptForCourse(${item.lesson_number}, '${item.video_id}')" title="Copiar mensaje para pedir en el chat">
@@ -849,6 +873,19 @@ function nextCard() {
             showNotification("¡Excelente! Has completado todos tus repasos programados para hoy. 🎉", "success");
         } else {
             showNotification("¡Has completado todas las tarjetas de esta lección! 🎉", "success");
+            // Mark course completed in backend
+            if (state.currentDeckId) {
+                fetch(`/api/srs/progress?profile=${encodeURIComponent(state.currentProfile)}`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        profile: state.currentProfile,
+                        mark_course_completed: state.currentDeckId
+                    })
+                }).then(() => {
+                    loadPlaylist();
+                }).catch(() => {});
+            }
         }
         queueSaveProgress();
     }
@@ -1624,6 +1661,7 @@ async function quickMasterFromLibrary(cardId) {
         await fetch(`/api/srs/master/${cardId}?profile=${encodeURIComponent(state.currentProfile)}`, { method: "POST" });
         await loadLibrary();
         await loadSrsStats();
+    await loadPlaylist();
         showNotification("Tarjeta marcada como dominada.", "success");
     } catch (e) {}
 }
@@ -1633,6 +1671,7 @@ async function quickResetFromLibrary(cardId) {
         await fetch(`/api/srs/reset/${cardId}?profile=${encodeURIComponent(state.currentProfile)}`, { method: "POST" });
         await loadLibrary();
         await loadSrsStats();
+    await loadPlaylist();
         showNotification("Progreso de la tarjeta reiniciado.", "info");
     } catch (e) {}
 }
