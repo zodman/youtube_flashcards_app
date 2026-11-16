@@ -7,6 +7,8 @@ Todos los cambios notables de la plataforma **Judy French Flashcards Hub** queda
 ## [Unreleased] - 2026-11-15
 
 ### Added
+- **Enlaces directos al canal y videos de YouTube en README:**
+  - Incorporados enlaces al canal oficial [Aprender francés con Judy](https://www.youtube.com/@AprenderfrancesconJudy), playlist completa de 54 lecciones y tabla de enlaces directos a cada lección en YouTube.
 - **Persistencia de sesión en el backend (`/api/srs/progress`):**
   - Guarda automáticamente el curso activo, número de tarjeta (`card_index`), dirección de estudio (`es_to_fr` / `fr_to_es`), y contadores de aciertos/errores en `data/profiles.json`.
   - Al recargar la página (F5) o ingresar desde otro dispositivo, la sesión se restaura exactamente donde se dejó.

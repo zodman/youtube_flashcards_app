@@ -2,6 +2,27 @@
 
 Plataforma interactiva de estudio acelerado de francés basada en la serie de **54 Cursos para Principiantes de Judy**, diseñada específicamente para la preparación del examen **TEF Canada (Speaking A/B)** con repetición espaciada nativa (sin Anki), detección de liaisons y sincronización de video.
 
+- **Canal de YouTube:** [Aprender francés con Judy](https://www.youtube.com/@AprenderfrancesconJudy)
+- **Lista de Reproducción Completa (54 lecciones):** [Curso Completo de Francés para Principiantes](https://www.youtube.com/playlist?list=PLj0g_C56bhRkMhBschCdIRd_bJfD2nBgG)
+- **Repositorio oficial en GitHub:** [https://github.com/zodman/youtube_flashcards_app](https://github.com/zodman/youtube_flashcards_app)
+
+---
+
+## 📺 Lecciones y Enlaces Directos de YouTube
+
+| Lección | Título del Video | Enlace a YouTube | Tarjetas | Nivel TEF |
+| :---: | :--- | :---: | :---: | :---: |
+| **01** | FRANCÉS desde cero fácil y rápido - Curso 1 | [Ver Video](https://www.youtube.com/watch?v=XUKt0Uqireo) | 36 | TEF A1 |
+| **02** | Formar Frases en francés - Curso 2 | [Ver Video](https://www.youtube.com/watch?v=c3ApP17hUGg) | 44 | TEF A1 |
+| **03** | Formar Frases en francés - Curso 3 | [Ver Video](https://www.youtube.com/watch?v=akCgOSj-6JY) | 46 | TEF A1/A2 |
+| **04** | Formar Frases en francés - Curso 4 | [Ver Video](https://www.youtube.com/watch?v=AoEL9H99iMM) | 46 | TEF A1/A2 |
+| **05** | Formar Frases en francés - Curso 5 | [Ver Video](https://www.youtube.com/watch?v=jNOcf8Ts578) | 34 | TEF A1/A2 |
+| **06** | Curso completo de francés - Curso 6 | [Ver Video](https://www.youtube.com/watch?v=guRpGaJ3pdY) | 31 | TEF A1/A2 |
+| **07** | Curso completo de francés - Curso 7 | [Ver Video](https://www.youtube.com/watch?v=w71XKir2Rkg) | 38 | TEF A1/A2 |
+| **08** | Complete French Course - Course 8 | [Ver Video](https://www.youtube.com/watch?v=2mxAFnoKqQo) | 36 | TEF A1/A2 |
+| **09** | Complete French Course - Course 9 | [Ver Video](https://www.youtube.com/watch?v=fMWIYCSnF20) | 34 | TEF A2 |
+| **10** | Curso completo de francés - Curso 10 | [Ver Video](https://www.youtube.com/watch?v=qfmqk2bx7p4) | 37 | TEF A2 |
+
 ---
 
 ## 🚀 Acceso & Servicios
